@@ -1423,6 +1423,8 @@ async def scan_receipt_upload(file: UploadFile = File(...)):
         result = scan(image_bytes)
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except TimeoutError as exc:
+        raise HTTPException(status_code=504, detail=str(exc)) from exc
     except (ImportError, OSError, RuntimeError) as exc:
         raise HTTPException(
             status_code=503,

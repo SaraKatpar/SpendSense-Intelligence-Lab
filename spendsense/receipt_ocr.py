@@ -187,17 +187,32 @@ def preprocess_image(image):
 
 def extract_text_from_image(image):
     pytesseract.pytesseract.tesseract_cmd = find_tesseract()
+    # Phone photos can be large enough to exceed the free server's memory
+    # and OCR time limits. Keep the text readable at a bounded resolution.
+    image = image.copy()
+    image.thumbnail((2000, 2000))
     contrast, binary = preprocess_image(image)
     variants = [(image, '--psm 3'), (contrast, '--psm 6'), (binary, '--psm 6')]
     results = []
+    timed_out = False
     for source, config in variants:
-        text = pytesseract.image_to_string(source, lang='eng', config=config, timeout=30).strip()
+        try:
+            text = pytesseract.image_to_string(source, lang='eng', config=config, timeout=20).strip()
+        except RuntimeError as exc:
+            if 'timeout' not in str(exc).lower():
+                raise
+            timed_out = True
+            continue
         if text:
             amount, _ = extract_total(text)
             lines = [line for line in text.splitlines() if len(re.findall(r'[A-Za-z0-9]', line)) >= 3]
             # Prefer a plausible total, then coherent text over raw OCR length.
             score = (1 if amount is not None else 0, len(lines), len(text))
             results.append((score, text))
+            if amount is not None and len(lines) >= 2:
+                return text
+    if not results and timed_out:
+        raise TimeoutError('Receipt processing timed out. Crop the image to the receipt and try again.')
     return max(results, key=lambda item: item[0])[1] if results else ''
 
 
