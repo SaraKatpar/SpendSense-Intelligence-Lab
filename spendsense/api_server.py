@@ -3,7 +3,7 @@ import re
 """
 
 SpendSense FastAPI Backend
-
+from fastapi.middleware.cors import CORSMiddleware
 
 
 Features:
@@ -79,25 +79,14 @@ app = FastAPI(
 
 
 app.add_middleware(
-
     CORSMiddleware,
-
     allow_origins=[
-
-        f"http://{host}:{port}"
-
-        for host in ("localhost", "127.0.0.1")
-
-        for port in (5173, 5174, 5175, 5176)
-
+        "https://spend-sense-intelligence-lab.vercel.app",
+        "http://localhost:5173",
     ],
-
-    allow_credentials=False,
-
-    allow_methods=["GET", "POST", "DELETE"],
-
+    allow_credentials=True,
+    allow_methods=["*"],
     allow_headers=["*"],
-
 )
 
 
