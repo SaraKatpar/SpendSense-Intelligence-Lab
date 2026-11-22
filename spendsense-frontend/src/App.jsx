@@ -27,7 +27,6 @@ const menu = [
   { label: "Overview", icon: LayoutDashboard },
   { label: "Transactions", icon: CreditCard },
   { label: "Capture Studio", icon: ScanLine },
-  { label: "Future Lab", icon: TrendingUp },
   { label: "Spending DNA", icon: BrainCircuit },
   { label: "Pattern Detective", icon: ShieldCheck },
   { label: "Model Arena", icon: FlaskConical }
@@ -1696,8 +1695,6 @@ function Placeholder({ page, onBack }) {
   const descriptions = {
     "Capture Studio":
       "Receipt OCR and text-based expense capture are planned.",
-    "Future Lab":
-      "Spending forecasts and baseline comparisons are planned.",
     "Spending DNA":
       "K-Means spending persona analysis is planned.",
     "Pattern Detective":
