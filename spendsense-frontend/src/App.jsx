@@ -248,6 +248,14 @@ function Overview({ onSelect, transactions, connected }) {
   const [conversation, setConversation] = useState([]);
 
   const total = categoryData.reduce((s, c) => s + c.value, 0);
+  let monthlyAllowance = 0;
+  try {
+    const settings = JSON.parse(localStorage.getItem("spendsense.allowance.v1") || "null");
+    if (Number.isFinite(Number(settings?.amount)) && Number(settings?.amount) > 0) monthlyAllowance = Number(settings.amount);
+  } catch { /* Show setup until an allowance is saved. */ }
+  const healthReady = connected && monthlyAllowance > 0;
+  const remainingAllowance = monthlyAllowance - total;
+  const healthScore = healthReady ? Math.max(0, Math.min(100, Math.round(100 * remainingAllowance / monthlyAllowance))) : null;
 
   function ask(text) {
     const query = (text || message).trim();
@@ -470,28 +478,34 @@ function Overview({ onSelect, transactions, connected }) {
               <div className="section-kicker">
                 YOUR FINANCIAL PULSE
               </div>
-              <h2>Financial Health</h2>
+              <h2>Spending Health</h2>
             </div>
             <button
               className="dots-button"
-              title="Illustrative score, not an ML prediction"
+              aria-label="How the spending score works"
+              title="Percentage of your monthly allowance remaining after recorded expenses. This measures budget remaining, not overall financial health."
             >
               <CircleHelp size={17} />
             </button>
           </div>
 
           <div className="health-ring">
-            <ProgressRing value={76} size={168}>
-              <strong>76<span>/100</span></strong>
-              <small>Illustrative</small>
+            <ProgressRing value={healthScore ?? 0} size={168}>
+              <strong>{healthScore == null ? "—" : healthScore}<span>{healthScore == null ? "" : "/100"}</span></strong>
+              <small>{healthReady ? "Allowance left" : "Not available"}</small>
             </ProgressRing>
           </div>
 
           <div className="health-foot">
             <span className="health-indicator" />
-            Looking good!
-            <span className="muted"> Illustrative only</span>
+            {!connected ? "Waiting for transaction data" : !monthlyAllowance ? "Set up your allowance" : remainingAllowance < 0 ? "Allowance exceeded" : !expenses.length ? "No spending recorded this month" : `${healthScore}% of allowance remaining`}
           </div>
+          {healthReady ? <p className="muted" style={{ padding: "0 20px 20px", lineHeight: 1.7 }}>
+            {rupees(total)} spent / {rupees(monthlyAllowance)} monthly allowance.
+            {remainingAllowance < 0 ? ` ${rupees(-remainingAllowance)} over plan.` : ` ${rupees(remainingAllowance)} remaining.`}
+            {" "}Score = remaining allowance ÷ monthly allowance × 100, limited to 0–100.
+            Based only on recorded expenses this month, not a credit score or overall financial assessment.
+          </p> : <button className="subtle-button" onClick={() => onSelect("Settings")}>Set allowance in Settings</button>}
         </section>
 
         <section className="panel overview-card">
@@ -1823,7 +1837,7 @@ export default function App() {
               <span> • </span>
               Connected transaction tracking
               <span> • </span>
-              Financial health score is illustrative
+              Spending score uses recorded expenses and your allowance plan
             </footer>
           </main>
         </div>
