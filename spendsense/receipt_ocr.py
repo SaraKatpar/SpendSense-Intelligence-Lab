@@ -206,6 +206,9 @@ def extract_text_from_image(image):
     # and OCR time limits. Keep the text readable at a bounded resolution.
     image = image.copy()
     image.thumbnail((2000, 2000))
+    if image.width < 1000:
+        scale = min(4, 1000 / image.width)
+        image = image.resize((round(image.width * scale), round(image.height * scale)), Image.Resampling.LANCZOS)
     contrast, binary = preprocess_image(image)
     variants = [(image, '--psm 3'), (contrast, '--psm 6'), (binary, '--psm 6')]
     results = []
