@@ -1,4 +1,5 @@
 .venv/
+.render-ocr/
 **/__pycache__/
 *.log
 .env

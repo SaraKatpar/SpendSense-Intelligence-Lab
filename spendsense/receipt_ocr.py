@@ -25,6 +25,15 @@ AMOUNT = re.compile(r'(?<![\w.,])(?:PKR\s*|Rs\.?\s*|[$£€]\s*)?(\d{1,3}(?:[,.]
 
 def find_tesseract():
     base = Path(__file__).resolve().parent
+    bundled = base / '.render-ocr'
+    if (bundled / 'usr/bin/tesseract').is_file():
+        libraries = str(bundled / 'usr/lib/x86_64-linux-gnu')
+        if libraries not in os.environ.get('LD_LIBRARY_PATH', '').split(os.pathsep):
+            os.environ['LD_LIBRARY_PATH'] = libraries + os.pathsep + os.environ.get('LD_LIBRARY_PATH', '')
+        tessdata = next((bundled / 'usr/share/tesseract-ocr').glob('*/tessdata'), None)
+        if tessdata:
+            os.environ['TESSDATA_PREFIX'] = str(tessdata)
+        return str(bundled / 'usr/bin/tesseract')
     options = [os.environ.get('TESSERACT_CMD'), shutil.which('tesseract'),
                r'C:\Program Files\Tesseract-OCR\tesseract.exe',
                r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe',
