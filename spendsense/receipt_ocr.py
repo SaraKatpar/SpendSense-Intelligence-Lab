@@ -17,6 +17,7 @@ MAX_BYTES = 8 * 1024 * 1024
 MAX_PIXELS = 30_000_000
 SUPPORTED_EXTENSIONS = {'.jpg', '.jpeg', '.png'}
 LABELS = [
+    (r'\b(?:amount\s+paid|net\s+amount|total\s+due|payable|balance\s+payable)\b', 3),
     (r'\b(?:grand\s+total|net\s+total|net\s+payable|amount\s+due|amount\s+payable|balance\s+due|total\s+payable|total\s+amount)\b', 3),
     (r'\btotal\b', 2),
 ]
@@ -70,6 +71,8 @@ def extract_total(text):
     candidates = []
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     for index, line in enumerate(lines):
+        # Common OCR variants of the printed TOTAL heading.
+        line = re.sub(r'\bt[0o]ta[l1i]\b|\bt\s+o\s+t\s+a\s+l\b', 'TOTAL', line, flags=re.I)
         if re.search(r'\bsub[\s-]*total\b|\btotal\s*(?:tax|gst|qty|quantity|items)\b', line, re.I):
             continue
         for label, priority in LABELS:
@@ -77,14 +80,25 @@ def extract_total(text):
             if not match:
                 continue
             after = line[match.end():]
+            # Support "Rs 1 250.00", currency suffixes, and totals below
+            # the label. Never use a phone number/date or a cash/change line.
+            after = re.sub(r'(?<=\d)[ \u00a0](?=\d{3}(?:\D|$))', '', after)
             values = AMOUNT.findall(after)
-            if not values and index + 1 < len(lines):
-                next_line = lines[index + 1].strip()
-                if re.fullmatch(r'(?:PKR\s*|Rs\.?\s*)?\d[\d,.]*', next_line, re.I):
-                    values = AMOUNT.findall(next_line)
+            if not values:
+                before = line[:match.start()].strip(' :=|-')
+                if re.fullmatch(r'(?:PKR|Rs\.?|USD|[$£€])?\s*\d[\d,. ]*\s*(?:PKR|Rs\.?|USD)?', before, re.I):
+                    values = AMOUNT.findall(before.replace(' ', ''))
+            if not values:
+                for next_line in lines[index + 1:index + 3]:
+                    next_line = next_line.strip(' :=|-')
+                    if re.fullmatch(r'(?:PKR|Rs\.?|USD|[$£€])', next_line, re.I):
+                        continue
+                    if re.fullmatch(r'(?:PKR|Rs\.?|USD|[$£€])?\s*\d[\d,. ]*\s*(?:PKR|Rs\.?|USD)?', next_line, re.I):
+                        values = AMOUNT.findall(re.sub(r'(?<=\d) (?=\d{3}(?:\D|$))', '', next_line))
+                    break
             if values:
                 try:
-                    amount = parse_money(values[0])
+                    amount = parse_money(values[-1])
                     if np.isfinite(amount) and amount > 0:
                         candidates.append((priority, index, round(amount, 2), line))
                 except ValueError:
