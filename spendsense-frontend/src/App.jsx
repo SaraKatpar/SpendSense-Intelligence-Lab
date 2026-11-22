@@ -15,6 +15,7 @@ import "./App.css";
 import SpendingDNA from "./SpendingDNA";
 import PatternDetective from "./PatternDetective";
 import CaptureStudio from "./CaptureStudio";
+import AllowanceSettings from "./AllowanceSettings";
 
 
 import { API } from "./api";
@@ -1819,6 +1820,8 @@ export default function App() {
                 refresh={refresh}
                 connected={connected}
               />
+            ) : active === "Settings" ? (
+              <AllowanceSettings />
             ) : active === "Capture Studio" ? (
               <CaptureStudio refresh={refresh} />
             ) : active === "Model Arena" ? (
