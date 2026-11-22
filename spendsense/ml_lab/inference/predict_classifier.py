@@ -15,7 +15,9 @@ print("Loading trained SpendSense model...")
 
 # Load our saved Sentence Transformer
 encoder = SentenceTransformer(
-    str(MODEL_DIR / "sentence_encoder")
+    str(MODEL_DIR / "sentence_encoder"),
+    device="cpu",
+    local_files_only=True,
 )
 
 # Load our trained Logistic Regression model
