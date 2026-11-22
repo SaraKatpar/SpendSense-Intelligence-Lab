@@ -16,6 +16,7 @@ import SpendingDNA from "./SpendingDNA";
 import PatternDetective from "./PatternDetective";
 import CaptureStudio from "./CaptureStudio";
 import AllowanceSettings from "./AllowanceSettings";
+import { replyToSpending } from "./spendingAssistant";
 
 
 import { API } from "./api";
@@ -242,7 +243,7 @@ function Overview({ onSelect, transactions, connected }) {
   }, [transactions]);
 
   const [message, setMessage] = useState("");
-  const [answer, setAnswer] = useState("");
+  const [conversation, setConversation] = useState([]);
 
   const total = categoryData.reduce((s, c) => s + c.value, 0);
 
@@ -251,10 +252,10 @@ function Overview({ onSelect, transactions, connected }) {
     if (!query) return;
 
     setMessage("");
-    setAnswer(
-      `You asked: "${query}". The chat assistant is not connected ` +
-      "to an AI model yet. The spending charts use your saved transactions."
-    );
+    let allowance = null;
+    try { allowance = JSON.parse(localStorage.getItem("spendsense.allowance.v1") || "null"); } catch { /* Settings are optional. */ }
+    const answer = replyToSpending(query, transactions, allowance, connected, conversation.at(-1)?.question || "");
+    setConversation(previous => [...previous.slice(-19), { question: query, answer }]);
   }
 
   return (
@@ -264,7 +265,7 @@ function Overview({ onSelect, transactions, connected }) {
           <div className="hero-content">
             <div className="eyebrow">
               <Sparkles size={13} />
-              AI FINANCIAL ASSISTANT
+              SPENDING ASSISTANT
               <span className="demo-pill">
                 {connected ? "LIVE TRANSACTIONS" : "API OFFLINE"}
               </span>
@@ -306,10 +307,22 @@ function Overview({ onSelect, transactions, connected }) {
           </button>
         </section>
 
-        {answer && (
-          <div className="demo-answer">
-            <Sparkles size={16} />{answer}
-          </div>
+        {conversation.length > 0 && (
+          <section className="panel transaction-panel" aria-label="Chat conversation">
+            <div className="section-header">
+              <h2>Your conversation</h2>
+              <button className="subtle-button" onClick={() => setConversation([])}>Clear chat</button>
+            </div>
+            <p className="muted">Calculated from your records. No paid AI service is used.</p>
+            <div role="log" aria-live="polite" style={{ maxHeight: 420, overflowY: "auto" }}>
+              {conversation.map((item, index) => (
+                <div key={index} style={{ padding: "14px 0", borderBottom: "1px solid #29334d" }}>
+                  <p><strong>You:</strong> {item.question}</p>
+                  <p style={{ lineHeight: 1.8 }}><strong>SpendSense:</strong> {item.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
         )}
 
         <section className="panel breakdown">
