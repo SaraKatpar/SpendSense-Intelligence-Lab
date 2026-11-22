@@ -20,6 +20,7 @@ LABELS = [
     (r'\b(?:amount\s+paid|net\s+amount|total\s+due|payable|balance\s+payable)\b', 3),
     (r'\b(?:grand\s+total|net\s+total|net\s+payable|amount\s+due|amount\s+payable|balance\s+due|total\s+payable|total\s+amount)\b', 3),
     (r'\btotal\b', 2),
+    (r'^\s*payment\b(?!\s*(?:method|mode|type|reference|ref)\b)', 1),
 ]
 AMOUNT = re.compile(r'(?<![\w.,])(?:PKR\s*|Rs\.?\s*|[$£€]\s*)?(\d{1,3}(?:[,.]\d{3})+(?:[,.]\d{2})?|\d+(?:[.,]\d{1,2})?)(?![\w.,])', re.I)
 
