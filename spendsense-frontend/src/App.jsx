@@ -16,6 +16,7 @@ import SpendingDNA from "./SpendingDNA";
 import PatternDetective from "./PatternDetective";
 import CaptureStudio from "./CaptureStudio";
 import AllowanceSettings from "./AllowanceSettings";
+import SavingsGoals from "./SavingsGoals";
 import { replyToSpending } from "./spendingAssistant";
 
 
@@ -28,6 +29,7 @@ const rupees = n =>
 const menu = [
   { label: "Overview", icon: LayoutDashboard },
   { label: "Transactions", icon: CreditCard },
+  { label: "Savings Goals", icon: Target },
   { label: "Capture Studio", icon: ScanLine },
   { label: "Spending DNA", icon: BrainCircuit },
   { label: "Pattern Detective", icon: ShieldCheck },
@@ -536,41 +538,7 @@ function Overview({ onSelect, transactions, connected }) {
           </div>
         </section>
 
-        <section className="panel goals">
-          <div className="section-header">
-            <div>
-              <div className="section-kicker">
-                ILLUSTRATIVE GOALS · DEMO
-              </div>
-              <h2>Savings Goals</h2>
-            </div>
-            <button
-              className="add-button"
-              onClick={() => onSelect("Savings Goals")}
-            >
-              <Plus size={18} />
-            </button>
-          </div>
-
-          <div className="goals-rings">
-            <div>
-              <ProgressRing value={68} color="#b291ff" size={118}>
-                <Target size={18} />
-                <strong>68%</strong>
-              </ProgressRing>
-              <strong>New Laptop</strong>
-              <small>Rs. 34k / 50k</small>
-            </div>
-            <div>
-              <ProgressRing value={42} color="#4bd9dc" size={118}>
-                <Zap size={18} />
-                <strong>42%</strong>
-              </ProgressRing>
-              <strong>Emergency Fund</strong>
-              <small>Rs. 12.6k / 30k</small>
-            </div>
-          </div>
-        </section>
+        <SavingsGoals />
 
         <div className="tip">
           <Sparkles size={16} />
@@ -1713,8 +1681,6 @@ function Placeholder({ page, onBack }) {
       "K-Means spending persona analysis is planned.",
     "Pattern Detective":
       "Anomaly detection results are planned.",
-    "Savings Goals":
-      "Savings goal management is not implemented yet.",
     "Settings":
       "Settings are not yet implemented.",
     "Help & Support":
@@ -1833,6 +1799,8 @@ export default function App() {
                 refresh={refresh}
                 connected={connected}
               />
+            ) : active === "Savings Goals" ? (
+              <SavingsGoals />
             ) : active === "Settings" ? (
               <AllowanceSettings />
             ) : active === "Capture Studio" ? (
@@ -1855,7 +1823,7 @@ export default function App() {
               <span> • </span>
               Connected transaction tracking
               <span> • </span>
-              Financial health and savings goals are illustrative
+              Financial health score is illustrative
             </footer>
           </main>
         </div>
