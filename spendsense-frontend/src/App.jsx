@@ -17,7 +17,7 @@ import PatternDetective from "./PatternDetective";
 import CaptureStudio from "./CaptureStudio";
 
 
-const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8002";
+import { API } from "./api";
 
 
 const rupees = n =>

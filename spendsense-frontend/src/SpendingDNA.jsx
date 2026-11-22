@@ -18,7 +18,7 @@ import {
   Tooltip,
 } from "recharts";
 
-const API = "http://127.0.0.1:8000";
+import { API } from "./api";
 
 const COLORS = {
   Food: "#a98aff",
@@ -274,7 +274,7 @@ export default function SpendingDNA({
           </div>
 
           <p style={muted}>
-            Check that FastAPI is running on port 8000
+            The server may be waking up. Please try Refresh shortly.
             and your Spending DNA model files exist.
           </p>
         </section>

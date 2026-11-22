@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ScanLine, UploadCloud, AlertCircle, CheckCircle2, Sparkles } from "lucide-react";
 import "./CaptureStudio.css";
 
-const API = "http://127.0.0.1:8002";
+import { API } from "./api";
 const CATEGORIES = ["Food", "Groceries", "Transport", "Shopping", "Bills", "Health", "Education", "Entertainment", "Other"];
 const MAX_BYTES = 8 * 1024 * 1024;
 const today = () => new Date().toLocaleDateString("en-CA");

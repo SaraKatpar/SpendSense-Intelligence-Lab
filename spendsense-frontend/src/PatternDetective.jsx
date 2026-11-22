@@ -8,7 +8,7 @@ import {
   FlaskConical,
 } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+import { API } from "./api";
 
 const money = n =>
   `Rs. ${Number(n || 0).toLocaleString("en-PK")}`;
@@ -173,7 +173,7 @@ export default function PatternDetective({ transactions = [] }) {
             {error}
           </p>
           <p style={muted}>
-            Confirm that FastAPI is running on port 8000.
+            The server may be waking up. Wait a moment, then select Refresh.
           </p>
         </section>
       )}

@@ -11,7 +11,7 @@ import {
   ChevronUp
 } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+import { API } from "./api";
 
 const EXAMPLES = [
   "Bought biryani for lunch at university",
