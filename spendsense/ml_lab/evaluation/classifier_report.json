@@ -1,0 +1,63 @@
+{
+  "Bills": {
+    "precision": 0.9666295884315906,
+    "recall": 1.0,
+    "f1-score": 0.9830316742081447,
+    "support": 869.0
+  },
+  "Education": {
+    "precision": 0.5545905707196029,
+    "recall": 0.4253092293054234,
+    "f1-score": 0.481421647819063,
+    "support": 1051.0
+  },
+  "Entertainment": {
+    "precision": 1.0,
+    "recall": 0.7762777242044359,
+    "f1-score": 0.8740499457111836,
+    "support": 1037.0
+  },
+  "Food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1367.0
+  },
+  "Groceries": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1199.0
+  },
+  "Health": {
+    "precision": 0.506938775510204,
+    "recall": 0.6336734693877552,
+    "f1-score": 0.563265306122449,
+    "support": 980.0
+  },
+  "Shopping": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1075.0
+  },
+  "Transport": {
+    "precision": 0.841692789968652,
+    "recall": 1.0,
+    "f1-score": 0.9140425531914894,
+    "support": 1074.0
+  },
+  "accuracy": 0.8618816458622284,
+  "macro avg": {
+    "precision": 0.8587314655787561,
+    "recall": 0.8544075528622018,
+    "f1-score": 0.8519763908815412,
+    "support": 8652.0
+  },
+  "weighted avg": {
+    "precision": 0.8670427483356088,
+    "recall": 0.8618816458622284,
+    "f1-score": 0.8600670564695874,
+    "support": 8652.0
+  }
+}

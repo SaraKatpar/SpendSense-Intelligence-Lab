@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "test_count": 69,
+  "suite_log": "test_suite_final.log",
+  "F01": true,
+  "F02": true,
+  "F03": true,
+  "F04": true,
+  "idempotency_and_concurrent_retries": true,
+  "frozen_berka_test_scored": false
+}

@@ -1,0 +1,9 @@
+,Bills,Education,Entertainment,Food,Groceries,Health,Shopping,Transport
+Bills,869,0,0,0,0,0,0,0
+Education,0,447,0,0,0,604,0,0
+Entertainment,30,0,805,0,0,0,0,202
+Food,0,0,0,1367,0,0,0,0
+Groceries,0,0,0,0,1199,0,0,0
+Health,0,359,0,0,0,621,0,0
+Shopping,0,0,0,0,0,0,1075,0
+Transport,0,0,0,0,0,0,0,1074

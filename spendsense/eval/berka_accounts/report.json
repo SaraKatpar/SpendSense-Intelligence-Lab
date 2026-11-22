@@ -1,0 +1,7 @@
+{
+  "status": "superseded historical feasibility analysis",
+  "current_protocol": "app/data/low_balance_protocol_v1.json",
+  "current_report": "eval/berka_low_balance/REPORT.md",
+  "history": "eval/history/berka_pre_freeze_20261119/",
+  "model_fits": 0
+}

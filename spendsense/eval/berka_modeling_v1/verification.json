@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "frozen_protocol_unchanged": true,
+  "definition_threshold_coverage_split_unchanged": true,
+  "verified_forward_account_disjoint_cv_fits": 126,
+  "final_development_refits": 4,
+  "preprocessing_fit_on_development_only": true,
+  "monthly_dimensionless_features_only": true,
+  "test_passes": 1,
+  "test_estimator_prediction_calls": {
+    "linear": 1,
+    "ridge": 1,
+    "gradient_boosting": 1,
+    "logistic_regularized": 1
+  },
+  "independent_cached_bootstrap_reconstruction": true,
+  "binary_zero_positive_draws": 34,
+  "precision_undefined_draws": 728,
+  "selection_bias_accounts": {
+    "scorable": 639,
+    "unscorable": 193
+  },
+  "no_test_retuning": true,
+  "verification_used_predict_or_fit": false
+}

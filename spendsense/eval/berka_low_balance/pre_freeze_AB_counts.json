@@ -1,0 +1,27 @@
+{
+  "scope": "Fixed 832-account cohort; relaxed coverage; unchanged assignment/time split; counts only, no performance metrics",
+  "counts": [
+    {
+      "partition": "train",
+      "A_positive_account_months": 32,
+      "A_positive_accounts": 10,
+      "B_positive_account_months": 40,
+      "B_positive_accounts": 11
+    },
+    {
+      "partition": "validation",
+      "A_positive_account_months": 2,
+      "A_positive_accounts": 2,
+      "B_positive_account_months": 3,
+      "B_positive_accounts": 2
+    },
+    {
+      "partition": "test",
+      "A_positive_account_months": 5,
+      "A_positive_accounts": 2,
+      "B_positive_account_months": 7,
+      "B_positive_accounts": 4
+    }
+  ],
+  "test_usage": "Only the user-authorized positive-count feasibility check; no tuning"
+}

@@ -1,0 +1,156 @@
+{
+  "version": "low_balance_v1",
+  "frozen_at": "2026-11-19T20:04:04+05:00",
+  "timezone": "Asia/Karachi",
+  "name": "low-balance event",
+  "selected_event": "B",
+  "audit_reference_only": "A; no model target selection or tuning on A",
+  "coverage_policy": "relaxed",
+  "cohort": {
+    "accounts": 832,
+    "file": "eval/berka_low_balance/cohort_832.csv",
+    "sha256": "7d0489d06db287e2a1083aaaa37db06d890e77274199b3b188aea90947c00e43",
+    "provenance": "Explicit fixed IDs from reviewed account_eligibility.csv; that earlier selection used >=3 conservative assessable months. This historical membership is retained by user instruction, not reapplied as an active month filter.",
+    "retrospective_selection_limitation": "Full-source cohort ascertainment is not prospective admission or evidence of whole-bank generalization."
+  },
+  "origin": "First calendar day of target month at 00:00; monthly predictors strictly earlier.",
+  "reference_scale": {
+    "months": 3,
+    "statistic": "median observed eligible-debit monthly outflow",
+    "min_debit_records_each_month": 3,
+    "positive_reference_required": true,
+    "previous_month_end_snapshot_already_observed": true,
+    "eligible_debits": "Known operation and type VYDAJ or VYBER; includes fees and debt payments, not a discretionary-spending map."
+  },
+  "history": {
+    "completed_prior_months": 12,
+    "min_mean_eligible_debits": 4,
+    "min_active_month_fraction": 0.8
+  },
+  "coverage": {
+    "full_span_month": true,
+    "min_distinct_observed_dates": 2,
+    "max_gap_days": null,
+    "meaning": "Retrospective outcome availability only; absent observed low snapshots do not prove no unobserved dips."
+  },
+  "secondary_binary_event": {
+    "definition": "Any observed post-transaction balance / fixed reference scale < 0.05 on a date strictly before the target month last calendar day.",
+    "ratio_threshold": 0.05,
+    "operator": "<",
+    "negative_balances_included": true,
+    "classifier_status": "exploratory",
+    "status_rule": "User-authorized aggregate check: exploratory when test B positive account-months <20. No threshold/split changes follow this count."
+  },
+  "continuous_primary": {
+    "definition": "Exact last-calendar-day closing balance / reference scale known at prediction origin.",
+    "population": "All 832 registered accounts; publish exact target availability and explicit unscorable counts by assigned period.",
+    "measurement": "Use a unique/equal observed balance or unique terminal vertex of a connected valid signed-ledger Euler trail. No highest-trans_id or file-order assumption.",
+    "unresolved": "Preserve min/max last-day snapshot bounds; no midpoint/last-observation carry-forward, no invented scalar target. Exclude unresolved months from exact point error, not accounts from registry.",
+    "derived_warning": "Predicted month-end ratio <0.05, evaluated against measured month-end ratio <0.05; distinct from secondary any-earlier low-balance event.",
+    "threshold": 0.05,
+    "clipping": "None"
+  },
+  "baselines": {
+    "last_month_ratio": "Previous exact month-end closing balance / current known reference scale (persistence on the same target denominator).",
+    "pace_rule": "(Previous exact closing balance + median observed net monthly cash flow over previous 3 months) / current reference; cash flow retains bank-generated credits.",
+    "logistic_regression": "Exploratory classifier for selected binary B only; not a regressor for the continuous primary target.",
+    "gradient_boosting": "Regressor for the continuous primary target; separate exploratory classifier for selected B if later authorized.",
+    "binary_probability_cutoff": 0.5,
+    "availability": "Report each baseline availability; paired comparisons use common exact-target/input cases without hiding missing accounts."
+  },
+  "feature_contract": {
+    "frequency": "monthly only",
+    "allowed": "Past monthly ratios/shares or training-fitted z-scores; all inputs known strictly before origin.",
+    "recurrent_models": "No Berka daily LSTM or GRU; no recurrent Berka model in this protocol.",
+    "excluded_identifiers": [
+      "account_id",
+      "client_id",
+      "counterparty account IDs"
+    ],
+    "currency": "CZK retained for source arithmetic only; no raw-money predictor or PKR wallet mixing.",
+    "unknown_operations": "Keep for balance/cash-flow; exclude from spending/anomaly/persona numerators and denominators."
+  },
+  "split": {
+    "assignment": "int(SHA256(\"spendsense-berka-split-v1:\" + account_id),16) %100; 0..69 train, 70..84 validation, 85..99 test.",
+    "file": "eval/berka_accounts/proposed_account_split.csv",
+    "sha256": "bfb63ec317303fba00c431d3529bae368e4875080ed3f9d3d69a0cfa9330543b",
+    "target_periods": {
+      "train": [
+        "1993-01-01",
+        "1996-12-31"
+      ],
+      "validation": [
+        "1997-01-01",
+        "1997-12-31"
+      ],
+      "test": [
+        "1998-01-01",
+        "1998-12-31"
+      ]
+    },
+    "cutoff_rule": "Every outcome horizon entirely inside its assigned period; past lookback may cross year boundaries only for the same assigned account.",
+    "test_usage_this_step": "Aggregate positive month/account counts for A and B only, plus target availability; no prediction metrics, tuning or per-row test targets exported."
+  },
+  "future_evaluation": {
+    "primary": [
+      "Account-macro MAE of ratio",
+      "sqrt(account-macro mean squared ratio error)"
+    ],
+    "warning": "Fixed predicted-ratio cutoff 0.05 versus month-end low-balance truth; report separately from B.",
+    "secondary_exploratory": [
+      "PR-AUC",
+      "Brier score",
+      "Precision/recall/confusion counts at fixed probability 0.5"
+    ],
+    "bootstrap": {
+      "replicates": 2000,
+      "seed": 20261119,
+      "confidence": 0.95,
+      "interval": "Percentile 2.5%/97.5%",
+      "resampling_unit": "Account cluster within each partition; retain all months and use the same draws for paired baseline differences.",
+      "account_weighting": "Equal account weight; calculate monthly mean loss within account then aggregate accounts.",
+      "undefined_binary_draws": "Record count of undefined single-class replicates; never resample until positives appear. If >5% undefined, mark that metric CI unreliable/unavailable.",
+      "limitation": "Conditional on observed bank/calendar periods; not evidence of generalization to student finances."
+    }
+  },
+  "source_hashes": {
+    "account.asc": {
+      "bytes": 155356,
+      "sha256": "58d7f50abd72e9b1a5568346f74bb54cd71224ee1db9f09a27d7cac563f38cc6"
+    },
+    "order.asc": {
+      "bytes": 273800,
+      "sha256": "035930fa6acd2ca42a935e654b21e1bb260248f49b6dc6e7de6351b7c4d56d02"
+    },
+    "trans.asc": {
+      "bytes": 69406578,
+      "sha256": "75ab2f39df9d79d79c5c900de90ddd28248b689f214598ac9fa2ff0f574a70d2"
+    }
+  },
+  "training_authorized": false,
+  "model_fits": 0,
+  "pre_freeze_counts": [
+    {
+      "partition": "train",
+      "A_positive_account_months": 32,
+      "A_positive_accounts": 10,
+      "B_positive_account_months": 40,
+      "B_positive_accounts": 11
+    },
+    {
+      "partition": "validation",
+      "A_positive_account_months": 2,
+      "A_positive_accounts": 2,
+      "B_positive_account_months": 3,
+      "B_positive_accounts": 2
+    },
+    {
+      "partition": "test",
+      "A_positive_account_months": 5,
+      "A_positive_accounts": 2,
+      "B_positive_account_months": 7,
+      "B_positive_accounts": 4
+    }
+  ],
+  "target_availability": "eval/berka_low_balance/target_availability.json"
+}

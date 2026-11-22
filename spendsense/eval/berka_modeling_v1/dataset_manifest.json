@@ -1,0 +1,42 @@
+{
+  "protocol_sha256": "7080ca1de0a1b42b7cb79d7dfac6970a66fe6ebcb78640a73311728817feb6a8",
+  "development_sha256": "55ceb6d5220426a3189ee6cf73529d49c3458e8e0ecee3bdca5c1a642f771041",
+  "sealed_test_sha256": "5d2731736be64c59ffb9a006058152599e991dda3fed5923e19cca557a1a23d2",
+  "features": [
+    "previous_close_lower_ratio",
+    "previous_close_upper_ratio",
+    "netflow_median_3m_ratio",
+    "outflow_lag1_ratio",
+    "credit_median_3m_ratio",
+    "netflow_lag1_ratio",
+    "outflow_lag2_ratio",
+    "outflow_lag3_ratio"
+  ],
+  "source_hashes": {
+    "account.asc": {
+      "bytes": 155356,
+      "sha256": "58d7f50abd72e9b1a5568346f74bb54cd71224ee1db9f09a27d7cac563f38cc6"
+    },
+    "order.asc": {
+      "bytes": 273800,
+      "sha256": "035930fa6acd2ca42a935e654b21e1bb260248f49b6dc6e7de6351b7c4d56d02"
+    },
+    "trans.asc": {
+      "bytes": 69406578,
+      "sha256": "75ab2f39df9d79d79c5c900de90ddd28248b689f214598ac9fa2ff0f574a70d2"
+    }
+  },
+  "scorable_accounts": 639,
+  "unscorable_accounts": 193,
+  "development_accounts": 498,
+  "development_months": 8510,
+  "test_input": "Sealed until configuration lock; no predictions or metrics computed in preparation.",
+  "checks": [
+    "Original source hashes verified",
+    "Frozen development targets reproduced exactly",
+    "All predictors dimensionless and strictly past-only",
+    "All frozen B counts match",
+    "No target/feature imputation or clipping",
+    "No estimator fits in preparation"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Paired development-only Brier difference used for the predeclared binary-booster gate",
+  "draws": 2000,
+  "accounts": 498,
+  "zero_positive_draws": 0,
+  "zero_negative_draws": 0,
+  "handling": "Brier-loss differences remain defined in all draws. AP was a point diagnostic, not bootstrapped for model selection. No model/configuration changed."
+}

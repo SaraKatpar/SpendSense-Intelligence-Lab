@@ -1,0 +1,46 @@
+{
+  "cohort_accounts": 832,
+  "all_source_accounts_with_exact_target": 832,
+  "all_source_origin_months": 27899,
+  "all_source_exact_target_months": 27413,
+  "month_end_measurement_statuses_all_source": {
+    "unique_ledger_terminal": 38133,
+    "single_or_equal_snapshot": 3506,
+    "unresolved_degree": 843,
+    "unresolved_disconnected": 1
+  },
+  "assigned_period_accounts_with_exact_targets": 639,
+  "by_partition": [
+    {
+      "partition": "train",
+      "registered_accounts": 577,
+      "origin_months": 7538,
+      "accounts_with_origins": 400,
+      "exact_target_months": 7399,
+      "accounts_with_exact_targets": 400,
+      "common_baseline_target_months": 7286,
+      "accounts_with_common_baseline_targets": 399
+    },
+    {
+      "partition": "validation",
+      "registered_accounts": 113,
+      "origin_months": 972,
+      "accounts_with_origins": 98,
+      "exact_target_months": 956,
+      "accounts_with_exact_targets": 97,
+      "common_baseline_target_months": 945,
+      "accounts_with_common_baseline_targets": 96
+    },
+    {
+      "partition": "test",
+      "registered_accounts": 142,
+      "origin_months": 1591,
+      "accounts_with_origins": 142,
+      "exact_target_months": 1575,
+      "accounts_with_exact_targets": 142,
+      "common_baseline_target_months": 1558,
+      "accounts_with_common_baseline_targets": 142
+    }
+  ],
+  "limitation": "Registry retains all 832 accounts. Unresolved/missing exact targets and out-of-period accounts are marked unavailable, never zero-filled or silently scored."
+}

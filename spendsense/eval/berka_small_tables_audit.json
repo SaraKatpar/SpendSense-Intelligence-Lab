@@ -1,0 +1,51 @@
+{
+  "account": {
+    "rows": 4500,
+    "columns": [
+      "account_id",
+      "district_id",
+      "frequency",
+      "date"
+    ],
+    "missing": {
+      "account_id": 0,
+      "district_id": 0,
+      "frequency": 0,
+      "date": 0
+    },
+    "duplicate_ids": 0,
+    "frequency_counts": {
+      "POPLATEK MESICNE": 4167,
+      "POPLATEK TYDNE": 240,
+      "POPLATEK PO OBRATU": 93
+    }
+  },
+  "order": {
+    "rows": 6471,
+    "columns": [
+      "order_id",
+      "account_id",
+      "bank_to",
+      "account_to",
+      "amount",
+      "k_symbol"
+    ],
+    "missing": {
+      "order_id": 0,
+      "account_id": 0,
+      "bank_to": 0,
+      "account_to": 0,
+      "amount": 0,
+      "k_symbol": 0
+    },
+    "duplicate_ids": 0,
+    "k_symbol_counts": {
+      "SIPO": 3502,
+      "": 1379,
+      "UVER": 717,
+      "POJISTNE": 532,
+      "LEASING": 341
+    },
+    "accounts_with_orders": 3758
+  }
+}

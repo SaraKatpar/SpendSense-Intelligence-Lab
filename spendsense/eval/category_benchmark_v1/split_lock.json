@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-20T00:32:29.994109+05:00",
+  "protocol": "Per-source unique-date boundaries 60/70/80%; all earlier rows with any sealed-test normalized description purged from development. Same-day rows never cross a source boundary.",
+  "step4": "Global fit=train only; correction feedback=next 10% dates; fixed future learning-curve evaluation=following 10%; final 20% dates reserved exclusively for step5.",
+  "source_hashes": {
+    "data/household_clean.csv": "ab874deaf16aa052b48481d37ecaae8e39c42d7d475764c203d078dd2bcb07e3",
+    "data/kaggle/personal_reference_clean.csv": "6b0ee344b147d0df67b8057cf7b7cc2c481ac8735132c48c1d62caffe865fffc"
+  },
+  "development_sha256": "26ef460fe2cb7909e1657e12267262be266defab160a3e5a2c3d8b9f225028a4",
+  "sealed_test_sha256": "ca217bf7a73063d187c9844116ec5a22ed8f5fe0d989b7a0da5b0ec227c62ce5",
+  "development_rows": 1127,
+  "sealed_test_rows": 521,
+  "purged_development_rows": 776,
+  "development_counts": {
+    "('household', 'correction')": 135,
+    "('household', 'curve_evaluation')": 86,
+    "('household', 'train')": 846,
+    "('personal', 'correction')": 4,
+    "('personal', 'curve_evaluation')": 8,
+    "('personal', 'train')": 48
+  },
+  "test_labels_inspected_for_model_selection": false,
+  "historical_warning": "Older models/evaluations used overlapping raw sources; discard their weights for the untouched comparison. This is a newly sealed model-untouched experiment, not a newly collected or historically unseen dataset.",
+  "privacy": "Public reference records only; no personal app database or Berka inputs."
+}

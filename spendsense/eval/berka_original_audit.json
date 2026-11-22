@@ -1,0 +1,230 @@
+{
+  "source": "Archived original Berka files",
+  "currency": "CZK (user confirmed; tables have no currency column)",
+  "preprocessing_performed": false,
+  "tables": {
+    "account": {
+      "file": "data\\berka_original\\account.asc",
+      "sha256": "58d7f50abd72e9b1a5568346f74bb54cd71224ee1db9f09a27d7cac563f38cc6",
+      "rows": 4500,
+      "columns": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "dtypes": {
+        "account_id": "int64",
+        "district_id": "int64",
+        "frequency": "str",
+        "date": "int64"
+      },
+      "sql_null_counts": {
+        "account_id": 0,
+        "district_id": 0,
+        "frequency": 0,
+        "date": 0
+      },
+      "empty_or_whitespace_strings": {
+        "frequency": 0
+      },
+      "duplicate_primary_ids": 0,
+      "duplicate_complete_rows": 0,
+      "date": {
+        "invalid": 0,
+        "first": "1993-01-01 00:00:00",
+        "last": "1997-12-29 00:00:00",
+        "distinct_dates": 1535
+      },
+      "frequency_counts": {
+        "POPLATEK MESICNE": 4167,
+        "POPLATEK TYDNE": 240,
+        "POPLATEK PO OBRATU": 93
+      }
+    },
+    "order": {
+      "file": "data\\berka_original\\order.asc",
+      "sha256": "035930fa6acd2ca42a935e654b21e1bb260248f49b6dc6e7de6351b7c4d56d02",
+      "rows": 6471,
+      "columns": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "dtypes": {
+        "order_id": "int64",
+        "account_id": "int64",
+        "bank_to": "str",
+        "account_to": "int64",
+        "amount": "float64",
+        "k_symbol": "str"
+      },
+      "sql_null_counts": {
+        "order_id": 0,
+        "account_id": 0,
+        "bank_to": 0,
+        "account_to": 0,
+        "amount": 0,
+        "k_symbol": 0
+      },
+      "empty_or_whitespace_strings": {
+        "bank_to": 0,
+        "k_symbol": 1379
+      },
+      "duplicate_primary_ids": 0,
+      "duplicate_complete_rows": 0,
+      "amount": {
+        "invalid": 0,
+        "zero": 0,
+        "negative": 0,
+        "minimum": 1.0,
+        "median": 2596.0,
+        "maximum": 14882.0,
+        "fractional_rows": 499
+      },
+      "k_symbol_counts": {
+        "SIPO": 3502,
+        " ": 1379,
+        "UVER": 717,
+        "POJISTNE": 532,
+        "LEASING": 341
+      }
+    },
+    "trans": {
+      "file": "data\\berka_original\\trans.asc",
+      "sha256": "75ab2f39df9d79d79c5c900de90ddd28248b689f214598ac9fa2ff0f574a70d2",
+      "rows": 1056320,
+      "columns": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol",
+        "bank",
+        "account"
+      ],
+      "dtypes": {
+        "trans_id": "int64",
+        "account_id": "int64",
+        "date": "int64",
+        "type": "str",
+        "operation": "str",
+        "amount": "float64",
+        "balance": "float64",
+        "k_symbol": "str",
+        "bank": "str",
+        "account": "str"
+      },
+      "sql_null_counts": {
+        "trans_id": 0,
+        "account_id": 0,
+        "date": 0,
+        "type": 0,
+        "operation": 0,
+        "amount": 0,
+        "balance": 0,
+        "k_symbol": 0,
+        "bank": 0,
+        "account": 0
+      },
+      "empty_or_whitespace_strings": {
+        "type": 0,
+        "operation": 183114,
+        "k_symbol": 535314,
+        "bank": 782812,
+        "account": 760931
+      },
+      "duplicate_primary_ids": 0,
+      "duplicate_complete_rows": 0,
+      "date": {
+        "invalid": 0,
+        "first": "1993-01-01 00:00:00",
+        "last": "1998-12-31 00:00:00",
+        "distinct_dates": 2191
+      },
+      "weekend_rows": 307764,
+      "rows_per_account": {
+        "count": 4500.0,
+        "mean": 234.73777777777778,
+        "std": 126.84944300580088,
+        "min": 9.0,
+        "25%": 133.0,
+        "50%": 208.0,
+        "75%": 330.0,
+        "max": 675.0
+      },
+      "amount": {
+        "invalid": 0,
+        "zero": 14,
+        "negative": 0,
+        "minimum": 0.0,
+        "median": 2100.0,
+        "maximum": 87400.0,
+        "fractional_rows": 319128
+      },
+      "negative_balance_rows": 2999,
+      "type_counts": {
+        "VYDAJ": 634571,
+        "PRIJEM": 405083,
+        "VYBER": 16666
+      },
+      "operation_counts": {
+        "VYBER": 434918,
+        "PREVOD NA UCET": 208283,
+        "": 183114,
+        "VKLAD": 156743,
+        "PREVOD Z UCTU": 65226,
+        "VYBER KARTOU": 8036
+      },
+      "k_symbol_counts": {
+        "": 481881,
+        "UROK": 183114,
+        "SLUZBY": 155832,
+        "SIPO": 118065,
+        " ": 53433,
+        "DUCHOD": 30338,
+        "POJISTNE": 18500,
+        "UVER": 13580,
+        "SANKC. UROK": 1577
+      }
+    }
+  },
+  "relationships": {
+    "account_ids": 4500,
+    "transaction_accounts": 4500,
+    "standing_order_accounts": 3758,
+    "orphan_transaction_rows": 0,
+    "orphan_order_rows": 0
+  },
+  "unknown_operation": {
+    "rows": 183114,
+    "label": "bank_generated/unknown_operation",
+    "cross_tab": [
+      {
+        "k_symbol": "UROK",
+        "type": "PRIJEM",
+        "rows": 183114
+      }
+    ],
+    "retain_raw_rows": true,
+    "include_in_balance_and_cash_flow": true,
+    "include_in_spending_anomaly_persona_features": false
+  },
+  "limitations": [
+    "No food/retail merchant labels or text notes exist in these tables; do not invent food share.",
+    "Standing orders are recurring payment references, not verified subscription labels, and contain no execution dates.",
+    "Accounts are not necessarily distinct people and are not a verified student sample.",
+    "The MariaDB trans amount/balance schema is integer-valued; compare it with original ASC precision before source selection.",
+    "CZK source; only scale-free model features are allowed. Never pool raw units with household INR or the PKR wallet.",
+    "Net-flow ratio is a possible savings proxy only; credits can include transfers, not just earnings.",
+    "Household history has no user ID; it is not extra independent people for persona clustering.",
+    "No independent anomaly labels exist; do not report fraud precision/recall or accuracy.",
+    "Dates and primary keys need account/time-aware splitting before modeling; no splits are made by this audit."
+  ]
+}

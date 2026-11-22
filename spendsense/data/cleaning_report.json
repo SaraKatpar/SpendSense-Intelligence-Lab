@@ -1,0 +1,9 @@
+{
+  "source_rows": 2461,
+  "kept_rows": 2301,
+  "excluded_rows": 160,
+  "missing_notes": 372,
+  "currency": "INR",
+  "households": 1,
+  "date_parsing": "mixed day-first formats"
+}

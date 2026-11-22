@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "started_at": "2026-11-19T21:03:47+05:00",
+  "completed_at": "2026-11-19T21:03:47+05:00",
+  "evaluation_passes": 1,
+  "estimator_prediction_calls": {
+    "linear": 1,
+    "ridge": 1,
+    "gradient_boosting": 1,
+    "logistic_regularized": 1
+  },
+  "configuration_lock_sha256": "1b760ce25f022601545094d1fef909eb4b3e11aa5355c451e866b3490722def7",
+  "test_input_sha256": "5d2731736be64c59ffb9a006058152599e991dda3fed5923e19cca557a1a23d2",
+  "saved_predictions_sha256": "253f8d96a1277a5fb91b8c79a041d8e896c861af60e9b8c339ac13f9f984a178",
+  "rule": "Do not rerun models on test. Metrics/plots read these saved predictions. No post-test retuning."
+}

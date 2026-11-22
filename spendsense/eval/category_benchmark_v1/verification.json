@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "test_rows": 521,
+  "unique_test_descriptions": 252,
+  "all_models_same_test_row_ids": true,
+  "all_models_same_training_row_ids": true,
+  "no_description_overlap": true,
+  "source_chronology_verified": true,
+  "independent_metric_reconstruction": true,
+  "frozen_berka_artifacts_unchanged": true,
+  "fit_or_predict_called": false
+}

@@ -1,0 +1,28 @@
+{
+  "application_id": "pk.spendsense.student",
+  "version": "1.1.0",
+  "version_code": 2,
+  "minimum_android": "8.0 (API 26)",
+  "target_api": 35,
+  "signing": "Local development certificate; not Play Store production signing",
+  "file": "SpendSense-Android.apk",
+  "bytes": 41518,
+  "sha256": "3e2738e26cb1016da7b39f9486b88b46c40ac3e7e0a41c7af2350531cef31240",
+  "verified": [
+    "javac compilation",
+    "19 JVM URL/origin checks",
+    "D8 bytecode conversion",
+    "APK v2/v3 signature verification",
+    "zip alignment",
+    "archive CRC and required entries",
+    "aapt2 package metadata"
+  ],
+  "not_verified": [
+    "Physical Android installation",
+    "Emulator UI execution",
+    "Phone image picker and document export"
+  ],
+  "backend": "Connected FastAPI/SQLite server and Ollama; not bundled on device",
+  "steps_1_to_3_passed": true,
+  "berka_models_bundled": false
+}

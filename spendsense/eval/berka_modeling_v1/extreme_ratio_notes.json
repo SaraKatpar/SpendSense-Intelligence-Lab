@@ -1,0 +1,8 @@
+{
+  "scope": "Post-lock descriptive error diagnosis only. No refit, clipping, threshold change or removal.",
+  "selected_model": "ridge",
+  "largest_observed_target_ratio": 303.5668449197861,
+  "max_absolute_error": 259.74914132244584,
+  "common_baseline_excluded_months": 17,
+  "interpretation": "A large ratio can arise from a small strictly past outflow denominator. Report full-target results prominently; common-case results are not a replacement population."
+}

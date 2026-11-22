@@ -1,0 +1,38 @@
+.venv/
+**/__pycache__/
+*.log
+.env
+**/*.db
+**/*.db-*
+**/*.sqlite*
+**/*.keystore
+**/*.jks
+spendsense/models/*
+!spendsense/models/MODELS_NOT_INCLUDED.md
+work/
+@"
+
+# Frontend dependencies and generated files
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Python cache and local files
+**/.pytest_cache/
+**/*.pyc
+project_structure.txt
+*.zip
+
+# Local credentials and private data
+.env.*
+!.env.example
+**/*.db
+**/*.db-*
+**/*.sqlite*
+"@ | Add-Content .gitignore
+# Deployment cleanup
+output/
+EXPORT_ENVIRONMENT.json
+EXPORT_MANIFEST.json
+.vscode/
+*.code-workspace

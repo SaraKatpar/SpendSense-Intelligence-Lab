@@ -1,0 +1,240 @@
+{
+  "comparison_scope": "Full-table source precision/counts/aggregate totals and a deterministic matched-ID sample, not a full row-by-row MariaDB diff.",
+  "original": {
+    "rows": 1056320,
+    "fractional_amount_rows": 319128,
+    "fractional_balance_rows": 934450,
+    "zero_amount_rows": 14,
+    "amount_sum": "6257793560.30",
+    "balance_sum": "40687683194.00"
+  },
+  "mariadb": {
+    "amount_type": "int(11)",
+    "balance_type": "int(11)",
+    "rows_count": "1056320",
+    "amount_sum": "6257862197",
+    "balance_sum": "40687734247",
+    "zero_amounts": "162"
+  },
+  "sample_rows": 24,
+  "sample": [
+    {
+      "trans_id": 144918,
+      "original_amount": 5166.0,
+      "sql_amount": 5166,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 88602.9,
+      "sql_balance": 88603,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 145127,
+      "original_amount": 25300.0,
+      "sql_amount": 25300,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 46177.9,
+      "sql_balance": 46178,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 393999,
+      "original_amount": 5200.0,
+      "sql_amount": 5200,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 33215.5,
+      "sql_balance": 33216,
+      "balance_difference_sql_minus_original": 0.5
+    },
+    {
+      "trans_id": 527820,
+      "original_amount": 5669.0,
+      "sql_amount": 5669,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 71710.8,
+      "sql_balance": 71711,
+      "balance_difference_sql_minus_original": 0.2
+    },
+    {
+      "trans_id": 615628,
+      "original_amount": 20200.0,
+      "sql_amount": 20200,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 27692.5,
+      "sql_balance": 27693,
+      "balance_difference_sql_minus_original": 0.5
+    },
+    {
+      "trans_id": 622121,
+      "original_amount": 14100.0,
+      "sql_amount": 14100,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 32859.1,
+      "sql_balance": 32859,
+      "balance_difference_sql_minus_original": -0.1
+    },
+    {
+      "trans_id": 695340,
+      "original_amount": 9612.0,
+      "sql_amount": 9612,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 80033.7,
+      "sql_balance": 80034,
+      "balance_difference_sql_minus_original": 0.3
+    },
+    {
+      "trans_id": 695490,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 71437.8,
+      "sql_balance": 71438,
+      "balance_difference_sql_minus_original": 0.2
+    },
+    {
+      "trans_id": 695491,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 47697.6,
+      "sql_balance": 47698,
+      "balance_difference_sql_minus_original": 0.4
+    },
+    {
+      "trans_id": 695492,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 68197.0,
+      "sql_balance": 68197,
+      "balance_difference_sql_minus_original": 0.0
+    },
+    {
+      "trans_id": 695560,
+      "original_amount": 34700.0,
+      "sql_amount": 34700,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 59453.7,
+      "sql_balance": 59454,
+      "balance_difference_sql_minus_original": 0.3
+    },
+    {
+      "trans_id": 695561,
+      "original_amount": 25200.0,
+      "sql_amount": 25200,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 85871.7,
+      "sql_balance": 85872,
+      "balance_difference_sql_minus_original": 0.3
+    },
+    {
+      "trans_id": 1273510,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 22786.6,
+      "sql_balance": 22787,
+      "balance_difference_sql_minus_original": 0.4
+    },
+    {
+      "trans_id": 1313239,
+      "original_amount": 3725.0,
+      "sql_amount": 3725,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 53430.9,
+      "sql_balance": 53431,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 1313339,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 64955.4,
+      "sql_balance": 64955,
+      "balance_difference_sql_minus_original": -0.4
+    },
+    {
+      "trans_id": 1450329,
+      "original_amount": 12297.0,
+      "sql_amount": 12297,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 27047.9,
+      "sql_balance": 27048,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 1657450,
+      "original_amount": 12595.0,
+      "sql_amount": 12595,
+      "amount_difference_sql_minus_original": 0.0,
+      "original_balance": 23336.8,
+      "sql_balance": 23337,
+      "balance_difference_sql_minus_original": 0.2
+    },
+    {
+      "trans_id": 2350010,
+      "original_amount": 14.6,
+      "sql_amount": 15,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 72749.9,
+      "sql_balance": 72750,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 3513134,
+      "original_amount": 11.1,
+      "sql_amount": 11,
+      "amount_difference_sql_minus_original": -0.1,
+      "original_balance": 4892.9,
+      "sql_balance": 4893,
+      "balance_difference_sql_minus_original": 0.1
+    },
+    {
+      "trans_id": 3558798,
+      "original_amount": 37.1,
+      "sql_amount": 37,
+      "amount_difference_sql_minus_original": -0.1,
+      "original_balance": 13181.1,
+      "sql_balance": 13181,
+      "balance_difference_sql_minus_original": -0.1
+    },
+    {
+      "trans_id": 3574567,
+      "original_amount": 15.5,
+      "sql_amount": 16,
+      "amount_difference_sql_minus_original": 0.5,
+      "original_balance": 38415.5,
+      "sql_balance": 38416,
+      "balance_difference_sql_minus_original": 0.5
+    },
+    {
+      "trans_id": 3579543,
+      "original_amount": 13.3,
+      "sql_amount": 13,
+      "amount_difference_sql_minus_original": -0.3,
+      "original_balance": 5222.3,
+      "sql_balance": 5222,
+      "balance_difference_sql_minus_original": -0.3
+    },
+    {
+      "trans_id": 3591421,
+      "original_amount": 12.6,
+      "sql_amount": 13,
+      "amount_difference_sql_minus_original": 0.4,
+      "original_balance": 3754.6,
+      "sql_balance": 3755,
+      "balance_difference_sql_minus_original": 0.4
+    },
+    {
+      "trans_id": 3617490,
+      "original_amount": 47.5,
+      "sql_amount": 48,
+      "amount_difference_sql_minus_original": 0.5,
+      "original_balance": 15411.5,
+      "sql_balance": 15412,
+      "balance_difference_sql_minus_original": 0.5
+    }
+  ],
+  "source_decision": "Use the original archived ASC files: fractional amounts/balances are preserved. MariaDB is comparison/fallback only.",
+  "currency": "CZK only. Never use raw monetary features in cross-currency models or import Berka into the PKR wallet."
+}

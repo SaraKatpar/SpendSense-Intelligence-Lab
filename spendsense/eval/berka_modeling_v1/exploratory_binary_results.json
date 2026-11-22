@@ -1,0 +1,59 @@
+{
+  "logistic_regularized": {
+    "status": "EXPLORATORY; descriptive values only, no performance claim",
+    "accounts": 142,
+    "months": 1591,
+    "positive_months": 7,
+    "positive_accounts": 4,
+    "account_weighted_average_precision": 0.3430432080288406,
+    "account_macro_brier": 0.0054411996909845195,
+    "account_weighted_precision_at_0_5": 0.0,
+    "account_weighted_recall_at_0_5": 0.0,
+    "raw_confusion_at_0_5": {
+      "tn": 1583,
+      "fp": 1,
+      "fn": 7,
+      "tp": 0
+    },
+    "bootstrap_draws": 2000,
+    "zero_positive_draws": 34,
+    "zero_negative_draws": 0,
+    "intervals": {
+      "average_precision": {
+        "ci95": [
+          0.011375566527864645,
+          0.6388888888888888
+        ],
+        "valid_draws": 1966,
+        "undefined_draws": 34,
+        "unreliable_or_unavailable": false
+      },
+      "brier": {
+        "ci95": [
+          0.001150186939048506,
+          0.011444826943205307
+        ],
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "unreliable_or_unavailable": false
+      },
+      "precision_at_0_5": {
+        "ci95": null,
+        "valid_draws": 1272,
+        "undefined_draws": 728,
+        "unreliable_or_unavailable": true
+      },
+      "recall_at_0_5": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "valid_draws": 1966,
+        "undefined_draws": 34,
+        "unreliable_or_unavailable": false
+      }
+    },
+    "handling": "Single-class draws leave AP undefined. Recall is undefined without actual positives; precision is undefined without predicted positives. Brier remains defined. No forced-zero AP, no resampling until positives appear. Intervals with >5% undefined draws are not published.",
+    "average_precision_definition": "Account-weighted, non-interpolated average precision; not trapezoidal PR area or a mean over mostly single-class accounts."
+  }
+}

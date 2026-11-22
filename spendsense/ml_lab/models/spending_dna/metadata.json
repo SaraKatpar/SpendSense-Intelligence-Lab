@@ -1,0 +1,139 @@
+{
+  "model_name": "SpendSense Spending DNA",
+  "algorithm": "K-Means Clustering",
+  "learning_type": "Unsupervised",
+  "dataset_type": "Synthetic",
+  "students": 400,
+  "features": [
+    "food_pct",
+    "groceries_pct",
+    "transport_pct",
+    "shopping_pct",
+    "bills_pct",
+    "health_pct",
+    "education_pct",
+    "entertainment_pct"
+  ],
+  "categories": [
+    "Food",
+    "Groceries",
+    "Transport",
+    "Shopping",
+    "Bills",
+    "Health",
+    "Education",
+    "Entertainment"
+  ],
+  "selected_k": 4,
+  "silhouette_score": 0.4400467629028924,
+  "candidate_results": [
+    {
+      "k": 2,
+      "silhouette_score": 0.30432542854298356,
+      "inertia": 2271.1795594712953
+    },
+    {
+      "k": 3,
+      "silhouette_score": 0.3553857246291259,
+      "inertia": 1617.7290108537436
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.4400467629028924,
+      "inertia": 1097.9569179724529
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.3932723025831379,
+      "inertia": 1031.985606518458
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.3765312030451696,
+      "inertia": 969.2254749554227
+    },
+    {
+      "k": 7,
+      "silhouette_score": 0.2536263384043596,
+      "inertia": 921.9299699305468
+    },
+    {
+      "k": 8,
+      "silhouette_score": 0.22178269195108008,
+      "inertia": 859.5134321508456
+    }
+  ],
+  "cluster_profiles": {
+    "0": {
+      "name": "Shopping Focused",
+      "dominant_category": "Shopping",
+      "student_count": 101,
+      "average_monthly_expenses": 20153.5,
+      "category_percentages": {
+        "Food": 11.66,
+        "Groceries": 8.33,
+        "Transport": 10.69,
+        "Shopping": 35.18,
+        "Bills": 9.67,
+        "Health": 3.95,
+        "Education": 8.06,
+        "Entertainment": 12.44
+      }
+    },
+    "1": {
+      "name": "Education Focused",
+      "dominant_category": "Education",
+      "student_count": 99,
+      "average_monthly_expenses": 20059.65,
+      "category_percentages": {
+        "Food": 12.95,
+        "Groceries": 10.11,
+        "Transport": 10.63,
+        "Shopping": 5.79,
+        "Bills": 9.81,
+        "Health": 4.78,
+        "Education": 39.66,
+        "Entertainment": 6.27
+      }
+    },
+    "2": {
+      "name": "Food Focused",
+      "dominant_category": "Food",
+      "student_count": 100,
+      "average_monthly_expenses": 20421.3,
+      "category_percentages": {
+        "Food": 38.27,
+        "Groceries": 14.07,
+        "Transport": 12.26,
+        "Shopping": 8.08,
+        "Bills": 9.64,
+        "Health": 3.66,
+        "Education": 7.64,
+        "Entertainment": 6.39
+      }
+    },
+    "3": {
+      "name": "Bills Focused",
+      "dominant_category": "Bills",
+      "student_count": 100,
+      "average_monthly_expenses": 20732.14,
+      "category_percentages": {
+        "Food": 14.84,
+        "Groceries": 22.69,
+        "Transport": 17.26,
+        "Shopping": 4.92,
+        "Bills": 23.5,
+        "Health": 5.91,
+        "Education": 6.99,
+        "Entertainment": 3.89
+      }
+    }
+  },
+  "limitations": [
+    "Training data is synthetic.",
+    "Synthetic archetypes influence the patterns.",
+    "Silhouette score is measured on training data.",
+    "Clusters do not establish real student personalities.",
+    "No real-world generalization has been validated."
+  ]
+}

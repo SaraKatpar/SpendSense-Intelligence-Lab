@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "saved_metrics_reconstructed": true,
+  "raw_recorded_daily_truth_checked": true,
+  "source_currency_isolation": true,
+  "opening_cash_or_exhaustion_labels_invented": false,
+  "exhaustion_date_validation": "Unavailable, not claimed",
+  "full_survival_validated": false,
+  "fit_or_predict_called": false
+}

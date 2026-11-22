@@ -1,0 +1,5 @@
+{
+  "method": "3 deterministic GroupKFold account groups x validation years 1995/1996/1997. Train only outside held-out accounts and with outcomes strictly earlier than the validation year. Nine possible grouped forward folds.",
+  "folds": 9,
+  "fixed_validation_set_not_used_alone": true
+}

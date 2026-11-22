@@ -1,0 +1,1479 @@
+
+import re
+"""
+
+SpendSense FastAPI Backend
+
+
+
+Features:
+
+\- Transaction management
+
+\- Expense classification
+
+\- Classifier evaluation
+
+\- Spending DNA (K-Means)
+
+\- Pattern Detective (Isolation Forest)
+
+
+
+Run from spendsense:
+
+
+
+python -m uvicorn api_server:app --reload --port 8000
+
+"""
+
+
+
+import csv
+
+import json
+
+import math
+
+
+
+from datetime import date as Date
+
+from functools import lru_cache
+
+from pathlib import Path
+
+
+
+from fastapi import FastAPI, HTTPException, UploadFile, File
+
+from fastapi.middleware.cors import CORSMiddleware
+
+from pydantic import BaseModel, Field
+
+
+
+import storage
+
+
+
+
+
+# ============================================================
+
+# APPLICATION
+
+# ============================================================
+
+
+
+app = FastAPI(
+
+    title="SpendSense Intelligence Lab API",
+
+    version="1.5",
+
+)
+
+
+
+app.add_middleware(
+
+    CORSMiddleware,
+
+    allow_origins=[
+
+        f"http://{host}:{port}"
+
+        for host in ("localhost", "127.0.0.1")
+
+        for port in (5173, 5174, 5175, 5176)
+
+    ],
+
+    allow_credentials=False,
+
+    allow_methods=["GET", "POST", "DELETE"],
+
+    allow_headers=["*"],
+
+)
+
+
+
+WORKSPACE = "My finances"
+
+BASE_DIR = Path(__file__).resolve().parent
+
+
+
+ML_DIR = BASE_DIR / "ml_lab"
+
+EVALUATION_DIR = ML_DIR / "evaluation"
+
+
+
+REPORT_PATH = (
+
+    EVALUATION_DIR / "classifier_report.json"
+
+)
+
+
+
+CONFUSION_MATRIX_PATH = (
+
+    EVALUATION_DIR / "classifier_confusion_matrix.csv"
+
+)
+
+
+
+DNA_MODEL_DIR = (
+
+    ML_DIR / "models" / "spending_dna"
+
+)
+
+
+
+DNA_METADATA_PATH = (
+
+    DNA_MODEL_DIR / "metadata.json"
+
+)
+
+
+
+PATTERN_MODEL_DIR = (
+
+    ML_DIR / "models" / "pattern_detective"
+
+)
+
+
+
+PATTERN_METADATA_PATH = (
+
+    PATTERN_MODEL_DIR / "metadata.json"
+
+)
+
+
+
+PATTERN_EVALUATION_PATH = (
+
+    EVALUATION_DIR / "pattern_detective_evaluation.json"
+
+)
+
+
+
+DNA_CATEGORIES = {
+
+    "Food",
+
+    "Groceries",
+
+    "Transport",
+
+    "Shopping",
+
+    "Bills",
+
+    "Health",
+
+    "Education",
+
+    "Entertainment",
+
+}
+
+
+
+
+
+# ============================================================
+
+# INPUT MODELS
+
+# ============================================================
+
+
+
+class TransactionIn(BaseModel):
+
+    date: Date = Field(default_factory=Date.today)
+
+    amount: float = Field(gt=0)
+
+    kind: str = "Expense"
+
+    category: str = "Other"
+
+    description: str = Field(
+
+        min_length=1,
+
+        max_length=300,
+
+    )
+
+    merchant: str = ""
+
+
+
+
+
+class ExpensePredictionIn(BaseModel):
+
+    description: str = Field(
+
+        min_length=1,
+
+        max_length=300,
+
+    )
+
+
+
+
+
+# ============================================================
+
+# MODEL LOADERS
+
+# ============================================================
+
+
+
+@lru_cache(maxsize=1)
+
+def get_ml_predictor():
+
+    from ml_lab.inference.predict_classifier import (
+
+        predict_expense,
+
+    )
+
+
+
+    return predict_expense
+
+
+
+
+
+@lru_cache(maxsize=1)
+
+def get_dna_predictor():
+
+    from ml_lab.inference.predict_spending_dna import (
+
+        predict_spending_dna,
+
+    )
+
+
+
+    return predict_spending_dna
+
+
+
+
+
+@lru_cache(maxsize=1)
+
+def get_pattern_predictor():
+
+    from ml_lab.inference.predict_pattern_detective import (
+
+        predict_pattern_detective,
+
+    )
+
+
+
+    return predict_pattern_detective
+
+
+
+
+
+def load_json_file(path, missing_message):
+
+    if not path.is_file():
+
+        raise HTTPException(
+
+            status_code=503,
+
+            detail=missing_message,
+
+        )
+
+
+
+    try:
+
+        with path.open(
+
+            "r", encoding="utf-8"
+
+        ) as file:
+
+            return json.load(file)
+
+
+
+    except (OSError, ValueError) as exc:
+
+        raise HTTPException(
+
+            status_code=500,
+
+            detail=f"Could not load model metadata: {exc}",
+
+        ) from exc
+
+
+
+
+
+# ============================================================
+
+# HEALTH CHECK
+
+# ============================================================
+
+
+
+@app.get("/api/health")
+
+def health():
+
+    return {
+
+        "status": "ok",
+
+        "workspace": WORKSPACE,
+
+    }
+
+
+
+
+
+# ============================================================
+
+# TRANSACTIONS
+
+# ============================================================
+
+
+
+@app.get("/api/transactions")
+
+def transactions():
+
+    frame = storage.read(WORKSPACE)
+
+
+
+    if frame.empty:
+
+        return []
+
+
+
+    frame["date"] = frame["date"].dt.strftime(
+
+        "%Y-%m-%d"
+
+    )
+
+
+
+    frame = frame.where(frame.notna(), None)
+
+
+
+    return frame.sort_values(
+
+        ["date", "id"],
+
+        ascending=False,
+
+    ).to_dict(orient="records")
+
+
+
+
+
+@app.post(
+
+    "/api/transactions",
+
+    status_code=201,
+
+)
+
+def add_transaction(item: TransactionIn):
+
+    try:
+
+        identifier = storage.add(
+
+            WORKSPACE,
+
+            item.date.isoformat(),
+
+            item.amount,
+
+            item.kind,
+
+            item.category,
+
+            item.description,
+
+            merchant=item.merchant,
+
+            source="manual",
+
+            currency="PKR",
+
+        )
+
+
+
+        return {
+
+            "id": identifier,
+
+            "message": "Saved",
+
+        }
+
+
+
+    except (ValueError, TypeError) as exc:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail=str(exc),
+
+        ) from exc
+
+
+
+
+
+@app.delete("/api/transactions/{transaction_id}")
+
+def delete_transaction(transaction_id: int):
+
+    try:
+
+        storage.delete(
+
+            WORKSPACE,
+
+            transaction_id,
+
+        )
+
+
+
+        return {
+
+            "message": "Deleted if present",
+
+        }
+
+
+
+    except (ValueError, TypeError) as exc:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail=str(exc),
+
+        ) from exc
+
+
+
+
+
+# ============================================================
+
+# EXPENSE CLASSIFIER
+
+# ============================================================
+
+
+
+@app.post("/api/ml/predict-category")
+
+def predict_category(item: ExpensePredictionIn):
+
+    description = item.description.strip()
+
+
+
+    if not description:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail="Expense description cannot be empty.",
+
+        )
+
+
+
+    try:
+
+        predictor = get_ml_predictor()
+
+
+
+        category, probabilities, embedding = predictor(
+
+            description
+
+        )
+
+
+
+        probability_dict = {
+
+            label: round(float(probability), 6)
+
+            for label, probability in probabilities
+
+        }
+
+
+
+        highest_probability = probabilities[0][1]
+
+
+
+        return {
+
+            "description": description,
+
+            "predicted_category": category,
+
+            "confidence": round(
+
+                float(highest_probability), 6
+
+            ),
+
+            "probabilities": probability_dict,
+
+            "embedding_dimensions": len(embedding),
+
+            "embedding_preview": [
+
+                round(float(value), 6)
+
+                for value in embedding[:10]
+
+            ],
+
+            "model": {
+
+                "encoder": "all-MiniLM-L6-v2",
+
+                "classifier": "Logistic Regression",
+
+            },
+
+        }
+
+
+
+    except ValueError as exc:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail=str(exc),
+
+        ) from exc
+
+
+
+    except (
+
+        OSError,
+
+        ImportError,
+
+        RuntimeError,
+
+    ) as exc:
+
+        raise HTTPException(
+
+            status_code=503,
+
+            detail=(
+
+                "ML classifier unavailable. "
+
+                "Check saved model artifacts."
+
+            ),
+
+        ) from exc
+
+
+
+
+
+# ============================================================
+
+# CLASSIFIER EVALUATION
+
+# ============================================================
+
+
+
+@app.get("/api/ml/evaluation")
+
+def get_model_evaluation():
+
+    if not REPORT_PATH.is_file():
+
+        raise HTTPException(
+
+            status_code=404,
+
+            detail="Classifier report file not found.",
+
+        )
+
+
+
+    if not CONFUSION_MATRIX_PATH.is_file():
+
+        raise HTTPException(
+
+            status_code=404,
+
+            detail="Confusion matrix file not found.",
+
+        )
+
+
+
+    try:
+
+        with REPORT_PATH.open(
+
+            "r", encoding="utf-8"
+
+        ) as file:
+
+            report = json.load(file)
+
+
+
+        with CONFUSION_MATRIX_PATH.open(
+
+            "r",
+
+            encoding="utf-8-sig",
+
+            newline="",
+
+        ) as file:
+
+            rows = list(csv.reader(file))
+
+
+
+        if len(rows) < 2:
+
+            raise ValueError(
+
+                "Confusion matrix CSV is empty or incomplete."
+
+            )
+
+
+
+        labels = [
+
+            label.strip()
+
+            for label in rows[0][1:]
+
+        ]
+
+
+
+        if not labels:
+
+            raise ValueError(
+
+                "Confusion matrix has no category labels."
+
+            )
+
+
+
+        actual_labels = []
+
+        matrix = []
+
+
+
+        for row in rows[1:]:
+
+            if not row:
+
+                continue
+
+
+
+            actual_labels.append(
+
+                row[0].strip()
+
+            )
+
+
+
+            values = [
+
+                int(value.strip())
+
+                for value in row[1:]
+
+            ]
+
+
+
+            if len(values) != len(labels):
+
+                raise ValueError(
+
+                    "Confusion matrix row has incorrect dimensions."
+
+                )
+
+
+
+            matrix.append(values)
+
+
+
+        if actual_labels != labels:
+
+            raise ValueError(
+
+                "Actual and predicted category labels do not match."
+
+            )
+
+
+
+        if len(matrix) != len(labels):
+
+            raise ValueError(
+
+                "Confusion matrix must be square."
+
+            )
+
+
+
+        total_samples = sum(
+
+            sum(row) for row in matrix
+
+        )
+
+
+
+        correct_predictions = sum(
+
+            matrix[i][i]
+
+            for i in range(len(labels))
+
+        )
+
+
+
+        return {
+
+            "model": {
+
+                "name": "SpendSense Expense Classifier",
+
+                "encoder": "all-MiniLM-L6-v2",
+
+                "classifier": "Logistic Regression",
+
+                "embedding_dimensions": 384,
+
+            },
+
+            "report": report,
+
+            "confusion_matrix": {
+
+                "labels": labels,
+
+                "matrix": matrix,
+
+                "total_samples": total_samples,
+
+                "correct_predictions": correct_predictions,
+
+            },
+
+        }
+
+
+
+    except (
+
+        OSError,
+
+        ValueError,
+
+        json.JSONDecodeError,
+
+    ) as exc:
+
+        raise HTTPException(
+
+            status_code=500,
+
+            detail=f"Could not load ML evaluation: {exc}",
+
+        ) from exc
+
+
+
+
+
+# ============================================================
+
+# SPENDING DNA EVALUATION
+
+# ============================================================
+
+
+
+@app.get("/api/ml/spending-dna/evaluation")
+
+def spending_dna_evaluation():
+
+    metadata = load_json_file(
+
+        DNA_METADATA_PATH,
+
+        (
+
+            "Spending DNA metadata not found. "
+
+            "Train the K-Means model first."
+
+        ),
+
+    )
+
+
+
+    return {
+
+        "model_name": metadata.get("model_name"),
+
+        "algorithm": metadata.get("algorithm"),
+
+        "learning_type": metadata.get("learning_type"),
+
+        "dataset_type": metadata.get("dataset_type"),
+
+        "students": metadata.get("students"),
+
+        "features": metadata.get("features", []),
+
+        "selected_k": metadata.get("selected_k"),
+
+        "silhouette_score": metadata.get(
+
+            "silhouette_score"
+
+        ),
+
+        "candidate_results": metadata.get(
+
+            "candidate_results", []
+
+        ),
+
+        "cluster_profiles": metadata.get(
+
+            "cluster_profiles", {}
+
+        ),
+
+        "limitations": metadata.get(
+
+            "limitations", []
+
+        ),
+
+    }
+
+
+
+
+
+# ============================================================
+
+# SPENDING DNA PREDICTION
+
+# ============================================================
+
+
+
+@app.get("/api/ml/spending-dna")
+
+def get_spending_dna():
+
+    frame = storage.read(WORKSPACE)
+
+
+
+    if frame.empty:
+
+        return {
+
+            "status": "insufficient_data",
+
+            "message": (
+
+                "No transactions found. Add expenses "
+
+                "to discover your Spending DNA."
+
+            ),
+
+            "valid_transactions": 0,
+
+            "excluded_transactions": 0,
+
+        }
+
+
+
+    records = frame.to_dict(orient="records")
+
+
+
+    expenses = [
+
+        row for row in records
+
+        if str(
+
+            row.get("kind", "")
+
+        ).strip().lower() == "expense"
+
+    ]
+
+
+
+    supported = []
+
+    excluded_count = 0
+
+    excluded_amount = 0.0
+
+
+
+    for row in expenses:
+
+        category = str(
+
+            row.get("category", "")
+
+        ).strip()
+
+
+
+        try:
+
+            amount = float(
+
+                row.get("amount", 0)
+
+            )
+
+        except (
+
+            TypeError,
+
+            ValueError,
+
+            OverflowError,
+
+        ):
+
+            excluded_count += 1
+
+            continue
+
+
+
+        if (
+
+            category not in DNA_CATEGORIES
+
+            or not math.isfinite(amount)
+
+            or amount <= 0
+
+        ):
+
+            excluded_count += 1
+
+
+
+            if math.isfinite(amount) and amount > 0:
+
+                excluded_amount += amount
+
+
+
+            continue
+
+
+
+        supported.append({
+
+            "kind": "Expense",
+
+            "category": category,
+
+            "amount": amount,
+
+        })
+
+
+
+    if not supported:
+
+        return {
+
+            "status": "insufficient_data",
+
+            "message": (
+
+                "No supported expense categories found. "
+
+                "Add Food, Transport, Groceries, Shopping, "
+
+                "Bills, Health, Education, or Entertainment."
+
+            ),
+
+            "valid_transactions": 0,
+
+            "excluded_transactions": excluded_count,
+
+        }
+
+
+
+    try:
+
+        predictor = get_dna_predictor()
+
+        result = predictor(supported)
+
+
+
+        return {
+
+            **result,
+
+            "status": "ok",
+
+            "source": "saved_transactions",
+
+            "workspace": WORKSPACE,
+
+            "excluded_transactions": excluded_count,
+
+            "excluded_amount": round(
+
+                excluded_amount, 2
+
+            ),
+
+            "coverage_note": (
+
+                "Percentages use supported expense "
+
+                "categories only. Income and unsupported "
+
+                "categories are excluded."
+
+            ),
+
+            "sample_size_note": (
+
+                "Small transaction histories may not "
+
+                "represent typical spending behavior."
+
+            ),
+
+        }
+
+
+
+    except ValueError as exc:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail=str(exc),
+
+        ) from exc
+
+
+
+    except (
+
+        FileNotFoundError,
+
+        OSError,
+
+        ImportError,
+
+        RuntimeError,
+
+        KeyError,
+
+    ) as exc:
+
+        raise HTTPException(
+
+            status_code=503,
+
+            detail=(
+
+                "Spending DNA model unavailable. "
+
+                "Check K-Means artifacts."
+
+            ),
+
+        ) from exc
+
+
+
+
+
+# ============================================================
+
+# PATTERN DETECTIVE EVALUATION
+
+# ============================================================
+
+
+
+@app.get("/api/ml/pattern-detective/evaluation")
+
+def get_pattern_detective_evaluation():
+
+    """
+
+    Return real evaluation results saved during training.
+
+
+
+    Includes:
+
+    - Precision
+
+    - Recall
+
+    - F1 score
+
+    - ROC AUC
+
+    - Average Precision
+
+    - Confusion matrix
+
+    - Synthetic-data limitations
+
+    """
+
+
+
+    return load_json_file(
+
+        PATTERN_EVALUATION_PATH,
+
+        (
+
+            "Pattern Detective evaluation not found. "
+
+            "Run the Isolation Forest training script first."
+
+        ),
+
+    )
+
+
+
+
+
+# ============================================================
+
+# PATTERN DETECTIVE INFERENCE
+
+# ============================================================
+
+
+
+@app.get("/api/ml/pattern-detective")
+
+def get_pattern_detective():
+
+    """
+
+    Run trained Isolation Forest on saved transactions.
+
+
+
+    Uses:
+
+    - SQLite transactions via storage.read()
+
+    - Saved preprocessing pipeline
+
+    - Saved Isolation Forest model
+
+
+
+    Does not retrain or generate fake predictions.
+
+    """
+
+
+
+    frame = storage.read(WORKSPACE)
+
+
+
+    if frame.empty:
+
+        return {
+
+            "status": "insufficient_data",
+
+            "message": (
+
+                "No transactions found. Add expenses "
+
+                "to start detecting unusual patterns."
+
+            ),
+
+            "total_analyzed": 0,
+
+            "anomaly_count": 0,
+
+            "typical_count": 0,
+
+            "excluded_transactions": 0,
+
+            "excluded_reasons": {
+
+                "unsupported_category": 0,
+
+                "invalid_amount": 0,
+
+                "invalid_date": 0,
+
+            },
+
+            "transactions": [],
+
+        }
+
+
+
+    records = frame.to_dict(
+
+        orient="records"
+
+    )
+
+
+
+    try:
+
+        predictor = get_pattern_predictor()
+
+
+
+        result = predictor(records)
+
+
+
+        return {
+
+            **result,
+
+            "source": "saved_transactions",
+
+            "workspace": WORKSPACE,
+
+        }
+
+
+
+    except ValueError as exc:
+
+        raise HTTPException(
+
+            status_code=422,
+
+            detail=str(exc),
+
+        ) from exc
+
+
+
+    except (
+
+        FileNotFoundError,
+
+        OSError,
+
+        ImportError,
+
+        RuntimeError,
+
+        KeyError,
+
+    ) as exc:
+
+        raise HTTPException(
+
+            status_code=503,
+
+            detail=(
+
+                "Pattern Detective model unavailable. "
+
+                "Check the trained Isolation Forest "
+
+                "pipeline and metadata files."
+
+            ),
+
+        ) from exc
+
+
+
+# ============================================================
+# RECEIPT OCR - SCAN ONLY, NEVER AUTO-SAVE
+# ============================================================
+
+MAX_RECEIPT_BYTES = 8 * 1024 * 1024
+ALLOWED_RECEIPT_TYPES = {"image/jpeg", "image/png"}
+
+
+@app.post("/api/ocr/scan")
+async def scan_receipt_upload(file: UploadFile = File(...)):
+    """Extract editable receipt details. Does NOT save a transaction."""
+    if file.content_type not in ALLOWED_RECEIPT_TYPES:
+        raise HTTPException(
+            status_code=415,
+            detail="Upload a JPG or PNG receipt image.",
+        )
+
+    try:
+        image_bytes = await file.read(MAX_RECEIPT_BYTES + 1)
+    finally:
+        await file.close()
+
+    if not image_bytes:
+        raise HTTPException(status_code=400, detail="Receipt image is empty.")
+    if len(image_bytes) > MAX_RECEIPT_BYTES:
+        raise HTTPException(status_code=413, detail="Receipt image exceeds 8 MB.")
+
+    try:
+        from receipt_ocr import scan
+        result = scan(image_bytes)
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except (ImportError, OSError, RuntimeError) as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="Receipt OCR unavailable. Check Tesseract and OCR dependencies.",
+        ) from exc
+
+    # Suggest a category using the existing trained classifier when
+    # the receipt contains usable item text. Failure must not block OCR.
+    result["category_suggestion"] = None
+    result["category_confidence"] = None
+    result["category_suggestion_note"] = (
+        "Optional model suggestion; confirm the category before saving."
+    )
+    raw_text = (result.get("raw_text") or "").strip()
+    merchant = (result.get("merchant") or "").strip()
+    description = (result.get("description") or "").strip()
+    if raw_text:
+        # The classifier accepts a maximum of 300 characters.
+        # Remove totals and payment lines; retain product information.
+        lines = [
+            line.strip() for line in raw_text.splitlines()
+            if line.strip() and not re.search(
+                r"\b(total|subtotal|cash|change|tax|date|invoice)\b",
+                line, re.IGNORECASE
+            )
+        ]
+        classifier_text = (description or " ".join(lines[:8]))[:300].strip()
+        if classifier_text:
+            try:
+                predictor = get_ml_predictor()
+                category, probabilities, _embedding = predictor(classifier_text)
+                result["category_suggestion"] = category
+                result["category_confidence"] = (
+                    round(float(probabilities[0][1]), 6)
+                    if probabilities else None
+                )
+            except (ValueError, OSError, ImportError, RuntimeError, KeyError, TypeError):
+                result["category_suggestion_note"] = (
+                    "Category model unavailable; select a category manually."
+                )
+
+    result["saved"] = False
+    return result

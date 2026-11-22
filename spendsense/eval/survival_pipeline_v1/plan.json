@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-20T00:50:34.484633+05:00",
+  "seed": 20261120,
+  "history_split": "First 80% of each source calendar span for fitting; final 20% for nonoverlapping complete 14-day rolling origins. Fixed model weights; no within-horizon future observations.",
+  "model": "From-scratch 32-hidden-unit LSTM, lookback14, all9 category outputs, 10epochs Adam lr.003 batch64, train-only mean scaling with floor1; recursive nonnegative predictions as existing app.",
+  "hybrid": "Same hybrid_daily_costs composition as app: essential input plus LSTM optional categories plus dated dues once. Research essential proxy is preceding30-calendar-day mean Food+Groceries+Transport; no observed future schedule is available, so dues are unspecified/omitted, not asserted absent.",
+  "comparators": [
+    "7day_mean_all_categories",
+    "lstm_all_categories",
+    "hybrid_proxy_lstm",
+    "hybrid_proxy_7day"
+  ],
+  "targets": "Recorded daily expense totals; cumulative expense error implies a CONDITIONAL final-balance error only if true initial cash and future income are shared. No initial cash or income is fabricated.",
+  "exhaustion_date": "Not estimable: no verified opening balances or actual exhaustion outcomes. Berka cannot be substituted into a daily LSTM.",
+  "missing_dates": "Calendar slots with no recorded expenses have recorded total0; this does not prove zero actual spending or complete capture.",
+  "selection": "Fixed before fitting, no tuning or test-driven clipping; currencies never pooled; research-only artifacts."
+}

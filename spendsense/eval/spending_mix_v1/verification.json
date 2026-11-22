@@ -1,0 +1,10 @@
+{
+  "checks": "Six real-source/isolation checks and full 58-test regression suite passed. Three initial UI test dependencies on automatic seed were corrected to isolated temporary wallets.",
+  "test_log": "test_suite.log",
+  "frozen_test_predictions_recomputed": false,
+  "berka_models_deployed": false,
+  "known_generated_training_sources_removed": true,
+  "source_authenticity_independently_verified": false,
+  "passed": true,
+  "latest_regression_suite": "eval/survival_pipeline_v1/test_suite.log (86 passed)"
+}

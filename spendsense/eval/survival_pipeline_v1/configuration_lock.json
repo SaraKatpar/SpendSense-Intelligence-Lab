@@ -1,0 +1,28 @@
+{
+  "household": {
+    "source": "data/household_clean.csv",
+    "source_sha256": "ab874deaf16aa052b48481d37ecaae8e39c42d7d475764c203d078dd2bcb07e3",
+    "unit": "INR",
+    "calendar_days": 1359,
+    "training_days": 1087,
+    "training_end": "2017-12-22",
+    "evaluation_start": "2017-12-23",
+    "model_sha256": "8ad1ac6837469574842d1e2572a5bca825fd93f08f889a61f79d372e0935ccb5",
+    "no_recorded_expense_calendar_days": 505,
+    "model_path": "models\\survival_research_v1\\household",
+    "research_only": true
+  },
+  "personal": {
+    "source": "data/kaggle/personal_reference_clean.csv",
+    "source_sha256": "6b0ee344b147d0df67b8057cf7b7cc2c481ac8735132c48c1d62caffe865fffc",
+    "unit": "UNSPECIFIED_SOURCE_UNITS",
+    "calendar_days": 638,
+    "training_days": 510,
+    "training_end": "2019-05-25",
+    "evaluation_start": "2019-05-26",
+    "model_sha256": "e4abdf5af43464c3c5d20d056b7bd7d2b8c54608040c124d2c7022ac7734f91b",
+    "no_recorded_expense_calendar_days": 251,
+    "model_path": "models\\survival_research_v1\\personal",
+    "research_only": true
+  }
+}

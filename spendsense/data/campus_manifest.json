@@ -1,0 +1,11 @@
+[
+  {
+    "name": "WFP Pakistan market prices",
+    "file": "wfp_food_prices_pak.csv",
+    "source": "https://data.humdata.org/dataset/wfp-food-prices-for-pakistan",
+    "use": "Observed market-price reference only; not spending-model training.",
+    "limits": "PKR retail observations; no Sukkur/canteen coverage or currency conversion.",
+    "rows": 14345,
+    "sha256": "0297b433b50e5642046a42e45d9c807b0510e45bef40ce7972116344c9bdef2a"
+  }
+]

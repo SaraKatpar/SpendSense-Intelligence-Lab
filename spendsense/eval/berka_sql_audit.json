@@ -1,0 +1,267 @@
+{
+  "source": "CTU Financial MariaDB; remote aggregate inspection, not a complete local transaction export",
+  "schema": {
+    "account": [
+      {
+        "Field": "account_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "PRI",
+        "Default": "0",
+        "Extra": ""
+      },
+      {
+        "Field": "district_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "MUL",
+        "Default": "0",
+        "Extra": ""
+      },
+      {
+        "Field": "frequency",
+        "Type": "varchar(18)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "date",
+        "Type": "date",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      }
+    ],
+    "trans": [
+      {
+        "Field": "trans_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "PRI",
+        "Default": "0",
+        "Extra": ""
+      },
+      {
+        "Field": "account_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "MUL",
+        "Default": "0",
+        "Extra": ""
+      },
+      {
+        "Field": "date",
+        "Type": "date",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "type",
+        "Type": "varchar(6)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "operation",
+        "Type": "varchar(14)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "amount",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "balance",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "k_symbol",
+        "Type": "varchar(11)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "bank",
+        "Type": "varchar(2)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "account",
+        "Type": "int(11) unsigned",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      }
+    ],
+    "order": [
+      {
+        "Field": "order_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "PRI",
+        "Default": "0",
+        "Extra": ""
+      },
+      {
+        "Field": "account_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "MUL",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "bank_to",
+        "Type": "varchar(2)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "account_to",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "amount",
+        "Type": "decimal(6,1)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      },
+      {
+        "Field": "k_symbol",
+        "Type": "varchar(8)",
+        "Null": "NO",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+      }
+    ]
+  },
+  "trans_summary": {
+    "rows_count": 1056320,
+    "distinct_ids": 1056320,
+    "accounts": 4500,
+    "first_date": "1993-01-01",
+    "last_date": "1998-12-31",
+    "operation_null": "183114",
+    "symbol_null": "481881",
+    "bank_null": "782812",
+    "counterparty_null": "760931",
+    "zero_amounts": "162",
+    "negative_amounts": "0",
+    "negative_balances": "2999",
+    "min_amount": 0,
+    "max_amount": 87400
+  },
+  "codes": {
+    "type": [
+      {
+        "value": "PRIJEM",
+        "n": 405083
+      },
+      {
+        "value": "VYBER",
+        "n": 16666
+      },
+      {
+        "value": "VYDAJ",
+        "n": 634571
+      }
+    ],
+    "operation": [
+      {
+        "value": null,
+        "n": 183114
+      },
+      {
+        "value": "PREVOD NA UCET",
+        "n": 208283
+      },
+      {
+        "value": "PREVOD Z UCTU",
+        "n": 65226
+      },
+      {
+        "value": "VKLAD",
+        "n": 156743
+      },
+      {
+        "value": "VYBER",
+        "n": 434918
+      },
+      {
+        "value": "VYBER KARTOU",
+        "n": 8036
+      }
+    ],
+    "k_symbol": [
+      {
+        "value": null,
+        "n": 481881
+      },
+      {
+        "value": " ",
+        "n": 53433
+      },
+      {
+        "value": "DUCHOD",
+        "n": 30338
+      },
+      {
+        "value": "POJISTNE",
+        "n": 18500
+      },
+      {
+        "value": "SANKC. UROK",
+        "n": 1577
+      },
+      {
+        "value": "SIPO",
+        "n": 118065
+      },
+      {
+        "value": "SLUZBY",
+        "n": 155832
+      },
+      {
+        "value": "UROK",
+        "n": 183114
+      },
+      {
+        "value": "UVER",
+        "n": 13580
+      }
+    ]
+  }
+}

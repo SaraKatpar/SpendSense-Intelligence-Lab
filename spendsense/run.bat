@@ -1,0 +1,10 @@
+@echo off
+cd /d "%~dp0"
+if exist "..\.venv\Scripts\python.exe" (
+  "..\.venv\Scripts\python.exe" -m streamlit run app.py
+) else if exist ".venv\Scripts\python.exe" (
+  ".venv\Scripts\python.exe" -m streamlit run app.py
+) else (
+  echo Python environment is missing. Run setup.bat first.
+)
+pause

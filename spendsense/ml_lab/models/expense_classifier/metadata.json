@@ -1,0 +1,38 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "classifier": "LogisticRegression",
+  "best_C": 10.0,
+  "embedding_dimensions": 384,
+  "classes": [
+    "Bills",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Groceries",
+    "Health",
+    "Shopping",
+    "Transport"
+  ],
+  "validation_results": [
+    {
+      "C": 0.01,
+      "validation_macro_f1": 0.6128477506232424
+    },
+    {
+      "C": 0.1,
+      "validation_macro_f1": 0.6063103823155451
+    },
+    {
+      "C": 1.0,
+      "validation_macro_f1": 0.6386259887062926
+    },
+    {
+      "C": 10.0,
+      "validation_macro_f1": 0.6488238028893493
+    }
+  ],
+  "test_accuracy": 0.8618816458622284,
+  "test_macro_f1": 0.8519763908815412,
+  "dataset_type": "synthetic",
+  "evaluation_note": "Held-out starter phrases; not independent real-world data"
+}

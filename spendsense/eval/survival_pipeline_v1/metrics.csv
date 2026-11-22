@@ -1,0 +1,9 @@
+source,unit,model,windows,daily_rows,daily_total_mae,daily_total_rmse,conditional_final_balance_mae,conditional_final_balance_rmse,daily_bias,exhaustion_date_error,exhaustion_date_reason
+household,INR,7day_mean_all_categories,19,266,2897.742717508056,5977.822250341443,25788.37789473684,37529.033916580964,552.3607518796991,,No verified opening balances/actual exhaustion outcomes.
+household,INR,hybrid_proxy_7day,19,266,2592.2525331185107,5715.492631105535,21720.090701754387,28411.227181918697,281.7653759398496,,No verified opening balances/actual exhaustion outcomes.
+household,INR,hybrid_proxy_lstm,19,266,2485.5678204689884,5650.54723669213,22188.39729859469,25550.31953002741,355.7765775591627,,No verified opening balances/actual exhaustion outcomes.
+household,INR,lstm_all_categories,19,266,2471.004963599184,5576.075768808029,20439.810347193667,21809.283174037748,385.1796792763158,,No verified opening balances/actual exhaustion outcomes.
+personal,UNSPECIFIED_SOURCE_UNITS,7day_mean_all_categories,9,126,306.43326530612245,928.8556652513964,3531.28,6298.047879607,102.1471428571429,,No verified opening balances/actual exhaustion outcomes.
+personal,UNSPECIFIED_SOURCE_UNITS,hybrid_proxy_7day,9,126,258.9079977324263,933.2844591990956,3328.1087407407404,6425.0934574337,29.83338624338623,,No verified opening balances/actual exhaustion outcomes.
+personal,UNSPECIFIED_SOURCE_UNITS,hybrid_proxy_lstm,9,126,141.8233292597614,841.3611182437835,1471.9880885478835,3071.382353379628,-100.72041547724815,,No verified opening balances/actual exhaustion outcomes.
+personal,UNSPECIFIED_SOURCE_UNITS,lstm_all_categories,9,126,175.12244910225039,836.674931245317,1365.3383418613012,2779.0518851108964,-42.95254891168501,,No verified opening balances/actual exhaustion outcomes.

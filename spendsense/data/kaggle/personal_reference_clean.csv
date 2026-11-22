@@ -1,0 +1,618 @@
+user_id,date,amount,kind,category,description,merchant,currency
+kaggle_personal_reference_1,2018-01-01,11.11,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-02,24.22,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-05,25.85,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-06,18.45,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-08,45.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-08,15.38,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-10,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-11,34.87,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-11,43.54,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-13,32.91,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-13,39.05,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-15,44.19,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-15,64.11,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-20,50.21,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-22,17.38,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-24,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-25,69.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,30.42,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,25.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,17.62,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-01,27.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-01,11.11,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-03,57.02,Expense,Food,japanese restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-07,65.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-09,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-10,10.66,Expense,Food,bojangles,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-11,106.8,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-12,36.47,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-12,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-14,14.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-15,10.0,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-16,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-20,35.95,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-20,23.51,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-21,2.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-22,4.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-26,85.52,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-26,32.21,Expense,Transport,gas station,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-01,32.07,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-03,23.74,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,10.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,42.24,Expense,Food,bbq restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-05,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-07,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-08,34.9,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-08,52.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,20.72,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,5.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-12,19.35,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-12,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-13,45.75,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-14,22.5,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-14,8.49,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-15,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-17,19.5,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-17,23.34,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-19,36.48,Expense,Food,mediterranean restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-20,14.97,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-22,30.55,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-23,11.76,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-28,16.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-28,24.98,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-29,17.64,Expense,Food,steakhouse,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-30,9.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,38.32,Expense,Food,belgian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,24.74,Expense,Food,chili ' s,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,41.16,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-01,80.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-01,59.48,Expense,Food,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,82.36,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,13.89,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-03,6.41,Expense,Entertainment,amazon video,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-06,4.58,Expense,Transport,chevron,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-06,9.76,Expense,Food,tiny deli,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-08,22.0,Expense,Food,irish pub,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,6.48,Expense,Groceries,blue sky market,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-11,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-12,7.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-12,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-13,37.98,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-13,10.66,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-14,11.61,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-14,41.0,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-16,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-18,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-20,24.22,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-21,4.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-21,35.15,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-22,21.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-23,42.7,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-24,224.7,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-24,41.34,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-25,210.79,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-28,22.98,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,39.0,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,51.05,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,68.47,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-30,5.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-03,49.72,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-04,42.23,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-05,7.27,Expense,Food,bojangles,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-05,20.52,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-06,22.37,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-06,117.69,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-10,111.18,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-11,57.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-11,8000.0,Expense,Other,mike ' s construction co .,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,27.77,Expense,Entertainment,liquor store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,33.3,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,78.0,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-14,67.63,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-17,29.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-18,6.41,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-19,31.0,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-19,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-21,26.04,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-21,32.5,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-24,39.44,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-28,9.62,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-28,91.03,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-29,20.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-29,6.25,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,38.63,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,6.11,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-03,65.81,Expense,Food,italian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,24.12,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-06,4.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-08,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,16.18,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,9.56,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-10,46.01,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-12,12.55,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-12,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-14,7.02,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,22.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,13.9,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-18,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-19,38.52,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-19,2.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-20,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-23,8.5,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-23,74.97,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-26,9.62,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-27,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-27,22.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-28,7.57,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-02,25.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-02,36.44,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-04,34.48,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-05,44.25,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-05,212.32,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-06,6.41,Expense,Entertainment,amazon video,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-10,5.39,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-10,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-11,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-14,33.51,Expense,Transport,go mart,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-15,36.24,Expense,Transport,circle k,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,15.23,Expense,Food,wendy ' s,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-18,28.54,Expense,Entertainment,irish restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-21,28.93,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-21,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-23,9.58,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-24,26.59,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-26,33.67,Expense,Transport,conoco,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-28,7.61,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-30,34.38,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-31,6.6,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-02,40.44,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-03,6.27,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-06,76.47,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-10,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-11,13.67,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-11,33.66,Expense,Transport,valero,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,41.07,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-17,14.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-18,23.47,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-24,42.31,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-27,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-30,35.65,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-31,11.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-01,47.4,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-02,109.83,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-04,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-07,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-09,18.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-11,38.86,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-11,7.87,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-12,47.16,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-12,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-13,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,10.17,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,8.8,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-18,4.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-18,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-19,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-20,47.38,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-22,69.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-22,6.83,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-25,48.64,Expense,Food,sushi restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-26,5.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-26,38.0,Expense,Transport,exxon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-27,40.71,Expense,Transport,valero,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-28,13.36,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-29,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-29,46.7,Expense,Food,german restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,15.66,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-02,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-06,27.0,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,38.06,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,80.65,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,31.2,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,19.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-10,53.68,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-11,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,33.55,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,45.24,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-22,34.66,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-23,7.57,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-25,29.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-27,25.4,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,12.71,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,14.75,Expense,Food,seafood restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,92.49,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,54.0,Expense,Food,italian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-31,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-02,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-03,23.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-05,36.51,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-06,53.95,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-06,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-08,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-10,27.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-10,14.19,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-10,24.4,Expense,Groceries,food truck,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-12,10.18,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-12,22.33,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,4.8,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,37.43,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,10.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,89.54,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-14,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,22.8,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,15.47,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,6.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-19,20.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-19,29.15,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-19,10.02,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-21,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-21,37.41,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-26,16.8,Expense,Entertainment,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-27,17.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-27,28.4,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-30,6.27,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,30.03,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,148.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,20.65,Expense,Food,latin restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,21.38,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,13.48,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,40.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-07,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-08,12.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-11,10.29,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-12,89.54,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-13,27.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,21.39,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,17.1,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-17,63.0,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-17,20.01,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,56.52,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,49.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,41.72,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,24.3,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-19,43.01,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-20,30.38,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-22,21.38,Expense,Food,new york deli,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-22,22.14,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-23,28.0,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-24,38.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,56.07,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,32.47,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,7.48,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,75.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,44.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-28,12.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-29,14.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-29,55.04,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-03,42.1,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-05,23.49,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-08,45.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,58.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-14,28.92,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-15,6.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,21.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,11.7,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,4.21,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-31,31.32,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-01,9.47,Expense,Food,roadside diner,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-04,86.97,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-05,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-07,65.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-08,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-08,27.47,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-11,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-11,24.01,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-12,30.54,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-13,8.21,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-15,4.59,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-16,8.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-16,32.75,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-16,37.45,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-20,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-21,46.96,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-25,33.8,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-27,25.77,Expense,Food,roadside diner,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-28,32.07,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,92.04,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-05,7.0,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,34.08,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,27.17,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,49.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-12,3.02,Expense,Food,bakery place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-14,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-18,320.99,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-18,16.23,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-19,13.84,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-22,37.51,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-23,5.2,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-26,16.04,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-27,49.63,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-27,4.46,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-30,12.84,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,35.9,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-06,27.54,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-08,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,10.7,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-12,44.93,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-12,41.34,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,38.94,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,16.87,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,20.64,Expense,Food,vietnamese restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-19,10.89,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-22,14.4,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-22,64.52,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-23,29.56,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-27,40.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-27,14.74,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-29,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-30,39.08,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-06,16.94,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-07,38.56,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,331.69,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,3.2,Expense,Shopping,target,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-10,21.39,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,35.24,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,98.19,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,23.11,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-14,2.02,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-20,32.53,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-24,27.96,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-24,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-25,36.76,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-25,30.99,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-27,34.33,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-30,34.82,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-03,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-04,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-05,23.0,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-05,23.24,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-06,3.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-06,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-07,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-14,10.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-15,33.16,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-18,15.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-18,41.83,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-20,9200.0,Expense,Other,mike ' s construction co .,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-24,15.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-28,30.64,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,7.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,99.47,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,24.97,Expense,Food,hawaiian grill,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,24.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-02,229.9,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-05,19.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-06,92.98,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-06,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-07,103.14,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-10,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-15,87.14,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-16,89.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,36.42,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,29.83,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,8.82,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-19,28.0,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-22,26.67,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-24,2.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-27,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-28,44.31,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-29,5.35,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-29,44.92,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-30,15.77,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-03,36.36,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-03,3.96,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-03,23.47,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-05,18.0,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-06,125.0,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-08,11.72,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-12,26.67,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-14,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-17,33.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-17,19.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-17,3.5,Expense,Food,american tavern,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-20,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-21,34.69,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-23,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-25,39.43,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-26,66.75,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-29,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-30,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-31,68.04,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-31,41.78,Expense,Food,bbq restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-03,41.24,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-05,3.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-07,12.87,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-08,19.3,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,28.77,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,65.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,26.25,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-11,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-13,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-14,46.44,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-15,47.66,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-19,40.81,Expense,Entertainment,brewing company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-19,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-22,131.1,Expense,Food,seafood restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-23,27.71,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-23,24.63,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-28,33.46,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-28,4.27,Expense,Transport,sheetz,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-30,1.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS

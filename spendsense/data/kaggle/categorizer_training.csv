@@ -1,0 +1,2423 @@
+user_id,date,amount,kind,category,description,merchant,currency
+household_1,2018-09-20,30.0,Expense,Transport,2 place 5 to place 0,,INR
+household_1,2018-09-20,60.0,Expense,Food,idli medu vada mix 2 plates,,INR
+household_1,2018-09-19,199.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2018-09-17,19.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-09-16,251.0,Expense,Other,ganesh idol,,INR
+household_1,2018-09-15,200.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-09-14,50.0,Expense,Transport,place 2 station to permanent residence,,INR
+household_1,2018-09-13,40.0,Expense,Transport,2 place 0 to place 3,,INR
+household_1,2018-09-13,83.0,Expense,Other,hbr 2 months subscription,,INR
+household_1,2018-09-13,46.0,Expense,Food,1kg atta,,INR
+household_1,2018-09-12,667.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-09-11,650.0,Expense,Food,home food delivery,,INR
+household_1,2018-09-11,3500.0,Income,Other,from family,,INR
+household_1,2018-09-11,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-09-10,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-09-07,37.0,Expense,Food,half lit milk,,INR
+household_1,2018-09-05,77.0,Expense,Shopping,11 clothes ironing,,INR
+household_1,2018-09-05,30.0,Expense,Food,chinese bhel,,INR
+household_1,2018-09-05,40.0,Expense,Food,shev puri,,INR
+household_1,2018-09-05,24.0,Expense,Food,2 kachori,,INR
+household_1,2018-09-05,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-09-05,18.0,Expense,Food,bread,,INR
+household_1,2018-08-31,118.0,Expense,Other,farewell contribution,,INR
+household_1,2018-08-31,510.85,Expense,Food,domino ' s pizza,,INR
+household_1,2018-08-31,70255.0,Income,Other,from workplace,,INR
+household_1,2018-08-31,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-30,78.0,Expense,Food,warna srikhand pav kg,,INR
+household_1,2018-08-30,343.0,Expense,Groceries,supermart,,INR
+household_1,2018-08-29,27.0,Expense,Food,baking soda,,INR
+household_1,2018-08-29,15.0,Expense,Food,chocobar,,INR
+household_1,2018-08-29,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-28,6.75,Income,Other,astral stocks,,INR
+household_1,2018-08-28,18.0,Income,Other,reliance stocks,,INR
+household_1,2018-08-27,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2018-08-27,60.0,Expense,Food,2 plates poha,,INR
+household_1,2018-08-27,45.0,Expense,Food,khari packet,,INR
+household_1,2018-08-27,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-26,30.0,Income,Other,interest paid,,INR
+household_1,2018-08-25,91.0,Expense,Shopping,13 clothes ironing,,INR
+household_1,2018-08-24,1120.0,Expense,Food,home food delivery,,INR
+household_1,2018-08-24,1000.0,Income,Other,from family,,INR
+household_1,2018-08-24,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-24,1000.0,Expense,Other,ganpati + navratri vargani,,INR
+household_1,2018-08-23,1305.4,Expense,Transport,2 place 2 to place 3 : sevagram express 3ac,,INR
+household_1,2018-08-23,1205.4,Expense,Transport,2 place 3 to place 2 : amritsar express 3ac,,INR
+household_1,2018-08-23,60.0,Expense,Food,catering service,,INR
+household_1,2018-08-22,37.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-21,12.0,Expense,Food,cutting chai,,INR
+household_1,2018-08-21,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-19,199.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2018-08-17,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2018-08-17,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-08-17,22.0,Income,Other,pidilite stocks,,INR
+household_1,2018-08-16,157.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-08-15,290.0,Expense,Food,warna srikhand half kg,,INR
+household_1,2018-08-15,216.0,Expense,Food,m d sure 4kg atta,,INR
+household_1,2018-08-14,124.0,Income,Other,itc stocks,,INR
+household_1,2018-08-14,32.0,Expense,Food,dahi,,INR
+household_1,2018-08-14,160.0,Expense,Groceries,toothpaste patanjali,,INR
+household_1,2018-08-14,56.0,Expense,Shopping,8 clothes ironing,,INR
+household_1,2018-08-14,115.0,Expense,Food,vanila family pack,,INR
+household_1,2018-08-13,100.0,Expense,Groceries,5 litres can distilled water,,INR
+household_1,2018-08-13,220.0,Expense,Groceries,brass puja plate and diva,,INR
+household_1,2018-08-13,45.0,Expense,Food,half kg lahsoon,,INR
+household_1,2018-08-13,594.0,Expense,Groceries,supermart,,INR
+household_1,2018-08-13,10.0,Expense,Food,vanila cup,,INR
+household_1,2018-08-13,20.0,Expense,Food,chocobar,,INR
+household_1,2018-08-11,96.0,Expense,Food,8 kachori,,INR
+household_1,2018-08-06,100.0,Expense,Shopping,hair cut,,INR
+household_1,2018-08-05,10.0,Expense,Food,cutting chai,,INR
+household_1,2018-08-05,4300.0,Expense,Health,eyewear glasses payment remaining,,INR
+household_1,2018-08-05,3410.0,Expense,Shopping,for family,,INR
+household_1,2018-08-05,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-08-05,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2018-08-05,398.0,Expense,Other,bows,,INR
+household_1,2018-08-03,100.0,Income,Other,from family,,INR
+household_1,2018-08-03,180.0,Income,Other,redington stocks,,INR
+household_1,2018-08-02,18.0,Expense,Groceries,supermart,,INR
+household_1,2018-08-02,216.0,Expense,Food,m d sure 4kg atta,,INR
+household_1,2018-08-02,1000.0,Expense,Health,eyewear glasses advance,,INR
+household_1,2018-07-31,91.0,Expense,Shopping,13 clothes ironing,,INR
+household_1,2018-07-31,2000.0,Expense,Bills,july salary,,INR
+household_1,2018-07-31,10.0,Expense,Food,10 melody,,INR
+household_1,2018-07-31,70255.0,Income,Other,from workplace,,INR
+household_1,2018-07-30,100.0,Expense,Health,glucose d ( 50 ) + flora bc ( 40 )+ cyra 20 ( 10 ),,INR
+household_1,2018-07-30,212.0,Expense,Food,catering service,,INR
+household_1,2018-07-30,25.0,Expense,Food,1 plates poha,,INR
+household_1,2018-07-29,260.0,Expense,Food,paneer pizza,,INR
+household_1,2018-07-29,50.0,Expense,Transport,decathlon place a to place a station,,INR
+household_1,2018-07-29,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2018-07-29,40.0,Expense,Transport,2 place 0 to place a returns,,INR
+household_1,2018-07-29,105.0,Expense,Food,medu vada 3 plate,,INR
+household_1,2018-07-28,481.36,Expense,Entertainment,2 inox,,INR
+household_1,2018-07-28,3750.0,Expense,Groceries,supermart,,INR
+household_1,2018-07-27,826.0,Expense,Other,demat account charges,,INR
+household_1,2018-07-26,40.0,Expense,Food,toast packet,,INR
+household_1,2018-07-23,154.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2018-07-23,100.0,Expense,Food,4 plates poha,,INR
+household_1,2018-07-21,368.0,Expense,Groceries,supermart,,INR
+household_1,2018-07-21,30.0,Expense,Food,khajur pav kg,,INR
+household_1,2018-07-21,60.0,Expense,Food,2 bhajipav + 2 vadapav,,INR
+household_1,2018-07-21,45.0,Expense,Food,toast packet,,INR
+household_1,2018-07-20,20.0,Expense,Food,chocobar,,INR
+household_1,2018-07-20,25.0,Expense,Food,potato 1kg,,INR
+household_1,2018-07-20,25.0,Expense,Food,onion 1 kg,,INR
+household_1,2018-07-20,155.0,Expense,Transport,ola cab - eye institute to current residence chs,,INR
+household_1,2018-07-20,87.0,Expense,Health,cataract medicine,,INR
+household_1,2018-07-20,1048.0,Expense,Health,cataract medicine,,INR
+household_1,2018-07-19,40.0,Expense,Food,dahi 4 packets,,INR
+household_1,2018-07-18,216.0,Expense,Food,m d sure 4kg atta,,INR
+household_1,2018-07-16,84.0,Expense,Shopping,12 clothes ironing,,INR
+household_1,2018-07-16,1190.0,Expense,Groceries,sony wi - c100 earphones wireless,,INR
+household_1,2018-07-16,84.0,Expense,Food,7 kachori,,INR
+household_1,2018-07-15,48.0,Expense,Food,4 kachori,,INR
+household_1,2018-07-14,2000.0,Expense,Other,ca - income tax filing,,INR
+household_1,2018-07-13,188.0,Expense,Transport,ola cab - eye institute to current residence chs,,INR
+household_1,2018-07-13,1358.0,Expense,Health,cataract medicine,,INR
+household_1,2018-07-12,35.0,Expense,Food,6 eggs,,INR
+household_1,2018-07-11,57.0,Expense,Food,2 bread packets,,INR
+household_1,2018-07-10,180.0,Income,Other,tata steel stocks,,INR
+household_1,2018-07-09,360.0,Expense,Transport,3 . 4 lit petrol,,INR
+household_1,2018-07-09,20.0,Expense,Food,toast packet,,INR
+household_1,2018-07-09,60.0,Expense,Food,shev bhaji sev pav kg,,INR
+household_1,2018-07-08,185.0,Expense,Transport,ola cab - eye institute to current residence chs,,INR
+household_1,2018-07-08,30.0,Expense,Food,3 cutting chai,,INR
+household_1,2018-07-08,153.0,Expense,Health,eye drop,,INR
+household_1,2018-07-08,500.0,Expense,Health,hospital consultation,,INR
+household_1,2018-07-08,130.0,Expense,Transport,ola cab - current residence chs to eye institute,,INR
+household_1,2018-07-08,675.0,Expense,Transport,to and fro cab fare contribution,,INR
+household_1,2018-07-07,10.0,Expense,Transport,place 4 to place 0,,INR
+household_1,2018-07-07,2.0,Expense,Food,at restaurant,,INR
+household_1,2018-07-06,760.0,Expense,Food,at restaurant,,INR
+household_1,2018-07-06,100.0,Expense,Transport,park inn goa,,INR
+household_1,2018-07-05,83.0,Expense,Transport,terminal 1 to terminal 2,,INR
+household_1,2018-07-05,7.0,Expense,Food,cutting chai,,INR
+household_1,2018-07-05,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2018-07-05,20.0,Expense,Transport,place 0 to place p,,INR
+household_1,2018-07-04,100.0,Expense,Health,doctor fees,,INR
+household_1,2018-07-04,50.0,Expense,Shopping,shaving,,INR
+household_1,2018-07-04,1440.0,Expense,Health,2 thyroid ( 1000 ) + cholesterol ( 220 ) + uric acid ( 220 ),,INR
+household_1,2018-07-03,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-07-03,154.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2018-07-03,52.5,Income,Other,infosys stocks,,INR
+household_1,2018-07-02,1595.0,Expense,Groceries,supermart,,INR
+household_1,2018-07-02,50.0,Expense,Transport,place 1 bridge to current residence 2 seats,,INR
+household_1,2018-07-02,20.0,Expense,Transport,2 place 6 stand to ms,,INR
+household_1,2018-07-02,626.0,Expense,Groceries,face towels + shampoo,,INR
+household_1,2018-07-02,26.0,Expense,Transport,2 place 1 to mall,,INR
+household_1,2018-07-02,40.0,Expense,Transport,current residence to place 1 bus stop highway,,INR
+household_1,2018-07-01,461.0,Expense,Entertainment,2 pvr,,INR
+household_1,2018-07-01,1890.0,Expense,Transport,2 place 2 to place 1 - shree sharma travels,,INR
+household_1,2018-07-01,15.0,Expense,Food,vadapav,,INR
+household_1,2018-07-01,430.0,Expense,Shopping,undergarments pair of jockey,,INR
+household_1,2018-07-01,98.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-07-01,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-06-30,1200.0,Expense,Groceries,aqugurad prv,,INR
+household_1,2018-06-30,43.0,Income,Other,asian paints stocks,,INR
+household_1,2018-06-30,342.0,Income,Other,interest paid,,INR
+household_1,2018-06-30,65122.0,Income,Other,from workplace,,INR
+household_1,2018-06-29,44.0,Income,Other,hul stocks,,INR
+household_1,2018-06-29,70.0,Expense,Groceries,tulsi plant + pot,,INR
+household_1,2018-06-29,50.0,Expense,Groceries,math tap repair,,INR
+household_1,2018-06-29,270.0,Expense,Groceries,3 bulbs 3 pencil cells,,INR
+household_1,2018-06-28,455.0,Expense,Food,home food delivery,,INR
+household_1,2018-06-28,70.0,Expense,Food,bhaji + vadapav + kachori + tea,,INR
+household_1,2018-06-28,228.0,Expense,Transport,vadala road to nehru planetarium,,INR
+household_1,2018-06-28,64.82,Expense,Shopping,mast & harbour slides,,INR
+household_1,2018-06-27,308.85,Expense,Transport,planetarium,,INR
+household_1,2018-06-27,3000.0,Income,Other,from family,,INR
+household_1,2018-06-27,14.0,Expense,Food,2 cups,,INR
+household_1,2018-06-27,100.0,Expense,Groceries,mobile cover real mi note pro,,INR
+household_1,2018-06-27,4720.0,Expense,Other,shopping at alfa,,INR
+household_1,2018-06-27,100.0,Expense,Groceries,mouse pad,,INR
+household_1,2018-06-27,450.0,Expense,Shopping,purse,,INR
+household_1,2018-06-27,550.0,Expense,Shopping,rainy season chappal,,INR
+household_1,2018-06-27,25.0,Expense,Transport,place p station to alfa market,,INR
+household_1,2018-06-27,80.0,Expense,Transport,2 place 0 to place p return,,INR
+household_1,2018-06-27,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2018-06-26,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2018-06-26,1990.0,Expense,Groceries,supermart,,INR
+household_1,2018-06-26,13050.0,Expense,Groceries,aqugurad water purifier,,INR
+household_1,2018-06-26,70.0,Expense,Groceries,umbrella handle repair,,INR
+household_1,2018-06-26,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-06-26,20.0,Expense,Food,2 cutting chai,,INR
+household_1,2018-06-26,30.0,Expense,Food,bhaji + vadapav,,INR
+household_1,2018-06-25,320.0,Expense,Food,home food delivery,,INR
+household_1,2018-06-25,2074.0,Expense,Groceries,smart point,,INR
+household_1,2018-06-24,40.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2018-06-24,18.0,Expense,Food,bread,,INR
+household_1,2018-06-24,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-06-24,211.75,Expense,Health,suppliemnts,,INR
+household_1,2018-06-24,30.0,Expense,Transport,2 place 5 to place 0,,INR
+household_1,2018-06-24,157.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-06-24,60.0,Expense,Food,2 vadapav 2 samosa pav,,INR
+household_1,2018-06-23,2545.0,Expense,Entertainment,annual recharge,,INR
+household_1,2018-06-22,181.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-06-19,25.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-06-18,15.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-06-15,15.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-06-15,1213.6,Expense,Transport,2cc place 2 to ddr spl train,,INR
+household_1,2018-06-11,84.0,Expense,Food,12 eggs,,INR
+household_1,2018-06-11,1407.0,Expense,Other,marathon,,INR
+household_1,2018-06-10,3000.0,Expense,Groceries,sofa covers,,INR
+household_1,2018-06-09,667.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-31,65134.0,Income,Other,from workplace,,INR
+household_1,2018-05-30,88.0,Income,Other,hdfc stocks,,INR
+household_1,2018-05-28,25.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-28,100.0,Expense,Shopping,hair cut,,INR
+household_1,2018-05-27,28.0,Income,Other,interest paid,,INR
+household_1,2018-05-27,75.0,Expense,Groceries,soap + dahya pav kg,,INR
+household_1,2018-05-26,50.0,Expense,Transport,permanent residence to motor driving school,,INR
+household_1,2018-05-24,667.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-23,166.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-05-22,154.0,Expense,Health,2 all out refill,,INR
+household_1,2018-05-20,122.0,Expense,Other,"soap , shampoo , razor",,INR
+household_1,2018-05-19,15.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-18,301.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-15,135.0,Expense,Food,cookies & cream family pack,,INR
+household_1,2018-05-15,30.0,Expense,Transport,within city,,INR
+household_1,2018-05-15,21500.0,Expense,Groceries,lg washing machine,,INR
+household_1,2018-05-15,50.0,Expense,Transport,permanent residence to gh road,,INR
+household_1,2018-05-14,301.0,Expense,Entertainment,data booster pack,,INR
+household_1,2018-05-14,40.0,Expense,Other,digilock room charges,,INR
+household_1,2018-05-14,50.0,Expense,Transport,place 2 station to permanent residence,,INR
+household_1,2018-05-14,15.0,Expense,Food,potato chips,,INR
+household_1,2018-05-14,1250.0,Expense,Food,2 dozens mango + 1kg litchi,,INR
+household_1,2018-05-14,40.0,Expense,Transport,2 place 0 to place 3,,INR
+household_1,2018-05-14,40.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2018-05-13,77.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-05-13,12.0,Expense,Education,gel pen refills,,INR
+household_1,2018-05-12,437.0,Expense,Food,domino ' s pizza,,INR
+household_1,2018-05-12,70.0,Expense,Food,catering service,,INR
+household_1,2018-05-12,48.0,Expense,Food,4 kachori,,INR
+household_1,2018-05-12,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-05-11,20.0,Expense,Food,1 packet,,INR
+household_1,2018-05-10,80.0,Expense,Food,2 faluda,,INR
+household_1,2018-05-10,947.0,Income,Other,neft from big share services,,INR
+household_1,2018-05-09,12.0,Expense,Entertainment,mata + toi + et,,INR
+household_1,2018-05-09,45.0,Expense,Food,toast packet,,INR
+household_1,2018-05-09,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-05-08,500.0,Expense,Food,kaju katli half kg,,INR
+household_1,2018-05-08,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-05-08,50.0,Expense,Shopping,shaving,,INR
+household_1,2018-05-07,1086.0,Expense,Groceries,handwash container2 + window cleaner,,INR
+household_1,2018-05-07,20.0,Expense,Transport,mall parking,,INR
+household_1,2018-05-07,430.0,Expense,Food,home food delivery,,INR
+household_1,2018-05-07,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-05-06,3000.0,Income,Other,from family,,INR
+household_1,2018-05-04,37.0,Expense,Groceries,supermart,,INR
+household_1,2018-05-04,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-05-03,40.0,Expense,Food,bhaji + vadapav,,INR
+household_1,2018-05-02,280.0,Expense,Food,mango 1 . 5 kg,,INR
+household_1,2018-05-01,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-05-01,43.0,Expense,Health,itone eye drops,,INR
+household_1,2018-05-01,122.0,Expense,Health,refresh tears drop,,INR
+household_1,2018-04-30,72.0,Expense,Food,6 kachori,,INR
+household_1,2018-04-30,165.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-30,176.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2018-04-30,45.0,Expense,Food,toast packet,,INR
+household_1,2018-04-30,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-30,500.0,Expense,Other,to family,,INR
+household_1,2018-04-29,40.0,Expense,Food,2 sugarcane juice,,INR
+household_1,2018-04-29,65134.0,Income,Other,from workplace,,INR
+household_1,2018-04-28,413.0,Expense,Food,home food delivery,,INR
+household_1,2018-04-27,295.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-26,30.0,Expense,Food,noodles packet,,INR
+household_1,2018-04-26,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-25,70.0,Expense,Food,catering service,,INR
+household_1,2018-04-24,157.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-04-23,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-04-22,190.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-22,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-21,160.0,Expense,Food,naturals,,INR
+household_1,2018-04-21,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2018-04-20,70.0,Expense,Food,sugaran kitchen,,INR
+household_1,2018-04-19,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-04-19,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-17,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-16,21.0,Expense,Education,3 pens,,INR
+household_1,2018-04-16,63.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-04-16,270.0,Expense,Groceries,cockroach injection,,INR
+household_1,2018-04-16,265.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-16,450.0,Expense,Groceries,smart point,,INR
+household_1,2018-04-15,70.0,Expense,Food,pav bhaji,,INR
+household_1,2018-04-15,20.0,Expense,Food,2 cutting chai,,INR
+household_1,2018-04-15,799.0,Expense,Groceries,"vessels for sugar , coffee and tea",,INR
+household_1,2018-04-15,525.0,Expense,Other,body mist,,INR
+household_1,2018-04-15,10.0,Expense,Transport,station parking,,INR
+household_1,2018-04-15,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-04-15,70.0,Expense,Food,catering service,,INR
+household_1,2018-04-14,107.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-14,40.0,Expense,Food,pizza base packet 2,,INR
+household_1,2018-04-14,45.0,Expense,Food,khari packet,,INR
+household_1,2018-04-14,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-13,700.0,Expense,Health,family thyroid test + cbc,,INR
+household_1,2018-04-12,20.0,Expense,Food,pattice,,INR
+household_1,2018-04-12,130.0,Expense,Food,catering service,,INR
+household_1,2018-04-10,18.0,Expense,Food,bread,,INR
+household_1,2018-04-10,70.0,Expense,Food,catering service,,INR
+household_1,2018-04-10,250.0,Expense,Other,farewell contribution,,INR
+household_1,2018-04-09,10.0,Expense,Food,ginger,,INR
+household_1,2018-04-09,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-07,1857.0,Expense,Groceries,supermart,,INR
+household_1,2018-04-07,24.0,Expense,Groceries,pav kg chana dal,,INR
+household_1,2018-04-07,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-04-05,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-04-05,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-04-05,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-04-05,130.0,Expense,Food,catering service,,INR
+household_1,2018-04-02,20.0,Expense,Transport,mall parking,,INR
+household_1,2018-04-02,149.0,Expense,Groceries,window cleaner,,INR
+household_1,2018-04-02,24.0,Expense,Food,pav kg lahsoon,,INR
+household_1,2018-04-02,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2018-04-02,36.0,Expense,Food,onion 2 kg,,INR
+household_1,2018-04-01,345.0,Income,Other,interest paid,,INR
+household_1,2018-04-01,5.9,Expense,Other,atm charge,,INR
+household_1,2018-04-01,24.78,Expense,Other,atm charge,,INR
+household_1,2018-04-01,345.15,Income,Other,interest paid,,INR
+household_1,2018-04-01,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-03-31,45.0,Expense,Food,2 chocobar,,INR
+household_1,2018-03-31,244.0,Expense,Food,home food delivery,,INR
+household_1,2018-03-31,64636.0,Income,Other,from workplace,,INR
+household_1,2018-03-31,419.0,Expense,Food,domino ' s pizza,,INR
+household_1,2018-03-31,10.0,Expense,Transport,station parking,,INR
+household_1,2018-03-31,589.0,Income,Other,interest paid,,INR
+household_1,2018-03-31,30.0,Expense,Transport,place 0 to sion returns,,INR
+household_1,2018-03-30,25.0,Expense,Food,1 panipuri,,INR
+household_1,2018-03-30,20.0,Expense,Food,ginger + green chilli,,INR
+household_1,2018-03-30,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-03-29,1234.0,Expense,Food,at restaurant,,INR
+household_1,2018-03-27,35.0,Expense,Food,bread,,INR
+household_1,2018-03-26,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-03-26,157.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-03-25,40.5,Income,Other,marico stocks,,INR
+household_1,2018-03-25,10.0,Expense,Transport,station parking,,INR
+household_1,2018-03-25,25.0,Expense,Food,popcorn family pack,,INR
+household_1,2018-03-25,20.0,Expense,Food,2 tea,,INR
+household_1,2018-03-25,160.0,Expense,Food,2 frankie,,INR
+household_1,2018-03-25,80.0,Expense,Food,french crossiant,,INR
+household_1,2018-03-25,240.0,Expense,Food,ikea tea 3,,INR
+household_1,2018-03-23,100.0,Expense,Entertainment,finding next job,,INR
+household_1,2018-03-22,7.0,Expense,Food,1 kg bajari,,INR
+household_1,2018-03-22,15.0,Expense,Food,half kg tomato,,INR
+household_1,2018-03-22,153.0,Expense,Groceries,supermart,,INR
+household_1,2018-03-22,150.0,Expense,Food,pickle,,INR
+household_1,2018-03-22,150.0,Expense,Food,potato chips,,INR
+household_1,2018-03-22,20.0,Expense,Food,1 packet,,INR
+household_1,2018-03-22,72.0,Expense,Food,milk 1lit,,INR
+household_1,2018-03-21,24.0,Expense,Food,2 kachori,,INR
+household_1,2018-03-21,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-03-20,246.0,Expense,Food,2 fried rice,,INR
+household_1,2018-03-20,215.75,Expense,Food,chicken lollypop 8 pcs,,INR
+household_1,2018-03-20,18.0,Expense,Food,bread,,INR
+household_1,2018-03-20,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-03-20,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-18,10.0,Expense,Transport,station parking,,INR
+household_1,2018-03-18,15.0,Expense,Food,dabeli,,INR
+household_1,2018-03-18,799.0,Expense,Other,trouser,,INR
+household_1,2018-03-18,498.0,Expense,Other,belt + bow,,INR
+household_1,2018-03-18,50.0,Expense,Food,papad packet,,INR
+household_1,2018-03-18,30.0,Expense,Food,1 panipuri,,INR
+household_1,2018-03-18,10.0,Expense,Food,cutting chai,,INR
+household_1,2018-03-18,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-03-17,30.0,Expense,Food,catering service,,INR
+household_1,2018-03-17,37.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-15,60.0,Expense,Food,catering service,,INR
+household_1,2018-03-15,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-14,140.0,Expense,Groceries,mayonnaise + cheese cubes,,INR
+household_1,2018-03-14,40.0,Expense,Food,onion 2 kg,,INR
+household_1,2018-03-14,578.0,Expense,Food,domino ' s pizza,,INR
+household_1,2018-03-13,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-12,1293.0,Expense,Transport,2 place 3 to place 2 : sevagram express 3ac,,INR
+household_1,2018-03-10,300.0,Expense,Groceries,mosquito racket,,INR
+household_1,2018-03-10,72.0,Expense,Food,1 lit,,INR
+household_1,2018-03-10,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-08,91.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-03-08,40.0,Expense,Food,flatbread 12 pcs,,INR
+household_1,2018-03-08,500.0,Income,Other,from family,,INR
+household_1,2018-03-08,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-03-08,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-07,20.0,Expense,Other,holi tip to cleaner,,INR
+household_1,2018-03-07,30.0,Expense,Food,2 vadapav,,INR
+household_1,2018-03-06,172.0,Expense,Health,thyroid tablets,,INR
+household_1,2018-03-06,22.0,Expense,Health,5 meftal spas,,INR
+household_1,2018-03-06,3500.0,Income,Other,from family,,INR
+household_1,2018-03-06,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-06,50.0,Expense,Education,aadhar puc card delivery,,INR
+household_1,2018-03-05,20.0,Expense,Food,chocobar,,INR
+household_1,2018-03-05,162.0,Expense,Food,m d sure 3kg atta,,INR
+household_1,2018-03-05,1357.0,Expense,Groceries,supermart,,INR
+household_1,2018-03-05,972.0,Expense,Groceries,smart point,,INR
+household_1,2018-03-05,10.0,Expense,Other,blanket sewing,,INR
+household_1,2018-03-04,130.0,Expense,Food,catering service,,INR
+household_1,2018-03-03,78.0,Income,Other,itc stocks,,INR
+household_1,2018-03-03,36.0,Expense,Food,half lit milk,,INR
+household_1,2018-03-02,15.0,Expense,Food,chocobar,,INR
+household_1,2018-03-01,189.0,Expense,Food,domino ' s pizza,,INR
+household_1,2018-03-01,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-02-28,45.0,Expense,Food,khari packet,,INR
+household_1,2018-02-28,36.0,Expense,Food,half lit varna milk,,INR
+household_1,2018-02-28,30.0,Expense,Food,onion 1 kg,,INR
+household_1,2018-02-28,18.0,Expense,Food,potato 1kg,,INR
+household_1,2018-02-28,64556.0,Income,Other,from workplace,,INR
+household_1,2018-02-27,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-02-27,30.0,Expense,Food,5 chapati,,INR
+household_1,2018-02-26,73.0,Expense,Food,1 lit,,INR
+household_1,2018-02-26,140.0,Expense,Groceries,mirror repair,,INR
+household_1,2018-02-26,443.0,Expense,Transport,first servicing,,INR
+household_1,2018-02-26,17.0,Expense,Food,chaas,,INR
+household_1,2018-02-24,40.0,Expense,Food,flatbread 12 pcs,,INR
+household_1,2018-02-23,128.0,Expense,Health,refresh tears drop,,INR
+household_1,2018-02-23,20.0,Expense,Food,1 packet,,INR
+household_1,2018-02-23,72.0,Expense,Food,1 lit,,INR
+household_1,2018-02-22,157.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-02-22,20.0,Expense,Food,limca,,INR
+household_1,2018-02-22,20.0,Expense,Food,onion 1 kg,,INR
+household_1,2018-02-22,192.0,Expense,Food,catering service,,INR
+household_1,2018-02-20,2600.0,Expense,Groceries,kitchen fan + installation + repair,,INR
+household_1,2018-02-19,170.0,Income,Other,from family,,INR
+household_1,2018-02-19,170.0,Expense,Shopping,hair cut + shaving,,INR
+household_1,2018-02-19,72.0,Expense,Food,1 lit,,INR
+household_1,2018-02-19,24.0,Expense,Food,2 kachori,,INR
+household_1,2018-02-17,1783.0,Expense,Food,bbq,,INR
+household_1,2018-02-17,20.0,Expense,Transport,mall parking,,INR
+household_1,2018-02-17,30.0,Expense,Food,5 chapati,,INR
+household_1,2018-02-16,45.0,Expense,Food,banana chips,,INR
+household_1,2018-02-16,45.0,Expense,Food,khari packet,,INR
+household_1,2018-02-16,72.0,Expense,Food,1 lit,,INR
+household_1,2018-02-15,35.0,Expense,Food,chocobar,,INR
+household_1,2018-02-15,30.0,Expense,Food,half kg tomato + methi 1 judi,,INR
+household_1,2018-02-15,117.0,Expense,Groceries,supermart,,INR
+household_1,2018-02-14,60.0,Expense,Food,1 chicken shawarma,,INR
+household_1,2018-02-13,25.0,Expense,Food,potato 1kg,,INR
+household_1,2018-02-13,35.0,Expense,Food,bread,,INR
+household_1,2018-02-13,72.0,Expense,Food,amul cheese,,INR
+household_1,2018-02-13,72.0,Expense,Food,1 lit,,INR
+household_1,2018-02-12,36.0,Expense,Food,6 eggs,,INR
+household_1,2018-02-12,30.0,Expense,Food,3 packets,,INR
+household_1,2018-02-12,162.0,Expense,Food,m d sure 3kg atta,,INR
+household_1,2018-02-11,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2018-02-11,235.0,Expense,Food,pav bhaji,,INR
+household_1,2018-02-11,15.0,Expense,Food,vadapav,,INR
+household_1,2018-02-11,40.0,Expense,Transport,place 0 to place 3 returns,,INR
+household_1,2018-02-11,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2018-02-10,69.0,Expense,Food,1 lit,,INR
+household_1,2018-02-09,98.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-02-08,35.0,Expense,Food,shev puri,,INR
+household_1,2018-02-08,25.0,Expense,Food,onion 1 kg,,INR
+household_1,2018-02-08,69.0,Expense,Food,1 lit,,INR
+household_1,2018-02-06,312.0,Expense,Entertainment,2 pvr place 6,,INR
+household_1,2018-02-05,220.0,Expense,Food,raw chicken half kg,,INR
+household_1,2018-02-05,45.0,Expense,Food,khari packet,,INR
+household_1,2018-02-05,69.0,Expense,Food,1 packet,,INR
+household_1,2018-02-04,452.0,Expense,Food,domino ' s pizza,,INR
+household_1,2018-02-04,50.0,Expense,Food,catering service,,INR
+household_1,2018-02-04,35.0,Expense,Food,half lit milk,,INR
+household_1,2018-02-03,10.0,Expense,Food,chocobar,,INR
+household_1,2018-02-03,945.0,Expense,Transport,place 2 to place 1 - shree sharma travels,,INR
+household_1,2018-02-02,82.0,Expense,Food,catering service,,INR
+household_1,2018-02-01,30.0,Expense,Food,8 bananas,,INR
+household_1,2018-02-01,15.0,Expense,Food,half kg tomato,,INR
+household_1,2018-01-31,320.0,Expense,Food,at restaurant,,INR
+household_1,2018-01-31,50.0,Expense,Transport,parking sticker,,INR
+household_1,2018-01-31,64636.0,Income,Other,from workplace,,INR
+household_1,2018-01-31,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-30,10.0,Expense,Groceries,matchbox packet 10pcs,,INR
+household_1,2018-01-30,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2018-01-29,45.0,Expense,Food,khari packet,,INR
+household_1,2018-01-29,42.0,Expense,Food,6 eggs,,INR
+household_1,2018-01-29,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-28,24.0,Expense,Food,2 kachori,,INR
+household_1,2018-01-28,976.9,Expense,Groceries,smart point,,INR
+household_1,2018-01-28,764.0,Expense,Groceries,supermart,,INR
+household_1,2018-01-27,43000.0,Expense,Transport,two wheeler bikedelux third installment,,INR
+household_1,2018-01-26,15.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2018-01-26,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-01-26,1009.0,Expense,Shopping,pyjama ( 999 )+ carry bag ( 10 ),,INR
+household_1,2018-01-26,20.0,Expense,Food,1 packet,,INR
+household_1,2018-01-26,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-26,25.0,Expense,Food,potato 1kg,,INR
+household_1,2018-01-26,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-01-25,70.0,Expense,Food,catering service,,INR
+household_1,2018-01-24,35.0,Expense,Food,half lit milk,,INR
+household_1,2018-01-23,273.0,Expense,Groceries,smart point,,INR
+household_1,2018-01-22,14.0,Expense,Food,2 kg bajari,,INR
+household_1,2018-01-22,162.0,Expense,Food,m d sure 3kg atta,,INR
+household_1,2018-01-22,30.0,Expense,Health,cough - sills 4 pcs + sinarest 3 pcs,,INR
+household_1,2018-01-22,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-21,384.0,Expense,Food,home food delivery,,INR
+household_1,2018-01-20,10.0,Expense,Food,crack - jack 1 packi,,INR
+household_1,2018-01-20,179.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2018-01-19,17.0,Expense,Food,flatbread 6 pcs,,INR
+household_1,2018-01-19,20.0,Expense,Food,flatbread 6 pcs,,INR
+household_1,2018-01-19,46.0,Expense,Groceries,cakes,,INR
+household_1,2018-01-18,50000.0,Expense,Transport,two wheeler bikedelux second installment,,INR
+household_1,2018-01-18,219.0,Expense,Food,fresh veggie pizza,,INR
+household_1,2018-01-18,42.0,Expense,Food,6 eggs,,INR
+household_1,2018-01-18,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-16,165.0,Expense,Groceries,bhagar 1kg 130 + idli pith 1kg 35,,INR
+household_1,2018-01-16,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-16,298.0,Expense,Other,marathon,,INR
+household_1,2018-01-15,284.0,Expense,Food,chitale srikhand,,INR
+household_1,2018-01-15,38.0,Expense,Food,onion 1 kg + half kg potato,,INR
+household_1,2018-01-15,40.0,Expense,Transport,place 0 to place 3 returns,,INR
+household_1,2018-01-15,266.0,Expense,Transport,uber auto : place 4 station to current residence society,,INR
+household_1,2018-01-14,40.0,Expense,Transport,place 0 to santacruz return,,INR
+household_1,2018-01-14,798.0,Expense,Groceries,vibrating electronic message tool,,INR
+household_1,2018-01-14,20.0,Expense,Transport,station to decathlon,,INR
+household_1,2018-01-14,25.0,Expense,Transport,decathlon to station,,INR
+household_1,2018-01-14,199.0,Expense,Shopping,head band,,INR
+household_1,2018-01-14,23.0,Expense,Transport,pali hill to bandra station,,INR
+household_1,2018-01-14,40.0,Expense,Transport,mumbai university kalina to santacruz station,,INR
+household_1,2018-01-14,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2018-01-13,740.0,Expense,Health,thyroid tablets,,INR
+household_1,2018-01-13,80.0,Expense,Shopping,clothes ironing,,INR
+household_1,2018-01-12,226.0,Expense,Groceries,smart point,,INR
+household_1,2018-01-12,500.0,Expense,Health,family thyroid test,,INR
+household_1,2018-01-11,42.0,Expense,Food,6 eggs,,INR
+household_1,2018-01-11,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-10,40.0,Expense,Food,2 packets,,INR
+household_1,2018-01-09,34.0,Expense,Food,flatbread 12 pcs,,INR
+household_1,2018-01-09,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-08,20.0,Expense,Food,vadapav,,INR
+household_1,2018-01-08,2000.0,Income,Other,gift from inlaws,,INR
+household_1,2018-01-08,1399.0,Expense,Groceries,sony wi - c100 earphones wireless,,INR
+household_1,2018-01-08,104.0,Expense,Food,m d sure 2kg atta,,INR
+household_1,2018-01-08,165.0,Expense,Groceries,harpik 1l,,INR
+household_1,2018-01-07,20.0,Expense,Food,2 cutting chai,,INR
+household_1,2018-01-07,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2018-01-06,38.0,Expense,Groceries,idli pith 1kg,,INR
+household_1,2018-01-06,100.0,Expense,Groceries,5 litres can distilled water,,INR
+household_1,2018-01-06,20.0,Expense,Food,2 cups,,INR
+household_1,2018-01-06,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-04,270.0,Expense,Groceries,cockroach injection,,INR
+household_1,2018-01-04,130.0,Expense,Groceries,nandadip oil bottle,,INR
+household_1,2018-01-04,70.0,Expense,Food,catering service,,INR
+household_1,2018-01-04,50.0,Expense,Education,aadhar address change,,INR
+household_1,2018-01-04,113376.0,Income,Other,sip redemption,,INR
+household_1,2018-01-04,106875.0,Income,Other,sip redemption,,INR
+household_1,2018-01-03,681.0,Expense,Food,wok express + domino ' s,,INR
+household_1,2018-01-03,1000.0,Expense,Transport,two wheeler bikedelux booking amount,,INR
+household_1,2018-01-03,40.0,Expense,Food,6 eggs,,INR
+household_1,2018-01-03,69.0,Expense,Food,1 lit,,INR
+household_1,2018-01-02,1140.0,Expense,Groceries,supermart,,INR
+household_1,2018-01-02,158.0,Expense,Health,refresh tears drop,,INR
+household_1,2018-01-01,482.0,Expense,Entertainment,amazon pay cashback 1017 + rs . 482,,INR
+household_1,2018-01-01,15.0,Expense,Food,raspberry dolly,,INR
+household_1,2018-01-01,599.0,Expense,Groceries,logitech mouse,,INR
+household_1,2018-01-01,69.0,Expense,Food,1 lit,,INR
+household_1,2017-12-31,30.0,Expense,Food,flatbread 24 pcs,,INR
+household_1,2017-12-31,64623.0,Income,Other,from workplace,,INR
+household_1,2017-12-31,594.0,Income,Other,interest paid,,INR
+household_1,2017-12-30,25.0,Expense,Food,dudhi 20 + mirchi 5,,INR
+household_1,2017-12-29,450.0,Expense,Other,for utensils,,INR
+household_1,2017-12-29,30.0,Expense,Food,3 pavwada,,INR
+household_1,2017-12-29,181.0,Expense,Entertainment,data booster pack,,INR
+household_1,2017-12-28,10.0,Expense,Food,ginger,,INR
+household_1,2017-12-27,70.0,Expense,Food,tata salt 28 + 6 eggs 42,,INR
+household_1,2017-12-26,1749.0,Expense,Entertainment,"et prime ( 1 + 1 ) till 24 dec , 2024",,INR
+household_1,2017-12-25,156.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2017-12-25,181.0,Expense,Entertainment,data booster pack,,INR
+household_1,2017-12-25,80.0,Expense,Transport,place 2 station to permanent residence,,INR
+household_1,2017-12-24,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-12-24,1364.0,Expense,Other,birthday gift,,INR
+household_1,2017-12-24,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-12-24,100.0,Expense,Groceries,toothbrush ( buy 2 get 1 ),,INR
+household_1,2017-12-24,35.0,Expense,Food,half lit milk,,INR
+household_1,2017-12-23,798.0,Expense,Other,birthday gift,,INR
+household_1,2017-12-22,380.0,Expense,Food,home food delivery,,INR
+household_1,2017-12-21,15.0,Expense,Food,vadapav,,INR
+household_1,2017-12-21,118.0,Expense,Groceries,surti kolam 2kg ( 54rsx2 )+ monaco biscuits,,INR
+household_1,2017-12-21,65.0,Expense,Food,catering service,,INR
+household_1,2017-12-21,70.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-20,95.0,Expense,Food,catering service,,INR
+household_1,2017-12-20,28400.0,Expense,Entertainment,renewal,,INR
+household_1,2017-12-19,45.0,Expense,Food,chicken frankie,,INR
+household_1,2017-12-19,10.0,Expense,Transport,place 0 to ws return,,INR
+household_1,2017-12-19,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-18,312.0,Expense,Shopping,undergarment single,,INR
+household_1,2017-12-17,505.0,Expense,Food,at restaurant,,INR
+household_1,2017-12-17,30.0,Expense,Transport,within city,,INR
+household_1,2017-12-17,878.0,Expense,Groceries,dmart,,INR
+household_1,2017-12-17,20.0,Expense,Food,2 cutting chai,,INR
+household_1,2017-12-17,25.0,Expense,Transport,college to inorbit,,INR
+household_1,2017-12-17,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2017-12-17,15.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-12-16,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-15,10.0,Expense,Other,nosebud,,INR
+household_1,2017-12-15,15.0,Expense,Food,chocobar,,INR
+household_1,2017-12-14,3000.0,Income,Other,from family,,INR
+household_1,2017-12-14,145.0,Expense,Food,paneer + 1 kg onion,,INR
+household_1,2017-12-13,98.0,Expense,Shopping,clothes ironing,,INR
+household_1,2017-12-13,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-12,40.0,Expense,Food,6 eggs,,INR
+household_1,2017-12-12,100.0,Expense,Food,double chicken shwarma,,INR
+household_1,2017-12-12,80.0,Expense,Food,catering service,,INR
+household_1,2017-12-10,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-12-10,65.0,Expense,Food,catering service,,INR
+household_1,2017-12-09,85.0,Expense,Food,catering service,,INR
+household_1,2017-12-08,408.0,Expense,Food,home food delivery - roti 17 * 4 + paneer chatpata 190 + veg crispy 150,,INR
+household_1,2017-12-07,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-06,125.0,Expense,Food,catering service,,INR
+household_1,2017-12-05,100.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2017-12-04,937.0,Expense,Groceries,smart point,,INR
+household_1,2017-12-04,990.0,Expense,Groceries,supermart,,INR
+household_1,2017-12-04,14086.0,Income,Other,premature closure of rd3 & rd4,,INR
+household_1,2017-12-04,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-03,30.0,Expense,Food,shev puri,,INR
+household_1,2017-12-03,290.0,Expense,Food,home food delivery - chicken lollypop 8 pcs 190 + chicken manchow soup 100,,INR
+household_1,2017-12-03,20.0,Expense,Other,2 kg soil,,INR
+household_1,2017-12-03,160.0,Expense,Shopping,hair cut + shaving,,INR
+household_1,2017-12-02,35.0,Expense,Food,chocobar,,INR
+household_1,2017-12-02,69.0,Expense,Food,milk 1lit,,INR
+household_1,2017-12-01,125.0,Expense,Food,catering service ( 5 methi paranthe ),,INR
+household_1,2017-12-01,69.0,Expense,Food,1 lit,,INR
+household_1,2017-11-30,22.0,Expense,Health,5 meftal spas,,INR
+household_1,2017-11-30,800.0,Expense,Health,glasses remaining,,INR
+household_1,2017-11-30,22700.0,Expense,Health,family ' s glasses,,INR
+household_1,2017-11-30,50.0,Expense,Other,change,,INR
+household_1,2017-11-30,64636.0,Income,Other,from workplace,,INR
+household_1,2017-11-28,90.0,Expense,Food,sweet bread cake pav kg,,INR
+household_1,2017-11-28,42.0,Expense,Food,6 eggs,,INR
+household_1,2017-11-28,115.0,Expense,Groceries,toast + biscuits,,INR
+household_1,2017-11-28,69.0,Expense,Food,1 lit,,INR
+household_1,2017-11-27,1000.0,Expense,Health,glasses advance,,INR
+household_1,2017-11-27,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-11-27,30.0,Expense,Transport,place 6 station to mall,,INR
+household_1,2017-11-27,5.0,Expense,Transport,1 place 0 to place 6,,INR
+household_1,2017-11-27,2699.0,Expense,Shopping,sandals hush puppies,,INR
+household_1,2017-11-26,40.0,Expense,Transport,eye institute to place 6 station,,INR
+household_1,2017-11-26,159.0,Expense,Health,eye drop,,INR
+household_1,2017-11-26,40.0,Expense,Transport,place 6 station to eye institute,,INR
+household_1,2017-11-26,400.0,Expense,Health,"routine checkup - eye institute , place 6",,INR
+household_1,2017-11-26,10.0,Expense,Transport,1 place 0 to place 6 return,,INR
+household_1,2017-11-25,156.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2017-11-25,69.0,Expense,Food,1 lit,,INR
+household_1,2017-11-25,90.0,Expense,Shopping,clothes ironing : rs 6 per item,,INR
+household_1,2017-11-25,10.0,Expense,Food,half kg tomato,,INR
+household_1,2017-11-24,314.0,Expense,Entertainment,2 pvr place 6,,INR
+household_1,2017-11-23,23.0,Expense,Food,flatbread 8 pcs,,INR
+household_1,2017-11-23,17.0,Expense,Food,dahi + remaining balance,,INR
+household_1,2017-11-23,21.0,Expense,Food,3 kg bajari,,INR
+household_1,2017-11-23,69.0,Expense,Food,1 lit,,INR
+household_1,2017-11-20,70.0,Expense,Food,milk 1lit,,INR
+household_1,2017-11-19,20.0,Expense,Food,1 panipuri,,INR
+household_1,2017-11-19,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-11-19,20.0,Expense,Transport,2 place 0 to place 6 return,,INR
+household_1,2017-11-19,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-11-19,436.0,Expense,Entertainment,2 pvr place 6,,INR
+household_1,2017-11-18,242.0,Expense,Groceries,khobra + shengdana + vim bar,,INR
+household_1,2017-11-18,39.0,Expense,Food,6 eggs,,INR
+household_1,2017-11-18,950.0,Expense,Other,marathon,,INR
+household_1,2017-11-18,104.0,Expense,Food,1 . 5 lit milk,,INR
+household_1,2017-11-17,105.0,Expense,Food,vanila family pack,,INR
+household_1,2017-11-17,80.0,Expense,Groceries,agarbatti 55 + dahi 25,,INR
+household_1,2017-11-17,28.0,Expense,Food,4 kg gehu,,INR
+household_1,2017-11-16,70.0,Expense,Food,1 lit,,INR
+household_1,2017-11-15,524.0,Expense,Food,home food delivery,,INR
+household_1,2017-11-15,209.0,Expense,Groceries,toast 55 + kisan jam 85 + all out 75,,INR
+household_1,2017-11-15,45.0,Expense,Education,photo paper print,,INR
+household_1,2017-11-15,25.0,Expense,Food,brown bread,,INR
+household_1,2017-11-15,95.0,Expense,Groceries,amul butter 52 + good day biscuits 43,,INR
+household_1,2017-11-14,160.0,Expense,Food,vegetables,,INR
+household_1,2017-11-13,180.0,Expense,Groceries,pani puri packet + bundi + chivda,,INR
+household_1,2017-11-13,70.0,Expense,Food,milk 1lit varna,,INR
+household_1,2017-11-13,50.0,Expense,Food,onion 1 kg + half kg potato,,INR
+household_1,2017-11-13,268.0,Expense,Groceries,maggie + lizol,,INR
+household_1,2017-11-13,60.0,Expense,Food,shev bhaji sev pav kg,,INR
+household_1,2017-11-12,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-11-12,1525.0,Expense,Food,at restaurant,,INR
+household_1,2017-11-12,130.0,Expense,Groceries,usb cord,,INR
+household_1,2017-11-12,120.0,Expense,Groceries,screwdriver 2,,INR
+household_1,2017-11-12,3690.0,Expense,Other,shopping at alfa,,INR
+household_1,2017-11-12,34.0,Expense,Transport,place p station to alfa market,,INR
+household_1,2017-11-12,30.0,Expense,Transport,place 4 station to place p return,,INR
+household_1,2017-11-12,40.0,Expense,Transport,place 0 to place p return,,INR
+household_1,2017-11-11,39.0,Expense,Food,6 eggs,,INR
+household_1,2017-11-11,26.0,Expense,Food,half lit milk,,INR
+household_1,2017-11-09,72.0,Expense,Shopping,clothes ironing : rs 6 per item,,INR
+household_1,2017-11-09,20.0,Expense,Groceries,colgate max fresh small,,INR
+household_1,2017-11-09,100.0,Expense,Health,acne star cream,,INR
+household_1,2017-11-09,40.0,Expense,Food,bhendi bhaji,,INR
+household_1,2017-11-09,70.0,Expense,Food,1 lit,,INR
+household_1,2017-11-08,130.0,Expense,Food,1 kg apple,,INR
+household_1,2017-11-07,70.0,Expense,Food,1 lit,,INR
+household_1,2017-11-06,39.0,Expense,Food,6 eggs,,INR
+household_1,2017-11-05,15.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-11-05,200.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2017-11-02,20.0,Expense,Food,2 pavwada,,INR
+household_1,2017-11-02,130.0,Expense,Other,dambar goli 2 packets ( naphthalene balls ),,INR
+household_1,2017-11-01,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-11-01,78298.0,Income,Other,from workplace,,INR
+household_1,2017-10-29,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-10-29,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-10-29,795.49,Expense,Entertainment,subscription 1yr,,INR
+household_1,2017-10-27,40.0,Expense,Transport,permanent residence to bus stand,,INR
+household_1,2017-10-26,50.0,Expense,Transport,within city,,INR
+household_1,2017-10-26,50.0,Expense,Other,offering,,INR
+household_1,2017-10-26,10.0,Expense,Other,offering,,INR
+household_1,2017-10-26,500.0,Expense,Other,offering,,INR
+household_1,2017-10-25,3000.0,Income,Other,from family,,INR
+household_1,2017-10-24,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-10-24,10.0,Expense,Food,dahi,,INR
+household_1,2017-10-23,9.0,Expense,Groceries,shampoo sachets,,INR
+household_1,2017-10-23,220.0,Expense,Shopping,slippers,,INR
+household_1,2017-10-23,200.0,Expense,Other,aakash kandil,,INR
+household_1,2017-10-23,99.0,Expense,Groceries,dettol liquid handwash refill,,INR
+household_1,2017-10-23,191.0,Expense,Entertainment,permanent residence - tata play recharge,,INR
+household_1,2017-10-22,50.0,Expense,Transport,current residence to place 1 bus stop highway,,INR
+household_1,2017-10-21,1888.0,Expense,Other,ipad cover + case,,INR
+household_1,2017-10-21,33.0,Expense,Food,onion half kg 13 + milkybar 10 + colgate maxfresh 10,,INR
+household_1,2017-10-20,200.0,Expense,Other,farewell contribution,,INR
+household_1,2017-10-20,20.0,Expense,Other,rangoli + stamp,,INR
+household_1,2017-10-19,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-10-18,1333.0,Expense,Transport,2 place 2 to place 3 : sevagram express 3ac,,INR
+household_1,2017-10-18,1231.0,Expense,Transport,2 place 3 to place 2 : amritsar express 3ac,,INR
+household_1,2017-10-17,3000.0,Income,Other,from family,,INR
+household_1,2017-10-11,658.6,Expense,Transport,place 2 to place 3 sevagram,,INR
+household_1,2017-10-09,280.0,Expense,Food,vegetables,,INR
+household_1,2017-10-09,5640.0,Expense,Entertainment,1 year plan ( 40mbps + ul + 3 months free ),,INR
+household_1,2017-10-08,6500.0,Expense,Other,for friend,,INR
+household_1,2017-10-08,3198.0,Expense,Other,fab india,,INR
+household_1,2017-10-05,200.0,Expense,Other,account opening fee,,INR
+household_1,2017-10-04,50.0,Expense,Health,boroline + band aid,,INR
+household_1,2017-10-02,3055.0,Expense,Groceries,supermart,,INR
+household_1,2017-10-01,149.0,Expense,Entertainment,3 months subscription mobile,,INR
+household_1,2017-09-30,59.0,Expense,Health,candid dusting powder,,INR
+household_1,2017-09-30,155.0,Expense,Groceries,supermart,,INR
+household_1,2017-09-30,135.0,Expense,Food,vegetables,,INR
+household_1,2017-09-30,30.0,Expense,Food,vegetables,,INR
+household_1,2017-09-30,600.0,Expense,Groceries,cooktop installation + base,,INR
+household_1,2017-09-30,61578.0,Income,Other,from workplace,,INR
+household_1,2017-09-30,778.0,Income,Other,interest paid,,INR
+household_1,2017-09-29,60.0,Expense,Shopping,clothes ironing : rs 6 per item,,INR
+household_1,2017-09-29,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-09-29,10.0,Expense,Food,vanila cup,,INR
+household_1,2017-09-29,21.0,Expense,Health,3 tablet nor tz,,INR
+household_1,2017-09-28,215.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2017-09-28,2388.0,Expense,Transport,2 place 1 to place 2 - novelty tour and travels,,INR
+household_1,2017-09-27,334.0,Expense,Other,farewell contribution,,INR
+household_1,2017-09-25,30.0,Expense,Food,half kg chiku,,INR
+household_1,2017-09-25,300.0,Expense,Food,apple 2 kg ( 110 ) + banana 1kg ( 80 ),,INR
+household_1,2017-09-24,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-09-24,10.0,Expense,Transport,place 0 to ws return,,INR
+household_1,2017-09-24,560.0,Expense,Entertainment,2,,INR
+household_1,2017-09-24,280.0,Expense,Food,half kg pedhe,,INR
+household_1,2017-09-24,100.0,Expense,Shopping,hair cut,,INR
+household_1,2017-09-23,100.0,Expense,Food,chicken masala gravy,,INR
+household_1,2017-09-21,10.0,Expense,Other,umbrella cover repair,,INR
+household_1,2017-09-21,15.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-09-21,15.0,Expense,Food,vadapav,,INR
+household_1,2017-09-21,30.0,Expense,Transport,place 0 to dadar return,,INR
+household_1,2017-09-20,20.0,Expense,Health,surgical gloves pair,,INR
+household_1,2017-09-20,100.0,Expense,Other,csr,,INR
+household_1,2017-09-18,60.0,Expense,Food,half kg chiku,,INR
+household_1,2017-09-17,558.0,Expense,Groceries,supermart,,INR
+household_1,2017-09-17,99.0,Expense,Food,1 . 5 lit milk,,INR
+household_1,2017-09-15,60.0,Expense,Food,sugaran kitchen,,INR
+household_1,2017-09-15,150.0,Expense,Health,doctor fees,,INR
+household_1,2017-09-15,1400.0,Expense,Transport,2 place 2 to place 1 - novelty tour and travels,,INR
+household_1,2017-09-15,24.0,Expense,Food,2 tea parcel,,INR
+household_1,2017-09-15,50.0,Expense,Food,2 plates poha,,INR
+household_1,2017-09-15,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-09-14,100.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2017-09-13,110.0,Expense,Food,sugaran kitchen,,INR
+household_1,2017-09-12,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-09-11,60.0,Expense,Transport,current residence to place 1 bus stop highway,,INR
+household_1,2017-09-11,2598.0,Expense,Transport,2 place 1 to place 2 - novelty tour and travels,,INR
+household_1,2017-09-11,285.0,Expense,Food,vegetables,,INR
+household_1,2017-09-11,100.0,Expense,Transport,local pass to family,,INR
+household_1,2017-09-11,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-09-11,93.0,Expense,Food,idli 4 pcs + kachori 4 pcs,,INR
+household_1,2017-09-10,514.0,Expense,Groceries,supermart,,INR
+household_1,2017-09-09,45.0,Expense,Health,v - wash,,INR
+household_1,2017-09-08,1440.0,Expense,Transport,2 place 1 to place 2 - novelty tour and travels,,INR
+household_1,2017-09-08,196.0,Expense,Food,m d sure 4kg atta,,INR
+household_1,2017-09-06,20.0,Expense,Other,pant chain repair,,INR
+household_1,2017-09-06,140.0,Expense,Food,sweet bread cake 90 + veg puff 2,,INR
+household_1,2017-09-05,50.0,Expense,Education,print outs + xerox,,INR
+household_1,2017-09-04,40.0,Expense,Food,4 cups ( 2 vanilla 2 tutifruity ),,INR
+household_1,2017-09-03,15.0,Expense,Other,clock cell,,INR
+household_1,2017-09-01,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-08-31,17.7,Expense,Other,sms charges + gst,,INR
+household_1,2017-08-31,60.0,Expense,Groceries,odonil,,INR
+household_1,2017-08-31,10.0,Expense,Groceries,honey small bottle,,INR
+household_1,2017-08-31,5.0,Expense,Groceries,janeyu,,INR
+household_1,2017-08-31,99.0,Expense,Food,1 . 5 lit milk,,INR
+household_1,2017-08-30,22.0,Expense,Health,5 meftal spas,,INR
+household_1,2017-08-30,61578.0,Income,Other,from workplace,,INR
+household_1,2017-08-29,640.0,Expense,Transport,ola cab - domestic airport t1 to current residence,,INR
+household_1,2017-08-28,200.0,Expense,Transport,misc expense,,INR
+household_1,2017-08-28,20.0,Expense,Food,2 chips packets,,INR
+household_1,2017-08-27,100.0,Expense,Transport,misc expense,,INR
+household_1,2017-08-27,59.0,Expense,Health,vicks inhaler,,INR
+household_1,2017-08-27,200.0,Expense,Transport,market to resort,,INR
+household_1,2017-08-26,5.0,Expense,Food,parle g chota pack,,INR
+household_1,2017-08-26,61754.0,Income,Other,fd matured,,INR
+household_1,2017-08-25,39.0,Expense,Health,strepsils 13 pills,,INR
+household_1,2017-08-24,40.0,Expense,Transport,auto : mahal to hotel,,INR
+household_1,2017-08-24,325.0,Expense,Food,roof top lounge ( 200 french fries + 100 masala tea )+ 15 gst + 10 tip,,INR
+household_1,2017-08-24,3000.0,Expense,Groceries,2 bedsheets ( 1500 each ),,INR
+household_1,2017-08-24,5200.0,Expense,Shopping,jaipuri handprinted maharani saree ( 1850 two pcs + 1500 1 pc ),,INR
+household_1,2017-08-23,300.0,Expense,Food,180 chicken sandwich + 120 vada pav & samosa,,INR
+household_1,2017-08-23,850.0,Expense,Transport,ola cab - current residence to domestic airport t1,,INR
+household_1,2017-08-22,300.0,Expense,Groceries,mahanagar gas connection installation,,INR
+household_1,2017-08-21,280.0,Expense,Groceries,selfie stick bluetooth tripod,,INR
+household_1,2017-08-21,50.0,Expense,Shopping,shaving,,INR
+household_1,2017-08-21,33.0,Expense,Food,1 . 5 kg onions,,INR
+household_1,2017-08-21,80.0,Expense,Shopping,lens cleaner,,INR
+household_1,2017-08-21,27.0,Expense,Education,15 fevistick + 12 xerox2 & print2,,INR
+household_1,2017-08-20,166.0,Expense,Food,baskin robbins,,INR
+household_1,2017-08-20,504.0,Expense,Food,280 chicken dum biryani + 200 paneer tikka laziz + gst,,INR
+household_1,2017-08-20,60.0,Expense,Transport,bkc to kurla station,,INR
+household_1,2017-08-20,361.0,Expense,Transport,ola cab - siddhivinayak to bkc,,INR
+household_1,2017-08-20,25.0,Expense,Transport,dadar west to siddhivinayak,,INR
+household_1,2017-08-20,60.0,Expense,Transport,2 place 0 to dadar return,,INR
+household_1,2017-08-20,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-08-20,48.0,Expense,Shopping,clothes ironing : rs 6 per item,,INR
+household_1,2017-08-20,239.0,Expense,Other,mobile cover moto g5 plus,,INR
+household_1,2017-08-20,569.0,Expense,Groceries,foldable wardrobe,,INR
+household_1,2017-08-19,60.0,Expense,Groceries,2 locks for bags,,INR
+household_1,2017-08-19,20.0,Expense,Groceries,colgate max fresh small,,INR
+household_1,2017-08-19,45.0,Expense,Groceries,dettol sanitizer,,INR
+household_1,2017-08-19,217.0,Expense,Entertainment,current residence - tata play recharge,,INR
+household_1,2017-08-17,88.0,Expense,Groceries,sugar 1kg rs . 55 + shengdana rs . 33,,INR
+household_1,2017-08-17,45.0,Expense,Food,2 bhaji pav + 1 vadapav,,INR
+household_1,2017-08-15,1400.0,Expense,Groceries,wifi router tp link,,INR
+household_1,2017-08-15,99.0,Expense,Food,1 . 5 lit milk,,INR
+household_1,2017-08-14,320.0,Expense,Groceries,steam machine,,INR
+household_1,2017-08-14,112.0,Expense,Groceries,biscuits + onions,,INR
+household_1,2017-08-12,800.0,Expense,Other,ganpati + navratri vargani,,INR
+household_1,2017-08-12,1665.0,Expense,Transport,2 place 2 to place 1 - shree sharma travels,,INR
+household_1,2017-08-11,500.0,Expense,Other,rakshabandhan ovalini,,INR
+household_1,2017-08-11,470.0,Expense,Transport,2 cd to place 1 : shivshahi,,INR
+household_1,2017-08-11,100.0,Expense,Transport,within city,,INR
+household_1,2017-08-11,330.0,Expense,Transport,2 place 1 to vn,,INR
+household_1,2017-08-11,60.0,Expense,Transport,current residence to place 1 bus stop highway,,INR
+household_1,2017-08-10,76.0,Expense,Groceries,dahi ( 42 ) + vanilla essance ( 34 ),,INR
+household_1,2017-08-10,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-08-09,218.0,Expense,Groceries,dettol liquid handwash refill,,INR
+household_1,2017-08-09,125.0,Expense,Health,move jel,,INR
+household_1,2017-08-08,43000.0,Expense,Transport,tours and travel,,INR
+household_1,2017-08-08,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-08-07,33.0,Expense,Food,half lit milk,,INR
+household_1,2017-08-06,22.0,Expense,Health,vicks vaporub,,INR
+household_1,2017-08-06,5.0,Expense,Food,krack jack biscuits,,INR
+household_1,2017-08-06,25.0,Expense,Food,5 chapati,,INR
+household_1,2017-08-05,909.0,Expense,Other,purse on occasion of rakshabandhan,,INR
+household_1,2017-08-05,1145.0,Expense,Other,purse on occasion of rakshabandhan,,INR
+household_1,2017-08-05,989.0,Expense,Shopping,family ' s dresses,,INR
+household_1,2017-08-05,27.0,Expense,Health,cinarest,,INR
+household_1,2017-08-05,100.0,Expense,Other,change,,INR
+household_1,2017-08-05,6190.0,Expense,Health,medical tests - family,,INR
+household_1,2017-08-04,68.0,Expense,Food,milk 1lit,,INR
+household_1,2017-08-02,14.0,Expense,Food,maggie 1 pck,,INR
+household_1,2017-08-02,66.0,Expense,Food,milk 1lit,,INR
+household_1,2017-08-01,399.0,Expense,Shopping,myntra - tshirt + denim shorts,,INR
+household_1,2017-08-01,10.0,Expense,Health,4 paracetamol tablets,,INR
+household_1,2017-07-31,100.0,Expense,Food,catering service : chicken masala ( 90 )+ 2 chapati ( 10 ),,INR
+household_1,2017-07-31,65.0,Expense,Transport,ola auto - current residence to mcd,,INR
+household_1,2017-07-31,22.0,Expense,Food,4 eggs,,INR
+household_1,2017-07-30,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2017-07-30,895.0,Expense,Transport,2 neeta travels : place a to pune,,INR
+household_1,2017-07-30,3000.0,Expense,Groceries,laptop repair ( 128gb ssd rs 2200 + 500gb hdd rs . 1800 + msoffice + windows ),,INR
+household_1,2017-07-30,100.0,Expense,Food,chicken roll kasha,,INR
+household_1,2017-07-30,20.0,Expense,Transport,place 0 to place 4 return,,INR
+household_1,2017-07-30,61578.0,Income,Other,from workplace,,INR
+household_1,2017-07-29,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-29,556.0,Expense,Health,hospital consultation,,INR
+household_1,2017-07-29,97.0,Expense,Transport,ola auto - current residence to hospital place 6,,INR
+household_1,2017-07-28,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-07-28,167.0,Expense,Health,hospital consultation,,INR
+household_1,2017-07-28,3050.0,Expense,Health,hospital consultation,,INR
+household_1,2017-07-28,20.0,Expense,Transport,2 place 0 to place 6 return,,INR
+household_1,2017-07-28,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-07-27,215.0,Expense,Food,non veg overloaded pizza,,INR
+household_1,2017-07-27,203.0,Expense,Food,chicken lollypop 4 pcs,,INR
+household_1,2017-07-27,200.0,Expense,Groceries,distilled water refill inverter ( rs . 100 given by family ),,INR
+household_1,2017-07-27,40326.0,Income,Other,rd2 matured,,INR
+household_1,2017-07-27,40326.0,Income,Other,rd1 matured,,INR
+household_1,2017-07-25,20000.0,Expense,Transport,tours and travel,,INR
+household_1,2017-07-24,248.0,Expense,Food,garlic bread + periperi masala fries,,INR
+household_1,2017-07-24,22.0,Expense,Food,4 eggs,,INR
+household_1,2017-07-24,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-23,200.0,Expense,Groceries,for tata sky installation ( 100 rs given by family ),,INR
+household_1,2017-07-23,2065.0,Expense,Groceries,tata sky stb ( 1299 )+ 1 month recharge ( 226 )+ extra wire 45meters ( 540 ),,INR
+household_1,2017-07-22,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-21,1000.0,Expense,Other,ca - income tax filing,,INR
+household_1,2017-07-21,33.0,Expense,Food,half lit milk,,INR
+household_1,2017-07-20,50.0,Expense,Food,puri packet of 50 pcs,,INR
+household_1,2017-07-20,2545.0,Expense,Entertainment,annual recharge,,INR
+household_1,2017-07-20,32.0,Expense,Food,half lit milk,,INR
+household_1,2017-07-19,22.0,Expense,Food,4 eggs,,INR
+household_1,2017-07-19,32.0,Expense,Food,half lit milk,,INR
+household_1,2017-07-18,20.0,Expense,Food,thumbs up 250ml,,INR
+household_1,2017-07-18,70.0,Expense,Food,5 litres can,,INR
+household_1,2017-07-18,43.0,Expense,Food,gehu 3 kg rs21 + bajari 1kg rs 7 + dal 1 . 5 kg rs15,,INR
+household_1,2017-07-18,35.0,Expense,Food,potato 1kg,,INR
+household_1,2017-07-18,240.0,Expense,Groceries,pakad,,INR
+household_1,2017-07-18,540.0,Expense,Groceries,umbrella,,INR
+household_1,2017-07-18,25.0,Income,Other,hari oil depo coupon,,INR
+household_1,2017-07-18,55.0,Expense,Food,onion 2 . 5 kg,,INR
+household_1,2017-07-17,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-07-17,63.0,Expense,Shopping,9 clothes ironing,,INR
+household_1,2017-07-17,60.0,Expense,Food,lemon tea,,INR
+household_1,2017-07-17,540.0,Expense,Food,1 dal makhani rice ( 200 )+ 1 chicken tikka rice ( 220 )+ chocolate pastry ( 120 ),,INR
+household_1,2017-07-17,40.0,Expense,Transport,2 place 0 to tb returns,,INR
+household_1,2017-07-15,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-07-15,32.0,Expense,Food,half lit milk,,INR
+household_1,2017-07-14,15.0,Expense,Food,chocobar,,INR
+household_1,2017-07-12,6.0,Income,Other,reward gpay,,INR
+household_1,2017-07-12,500.0,Expense,Other,farewell contribution,,INR
+household_1,2017-07-12,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-11,15.0,Expense,Food,chocobar,,INR
+household_1,2017-07-11,10.0,Expense,Education,black ball pen,,INR
+household_1,2017-07-11,20000.0,Income,Other,gift from inlaws,,INR
+household_1,2017-07-10,50.0,Expense,Food,2 packets,,INR
+household_1,2017-07-09,20.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-07-09,20.0,Expense,Food,vadapav,,INR
+household_1,2017-07-09,12.0,Expense,Transport,2 place 3m to mumbai vidyapeeth,,INR
+household_1,2017-07-09,80.0,Expense,Transport,2 place 0 to place 3 returns,,INR
+household_1,2017-07-09,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-07-08,30.0,Expense,Food,pizza base packet - patil dairy,,INR
+household_1,2017-07-08,26.0,Expense,Food,4 eggs,,INR
+household_1,2017-07-08,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-05,115.0,Expense,Food,paneer mutter rs . 90 + 5 chapati rs . 25,,INR
+household_1,2017-07-05,100.0,Expense,Food,2 kg onion 30 / kg + 1 kg potato 30 / kg + parle biscuit rs 10,,INR
+household_1,2017-07-05,180.0,Expense,Food,veg fried rice 1 full,,INR
+household_1,2017-07-05,45.0,Expense,Food,catering service ( 1 bhaji 30 + 3 chapti 15 ),,INR
+household_1,2017-07-04,25.0,Expense,Food,dalich peeth pav kg,,INR
+household_1,2017-07-04,60.0,Expense,Transport,place 1 bridge to current residence 2 seats,,INR
+household_1,2017-07-04,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-07-03,5.0,Expense,Other,devi temple,,INR
+household_1,2017-07-02,140.0,Expense,Food,7 mava kulfie,,INR
+household_1,2017-07-01,1711.0,Expense,Transport,2 place 2 to place 1 - shree sharma travels,,INR
+household_1,2017-06-30,4800.0,Expense,Other,forrest essential perfume,,INR
+household_1,2017-06-30,870.0,Income,Other,interest paid,,INR
+household_1,2017-06-30,56957.0,Income,Other,from workplace,,INR
+household_1,2017-06-29,60.0,Expense,Shopping,shaving,,INR
+household_1,2017-06-29,50.0,Expense,Transport,place 2 station to hospital 2 seat,,INR
+household_1,2017-06-28,30.0,Expense,Transport,2 place 0 to tilaknagar single side,,INR
+household_1,2017-06-28,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-06-28,186.5,Expense,Food,chicken lollypop 4 pcs,,INR
+household_1,2017-06-28,15.0,Expense,Food,5rs mirchi + crack - jack,,INR
+household_1,2017-06-28,2000.0,Expense,Bills,house cleaning + washing utensils,,INR
+household_1,2017-06-27,12.0,Expense,Health,cough - sills 4 pcs,,INR
+household_1,2017-06-26,24.0,Expense,Food,2 kachori,,INR
+household_1,2017-06-26,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2017-06-26,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-25,10.0,Expense,Transport,place 0 to ws return,,INR
+household_1,2017-06-24,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-23,35.0,Expense,Food,shengdane pav kg,,INR
+household_1,2017-06-23,590.0,Expense,Other,credit card fee,,INR
+household_1,2017-06-22,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-22,1595.0,Expense,Other,forrest essential after shave,,INR
+household_1,2017-06-22,261.0,Expense,Food,taco bell veg combo,,INR
+household_1,2017-06-22,20.0,Expense,Transport,2 place 0 to ws returns,,INR
+household_1,2017-06-22,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-06-20,250.0,Expense,Other,cupcake mould,,INR
+household_1,2017-06-19,60.0,Expense,Food,shev bhaji sev pav kg,,INR
+household_1,2017-06-19,141.0,Expense,Food,m d sure 3kg atta,,INR
+household_1,2017-06-19,80.0,Expense,Food,amul malai paneer pav kg,,INR
+household_1,2017-06-19,18.0,Expense,Food,bread,,INR
+household_1,2017-06-19,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-18,12.0,Expense,Transport,h to kala circle,,INR
+household_1,2017-06-18,15.0,Expense,Transport,kala circle to h,,INR
+household_1,2017-06-17,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-16,137.0,Expense,Other,jeff kellar ' s winning attitude,,INR
+household_1,2017-06-16,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-15,29.0,Expense,Education,print outs 3 + xerox 16 + envelope 10,,INR
+household_1,2017-06-13,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-11,100.0,Expense,Shopping,hair cut,,INR
+household_1,2017-06-11,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-10,386.0,Expense,Health,covaxin booster dose,,INR
+household_1,2017-06-10,501.0,Expense,Transport,2 kushinagar express ( ltt to place 2 ),,INR
+household_1,2017-06-10,170.0,Expense,Entertainment,toi,,INR
+household_1,2017-06-08,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-06-08,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-06-08,760.0,Expense,Entertainment,2 tickets - cinepolis 4dx 3d,,INR
+household_1,2017-06-08,35.0,Expense,Food,bread,,INR
+household_1,2017-06-08,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-08,35.0,Expense,Food,6 pcs,,INR
+household_1,2017-06-07,26.0,Expense,Groceries,sanjori mould,,INR
+household_1,2017-06-06,40.0,Expense,Food,2 veg puff,,INR
+household_1,2017-06-06,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-05,180.0,Expense,Food,chicken biryani 120 + dal rice 60,,INR
+household_1,2017-06-05,20.0,Expense,Food,2 cadbury dairy milk,,INR
+household_1,2017-06-05,18.0,Expense,Health,3 sinarest,,INR
+household_1,2017-06-05,190.0,Expense,Health,sofy antibacterial,,INR
+household_1,2017-06-04,25.0,Expense,Food,pav kg simla mirch 20 + hari mirch 5,,INR
+household_1,2017-06-04,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-06-03,20.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-06-03,267.0,Expense,Groceries,supermart,,INR
+household_1,2017-06-03,242.95,Expense,Food,non veg overloaded pizza,,INR
+household_1,2017-06-02,20.0,Expense,Food,vadapav,,INR
+household_1,2017-06-02,141.0,Expense,Food,m d sure 3kg atta,,INR
+household_1,2017-06-01,24.0,Expense,Food,2 kachori,,INR
+household_1,2017-06-01,65.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-31,655.0,Expense,Shopping,undergarments pair of jockey,,INR
+household_1,2017-05-31,56970.0,Income,Other,from workplace,,INR
+household_1,2017-05-30,25.0,Expense,Food,5 chapati,,INR
+household_1,2017-05-30,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-05-30,40.0,Expense,Food,slice + pepsi,,INR
+household_1,2017-05-30,120.0,Expense,Food,2 veg frankie,,INR
+household_1,2017-05-30,275.0,Expense,Groceries,crockery,,INR
+household_1,2017-05-30,34.0,Expense,Food,2 tea,,INR
+household_1,2017-05-30,80.0,Expense,Transport,2 place 0 to place p return,,INR
+household_1,2017-05-30,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-05-29,35.0,Expense,Food,half kg potato + half kg banana,,INR
+household_1,2017-05-29,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-28,24.0,Expense,Food,2 kachori,,INR
+household_1,2017-05-28,140.0,Expense,Food,mango 1 kg,,INR
+household_1,2017-05-28,70.0,Expense,Food,medu vada 1 plate + dal vada 1,,INR
+household_1,2017-05-27,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-27,20.0,Expense,Education,print outs + xerox,,INR
+household_1,2017-05-27,20.0,Expense,Food,pav kg tomato,,INR
+household_1,2017-05-25,30.0,Expense,Food,ragda puri,,INR
+household_1,2017-05-25,15.0,Expense,Transport,place 0 to vikhroli single,,INR
+household_1,2017-05-24,15.0,Expense,Food,samosa pav @ kurla,,INR
+household_1,2017-05-24,30.0,Expense,Transport,place 0 to vikhroli return,,INR
+household_1,2017-05-24,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-23,25.0,Expense,Food,gupta bhel,,INR
+household_1,2017-05-23,75.0,Expense,Education,white board pen 25 + duster 50,,INR
+household_1,2017-05-22,88.0,Expense,Food,m d sure 2kg atta,,INR
+household_1,2017-05-22,50.0,Expense,Groceries,3 pin holder,,INR
+household_1,2017-05-22,40.0,Expense,Food,coke 750ml,,INR
+household_1,2017-05-22,15.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-05-21,30.0,Expense,Transport,2 place 0 to place 4 return,,INR
+household_1,2017-05-21,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-05-21,24.0,Expense,Food,3 kg ( 2kg bajari rs 7 each + 1kg gahu & maka mix rs . 10 ),,INR
+household_1,2017-05-21,20.0,Expense,Transport,decathlon to station,,INR
+household_1,2017-05-21,261.0,Expense,Entertainment,monthly recharge,,INR
+household_1,2017-05-18,219.0,Expense,Food,pav bhaji + 5 pav extra,,INR
+household_1,2017-05-18,45.0,Expense,Food,bhai poli,,INR
+household_1,2017-05-18,25.0,Expense,Food,poha,,INR
+household_1,2017-05-18,50.0,Expense,Shopping,shaving,,INR
+household_1,2017-05-18,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-17,99.0,Expense,Food,vanila family pack,,INR
+household_1,2017-05-17,210.0,Expense,Food,full egg fried rice 100 + manchurian dry 100,,INR
+household_1,2017-05-16,247.0,Expense,Shopping,razor blade,,INR
+household_1,2017-05-16,234.0,Expense,Food,non veg combo meal,,INR
+household_1,2017-05-15,380.0,Expense,Entertainment,march 210 + april 170,,INR
+household_1,2017-05-15,100.0,Expense,Food,veg cheese grill sandwich,,INR
+household_1,2017-05-15,35.0,Expense,Food,poha 25 + tea 10,,INR
+household_1,2017-05-14,50.0,Expense,Groceries,shev bhaji sev,,INR
+household_1,2017-05-14,242.0,Expense,Food,non veg overloaded pizza,,INR
+household_1,2017-05-13,242.0,Expense,Food,non veg overloaded pizza,,INR
+household_1,2017-05-13,20.0,Expense,Food,4 chapati,,INR
+household_1,2017-05-13,35.0,Expense,Food,medu vada 1 plate,,INR
+household_1,2017-05-12,20.0,Expense,Food,4 chapati,,INR
+household_1,2017-05-11,233.0,Expense,Food,full egg fried rice 100 + chicken lollypop 4 pcs 130,,INR
+household_1,2017-05-11,318.0,Expense,Shopping,body hair removal cream,,INR
+household_1,2017-05-10,24.0,Expense,Education,2 envelope,,INR
+household_1,2017-05-10,20.0,Expense,Food,4 chapati,,INR
+household_1,2017-05-10,125.0,Expense,Food,sweet bread cake 85 + veg puff 2,,INR
+household_1,2017-05-10,45.0,Expense,Food,dudhi 30 + 3 chapati,,INR
+household_1,2017-05-10,34.0,Expense,Food,tea + 2 kachori,,INR
+household_1,2017-05-09,40.0,Expense,Food,cornetto butterscotch,,INR
+household_1,2017-05-09,20.0,Expense,Food,4 chapati,,INR
+household_1,2017-05-09,45.0,Expense,Food,chana masala 30 + 3 chapati,,INR
+household_1,2017-05-08,191.0,Expense,Food,egg fry + chicken lollypop,,INR
+household_1,2017-05-08,35.0,Expense,Food,poha 25 + tea 10,,INR
+household_1,2017-05-07,30.0,Expense,Food,aloo mutter sabji,,INR
+household_1,2017-05-07,98.0,Expense,Food,chicken manchow soup,,INR
+household_1,2017-05-07,296.0,Expense,Entertainment,no daily limit plan ( 25 gb 30 days ),,INR
+household_1,2017-05-07,45.0,Expense,Food,double omlet pav + tea,,INR
+household_1,2017-05-06,25.0,Expense,Food,5 chapati,,INR
+household_1,2017-05-06,20.0,Expense,Food,veg puff,,INR
+household_1,2017-05-06,330.0,Expense,Food,paneer masala + hara bhara kabab 6 pcs,,INR
+household_1,2017-05-05,45.0,Expense,Food,bhendi masala 30 + 3 chapati,,INR
+household_1,2017-05-05,20.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-05-05,33.0,Expense,Food,bread,,INR
+household_1,2017-05-04,296.0,Expense,Entertainment,no daily limit plan ( 25 gb 30 days ),,INR
+household_1,2017-05-03,15.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-05-03,60.0,Expense,Transport,40 place 0 to place 3 return + 20 single,,INR
+household_1,2017-05-03,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-05-03,10.0,Expense,Transport,place 0 to place 6 return,,INR
+household_1,2017-05-03,8825.0,Expense,Groceries,gas stove elica 3 burner,,INR
+household_1,2017-05-03,1811.0,Expense,Other,decathlon shoes,,INR
+household_1,2017-05-03,1100.0,Expense,Transport,place 3 to place 2 sevagram,,INR
+household_1,2017-05-02,40.0,Expense,Health,q - dee strip,,INR
+household_1,2017-05-02,2421.0,Expense,Shopping,puma troy mu running shoes,,INR
+household_1,2017-05-02,20.0,Expense,Food,2 cups,,INR
+household_1,2017-05-02,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-05-01,321.0,Expense,Food,2 fried rice,,INR
+household_1,2017-05-01,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-05-01,10.0,Expense,Transport,2 place 0 to ws single,,INR
+household_1,2017-05-01,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-05-01,399.0,Expense,Shopping,shorts for family,,INR
+household_1,2017-05-01,599.0,Expense,Shopping,h & m tshirt for family,,INR
+household_1,2017-05-01,100.0,Expense,Other,to savings account,,INR
+household_1,2017-05-01,47.0,Expense,Food,m d sure 1kg atta,,INR
+household_1,2017-04-30,10.0,Expense,Food,chocobar,,INR
+household_1,2017-04-30,56957.0,Income,Other,from workplace,,INR
+household_1,2017-04-30,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-04-30,25.0,Expense,Food,6 bananas,,INR
+household_1,2017-04-30,221.0,Expense,Food,chicken lollypop 8 pcs,,INR
+household_1,2017-04-30,110.0,Expense,Food,2 pani puri + 1 samosa chat,,INR
+household_1,2017-04-30,17.0,Expense,Food,chota bread,,INR
+household_1,2017-04-30,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-04-28,30.0,Expense,Food,cup of butterscotch ( 20 ) + chocobar ( 10 ),,INR
+household_1,2017-04-28,149.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2017-04-27,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-04-26,385.0,Expense,Other,farewell contribution,,INR
+household_1,2017-04-25,24.0,Expense,Food,2 kachori,,INR
+household_1,2017-04-25,10.0,Expense,Transport,place 6 station to college,,INR
+household_1,2017-04-25,20.0,Expense,Transport,2 place 0 to place 6 return,,INR
+household_1,2017-04-25,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-04-25,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-04-24,170.0,Expense,Other,family ' s wristwatch repair,,INR
+household_1,2017-04-23,15.0,Expense,Food,ladyfinger pav kg,,INR
+household_1,2017-04-23,40.0,Expense,Food,2 veg puff,,INR
+household_1,2017-04-22,20.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-04-22,30.0,Expense,Transport,place 0 to vikhroli return,,INR
+household_1,2017-04-22,205.0,Expense,Food,milk 1 lit ( 64 ) + paneer ( 75 ) + bread ( 30 ) + 6 eggs ( 36 ),,INR
+household_1,2017-04-21,40.0,Expense,Health,q - dee strip,,INR
+household_1,2017-04-21,261.0,Expense,Entertainment,monthly recharge,,INR
+household_1,2017-04-20,621.68,Expense,Groceries,smart point,,INR
+household_1,2017-04-20,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-04-18,20.0,Expense,Food,raspberry dolly,,INR
+household_1,2017-04-18,64.0,Expense,Food,milk 1lit,,INR
+household_1,2017-04-17,1076.0,Expense,Food,"the x restaurant , place 1",,INR
+household_1,2017-04-17,1497.0,Expense,Other,h & m clothes,,INR
+household_1,2017-04-12,125.0,Expense,Food,8 pcs meduvada + 4 pcs dal vada + sambar + chatni,,INR
+household_1,2017-04-10,20.0,Expense,Food,sugarcane juice,,INR
+household_1,2017-04-06,213.6,Expense,Transport,place 6 to place 2 - 3tier ac cancellation charges,,INR
+household_1,2017-04-04,45.0,Expense,Food,chocobar ( 25 )+ chocolate cup ( 20 ),,INR
+household_1,2017-04-03,60.0,Expense,Food,1 chicken shawarma,,INR
+household_1,2017-04-01,40.0,Expense,Food,egg roll,,INR
+household_1,2017-04-01,10.0,Expense,Food,half kg potato,,INR
+household_1,2017-04-01,52.0,Expense,Food,sambar masala ( 32 )+ 2 milkybar,,INR
+household_1,2017-03-31,56102.0,Income,Other,from workplace,,INR
+household_1,2017-03-31,60.0,Expense,Transport,2 place 0 to dadar return,,INR
+household_1,2017-03-31,30.0,Expense,Transport,siddhivinayak to shiv sena bhavan,,INR
+household_1,2017-03-31,30.0,Expense,Transport,dadar west to siddhivinayak,,INR
+household_1,2017-03-31,495.0,Expense,Food,( pav bhaji + 2 extra pav + sabudana khichdi + kothimbir vada + masala bhat + piyush ),,INR
+household_1,2017-03-31,15.0,Expense,Transport,place 4 station to place 4 plaza,,INR
+household_1,2017-03-31,2500.0,Expense,Groceries,laptop repair ( servicing + 2gb ram upgrade + fan replacement + antivirus ),,INR
+household_1,2017-03-31,15.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-03-31,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-03-30,508.0,Income,Other,interest paid,,INR
+household_1,2017-03-28,12.0,Expense,Food,soda water,,INR
+household_1,2017-03-27,260.0,Expense,Groceries,usb cord,,INR
+household_1,2017-03-27,60.0,Expense,Food,milk 1lit,,INR
+household_1,2017-03-26,786.0,Expense,Groceries,smart,,INR
+household_1,2017-03-26,60.0,Expense,Food,milk 1 lit,,INR
+household_1,2017-03-25,20.0,Expense,Food,dahi 2 packets,,INR
+household_1,2017-03-25,6.0,Income,Other,reward gpay,,INR
+household_1,2017-03-25,29.0,Expense,Health,tablet,,INR
+household_1,2017-03-25,110.0,Expense,Health,jel,,INR
+household_1,2017-03-25,900.0,Expense,Transport,place 2 to place 1,,INR
+household_1,2017-03-25,150.0,Expense,Health,doctor fees,,INR
+household_1,2017-03-25,60.0,Expense,Food,milk 1 lit,,INR
+household_1,2017-03-23,60.0,Expense,Food,3 sugarcane juice,,INR
+household_1,2017-03-23,1499.0,Expense,Other,fifa 21 pc,,INR
+household_1,2017-03-22,20.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-03-22,500.0,Expense,Groceries,mattress advance,,INR
+household_1,2017-03-22,33.0,Expense,Transport,within city,,INR
+household_1,2017-03-22,18.0,Expense,Transport,2 place 6 to place 7,,INR
+household_1,2017-03-22,20.0,Expense,Transport,2 place 0 to ws returns,,INR
+household_1,2017-03-22,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-03-22,600.0,Expense,Transport,place 6 to place 2,,INR
+household_1,2017-03-20,450.0,Expense,Groceries,2 spike guard,,INR
+household_1,2017-03-19,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-03-18,57.0,Expense,Food,2 samosa ( 32 ) + 25 pani puri,,INR
+household_1,2017-03-18,310.0,Expense,Food,grapes + apple + guava,,INR
+household_1,2017-03-16,70.0,Income,Other,scrap,,INR
+household_1,2017-03-16,2820.0,Expense,Entertainment,6 months ( 30mb ul plan + 1 month free ),,INR
+household_1,2017-03-15,50.0,Expense,Groceries,drainage powder,,INR
+household_1,2017-03-15,111.0,Expense,Groceries,2 toast + 2 parle g + marie gold,,INR
+household_1,2017-03-15,40.0,Expense,Food,2 softy,,INR
+household_1,2017-03-14,300.0,Expense,Groceries,2 bath stool,,INR
+household_1,2017-03-13,400.0,Expense,Groceries,wall hanging clipboard,,INR
+household_1,2017-03-13,100.0,Expense,Shopping,hair cut,,INR
+household_1,2017-03-13,1600.0,Expense,Groceries,ceiling fans repair,,INR
+household_1,2017-03-12,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-03-12,40.0,Expense,Food,2 sugarcane juice,,INR
+household_1,2017-03-12,130.0,Expense,Food,pav bhaji pav ( 90 ) + 4 pav extra ( 40 ),,INR
+household_1,2017-03-12,440.0,Expense,Entertainment,2 batman tickets,,INR
+household_1,2017-03-12,40.0,Expense,Transport,2 place 0 to place 4 return,,INR
+household_1,2017-03-12,30.0,Expense,Transport,2 current residence to place 0,,INR
+household_1,2017-03-11,30.0,Expense,Transport,2 place 0 to current residence,,INR
+household_1,2017-03-11,20.0,Expense,Transport,2 place 0 to ws returns,,INR
+household_1,2017-03-11,60.0,Expense,Food,bhel + shev puri,,INR
+household_1,2017-03-11,200.0,Expense,Food,1 . 5 lit milk + 3 cold drink + 1 khari + 1 bread,,INR
+household_1,2017-03-10,1599.98,Expense,Transport,2 place 2 to place 1,,INR
+household_1,2017-03-10,296.0,Expense,Entertainment,mobile service provider freedom pack,,INR
+household_1,2017-03-10,62.0,Expense,Food,milk 1lit,,INR
+household_1,2017-03-10,72.0,Expense,Food,3 plate kachori,,INR
+household_1,2017-03-09,100.0,Expense,Food,2 orange juices,,INR
+household_1,2017-03-09,100.0,Expense,Food,2 schwan chutteny + 2 cheese cube + amul butter,,INR
+household_1,2017-03-08,150.0,Expense,Food,naturals,,INR
+household_1,2017-03-07,190.0,Expense,Food,1 kg apple + grapes 0 . 5 kg,,INR
+household_1,2017-03-07,20.0,Expense,Food,vanilla ice cream cups 2,,INR
+household_1,2017-03-07,62.0,Expense,Food,milk 1lit,,INR
+household_1,2017-03-06,62.0,Expense,Food,milk 1lit,,INR
+household_1,2017-03-06,45.0,Expense,Food,2 plate medu vada + 2 pcs dal vada,,INR
+household_1,2017-03-05,10.0,Expense,Shopping,footwear repair,,INR
+household_1,2017-03-05,140.0,Expense,Groceries,plastic kharata + brush,,INR
+household_1,2017-03-05,30.0,Expense,Transport,place 0 to sec 21,,INR
+household_1,2017-03-05,30.0,Expense,Food,sugarcane juice 2,,INR
+household_1,2017-03-05,20.0,Expense,Transport,place 0 to place 6 return 2,,INR
+household_1,2017-03-05,30.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-03-04,20.0,Expense,Food,vanilla ice cream cups 2,,INR
+household_1,2017-03-03,148.0,Expense,Food,milk 1 lit + butter milk + srikhand pav kg,,INR
+household_1,2017-03-01,50.0,Expense,Groceries,measuring tape,,INR
+household_1,2017-02-28,40.0,Expense,Transport,within city,,INR
+household_1,2017-02-28,56021.0,Income,Other,from workplace,,INR
+household_1,2017-02-28,85.0,Expense,Food,sabudana + rajgira ladu,,INR
+household_1,2017-02-28,30.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-02-28,10.0,Expense,Transport,2 place 3m to vadala rd,,INR
+household_1,2017-02-28,12.0,Expense,Transport,best 138 - marine drive to place 3m,,INR
+household_1,2017-02-28,400.0,Expense,Other,fine,,INR
+household_1,2017-02-28,2421.0,Expense,Food,at restaurant,,INR
+household_1,2017-02-28,20.0,Expense,Transport,2 santacruz to churchgate,,INR
+household_1,2017-02-28,30.0,Expense,Food,sugarcane juice 2,,INR
+household_1,2017-02-28,40.0,Expense,Transport,share auto - mumbai university kalina to santacruz station,,INR
+household_1,2017-02-28,30.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-02-28,80.0,Expense,Transport,2 santacruz return,,INR
+household_1,2017-02-28,57.0,Expense,Transport,santacruz to kalina university,,INR
+household_1,2017-02-27,40.0,Expense,Transport,2 tb return,,INR
+household_1,2017-02-27,30.0,Expense,Transport,place 0 to current residence,,INR
+household_1,2017-02-27,30.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-02-27,88.0,Expense,Food,6 chapati ( 8 rs ) + half rice,,INR
+household_1,2017-02-27,55.0,Expense,Groceries,3 wall clock cell,,INR
+household_1,2017-02-27,76.0,Expense,Food,milk 1lit + amul butter milk,,INR
+household_1,2017-02-26,20.0,Expense,Transport,place 0 to ws returns,,INR
+household_1,2017-02-26,30.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-02-26,360.0,Expense,Groceries,dustbin + basin sink cover,,INR
+household_1,2017-02-26,58.0,Expense,Food,2 jumbo king burger,,INR
+household_1,2017-02-25,8500.0,Expense,Groceries,exide inverter battery 150amp,,INR
+household_1,2017-02-25,1600.0,Expense,Groceries,tube and inverter fitting,,INR
+household_1,2017-02-25,920.0,Expense,Groceries,hp cylinder,,INR
+household_1,2017-02-25,318.0,Expense,Food,veg paneer tikka 4 roti,,INR
+household_1,2017-02-25,247.0,Expense,Food,veg triple schwan fried rice,,INR
+household_1,2017-02-24,75.0,Expense,Food,milk 1 lit + butter milk,,INR
+household_1,2017-02-24,30.0,Expense,Food,3 tea yevle amrutullya,,INR
+household_1,2017-02-24,100.0,Expense,Food,at restaurant,,INR
+household_1,2017-02-23,80.0,Expense,Food,2 vanilla + 2 butterscotch,,INR
+household_1,2017-02-22,30.0,Expense,Education,stamp pad,,INR
+household_1,2017-02-22,5500.0,Expense,Transport,place 2 to place 1,,INR
+household_1,2017-02-21,10.0,Expense,Food,pav vada,,INR
+household_1,2017-02-19,23.0,Expense,Other,to family,,INR
+household_1,2017-02-19,30.0,Expense,Food,sugarcane juice 2,,INR
+household_1,2017-02-19,25.0,Expense,Education,laminated colour print out,,INR
+household_1,2017-02-19,498.0,Expense,Shopping,undergarments pair of jockey,,INR
+household_1,2017-02-16,400.0,Expense,Other,farewell contribution,,INR
+household_1,2017-02-12,850.0,Expense,Other,laptop repair ( format 350 + quick heal pro 500 ),,INR
+household_1,2017-02-11,10.0,Expense,Food,single pav vada,,INR
+household_1,2017-02-08,1499.0,Expense,Other,handbag to family,,INR
+household_1,2017-02-06,30.0,Expense,Food,half kg chiku,,INR
+household_1,2017-02-06,140.0,Expense,Food,1 kg apple,,INR
+household_1,2017-02-06,195.0,Expense,Food,vegetables,,INR
+household_1,2017-02-06,110.0,Expense,Food,jira + toast pav kilo,,INR
+household_1,2017-02-05,40.0,Expense,Transport,within city,,INR
+household_1,2017-02-05,330.0,Expense,Transport,n to m,,INR
+household_1,2017-02-04,38.0,Expense,Shopping,clothes ironing,,INR
+household_1,2017-02-04,60.0,Expense,Food,5 pouch of shreejal,,INR
+household_1,2017-02-04,53.0,Expense,Food,samosa + sabudana vada,,INR
+household_1,2017-02-04,30.0,Expense,Food,half liter buffalo,,INR
+household_1,2017-02-03,8.0,Expense,Health,meftal spas,,INR
+household_1,2017-02-03,412.25,Expense,Food,parath + chicken biryani,,INR
+household_1,2017-02-03,12.0,Expense,Food,shreejal 1,,INR
+household_1,2017-02-03,10.0,Expense,Food,parle top biscuits,,INR
+household_1,2017-02-03,50.0,Expense,Food,chicken roll,,INR
+household_1,2017-02-02,1160.0,Expense,Food,at restaurant,,INR
+household_1,2017-02-01,33.0,Expense,Food,half liter buffalo,,INR
+household_1,2017-01-31,63101.0,Income,Other,from workplace,,INR
+household_1,2017-01-31,35.0,Expense,Food,half liter buffalo,,INR
+household_1,2017-01-30,35.0,Expense,Food,half liter buffalo,,INR
+household_1,2017-01-30,15.0,Expense,Food,single pav vada,,INR
+household_1,2017-01-29,250.0,Expense,Food,3 parathe ( 80 mix veg + 70 methi + 100 paneer aloo ),,INR
+household_1,2017-01-29,60.0,Expense,Food,cheese chilli toast sandwich 1,,INR
+household_1,2017-01-29,30.0,Expense,Food,2 shegaon kachori ( nasik ),,INR
+household_1,2017-01-29,35.0,Expense,Food,brown bread,,INR
+household_1,2017-01-29,35.0,Expense,Food,half liter buffalo,,INR
+household_1,2017-01-29,30.0,Expense,Transport,within city,,INR
+household_1,2017-01-29,510.0,Expense,Transport,2 tickets place 2 to n,,INR
+household_1,2017-01-29,30.0,Expense,Transport,within city,,INR
+household_1,2017-01-23,649.0,Expense,Other,birthday gift,,INR
+household_1,2017-01-21,149.0,Expense,Entertainment,mobile service provider recharge,,INR
+household_1,2017-01-19,20.0,Expense,Food,2 bombay vada pav,,INR
+household_1,2017-01-19,145.0,Expense,Other,syrup,,INR
+household_1,2017-01-16,40.0,Expense,Transport,ghroad to permanent residence,,INR
+household_1,2017-01-16,2400.0,Expense,Groceries,chair pair,,INR
+household_1,2017-01-16,50.0,Expense,Other,adhar pvc card order,,INR
+household_1,2017-01-15,140.0,Expense,Food,chole + shev,,INR
+household_1,2017-01-15,540.0,Expense,Food,fruits and vegetables + kirana,,INR
+household_1,2017-01-11,45.0,Expense,Food,3 chips packets + bread,,INR
+household_1,2017-01-11,90.0,Expense,Health,adulsa ( tonic for cough ),,INR
+household_1,2017-01-10,160.0,Expense,Food,1 kg apple + bananas,,INR
+household_1,2017-01-09,99.0,Expense,Food,himalaya soap ( 30 ) + sofie ( 59 ) + kitkat ( 10 ),,INR
+household_1,2017-01-09,80.0,Expense,Shopping,hair cut + shaving,,INR
+household_1,2017-01-08,149.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2017-01-08,50.0,Expense,Transport,place 2 bus stand to permanent residence,,INR
+household_1,2017-01-07,175.0,Expense,Food,woffel,,INR
+household_1,2017-01-07,50.0,Expense,Transport,current residence to hotel on highway,,INR
+household_1,2017-01-06,1396.5,Expense,Transport,place 1 to place 2 - novelty tour and travels,,INR
+household_1,2017-01-06,294.0,Expense,Food,veg paneer tikka 3 roti,,INR
+household_1,2017-01-06,31.0,Expense,Food,milk 0 . 5 lit,,INR
+household_1,2017-01-06,48.0,Expense,Food,4 shegaon kachori,,INR
+household_1,2017-01-05,100.0,Expense,Groceries,inverter battery check,,INR
+household_1,2017-01-05,31.0,Expense,Food,milk 0 . 5 lit,,INR
+household_1,2017-01-04,40.0,Expense,Food,biscuits + icecream,,INR
+household_1,2017-01-03,140.0,Expense,Food,fruits and vegetables,,INR
+household_1,2017-01-03,50.0,Expense,Food,pastry 2,,INR
+household_1,2017-01-03,20.0,Expense,Food,yevle amrutullya,,INR
+household_1,2017-01-03,31.0,Expense,Food,milk 0 . 5 lit,,INR
+household_1,2017-01-03,310.0,Expense,Food,2 uttapam,,INR
+household_1,2017-01-03,330.0,Expense,Food,farm house pizza,,INR
+household_1,2017-01-03,400.0,Expense,Entertainment,imax 3d,,INR
+household_1,2017-01-03,20.0,Expense,Transport,place 0 to ws returns,,INR
+household_1,2017-01-03,30.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-01-02,60.0,Expense,Transport,current residence to place 0,,INR
+household_1,2017-01-02,110.0,Expense,Groceries,belan,,INR
+household_1,2017-01-02,386.0,Expense,Food,1 veg noodles + 1 chicken soup + 1 egg fried rice,,INR
+household_1,2017-01-01,510.0,Expense,Food,fruits and vegetables,,INR
+household_1,2017-01-01,354.0,Expense,Health,antibiotics,,INR
+household_1,2017-01-01,40.0,Expense,Food,1kg atta,,INR
+household_1,2017-01-01,50.0,Expense,Groceries,channi + viper + ghasni,,INR
+household_1,2017-01-01,340.0,Expense,Food,pizza meal,,INR
+household_1,2017-01-01,300.0,Expense,Health,doctor fees,,INR
+household_1,2016-12-31,77.0,Expense,Food,milk + butter + biscuits / toast,,INR
+household_1,2016-12-31,375.0,Expense,Food,1 chicken shawarma + 1 chicken lollipop - 1 veg cheese burger,,INR
+household_1,2016-12-31,25.0,Expense,Food,1 panipuri,,INR
+household_1,2016-12-31,1096.0,Expense,Other,birthday gift,,INR
+household_1,2016-12-31,24.0,Expense,Health,strepsils 1 strip,,INR
+household_1,2016-12-31,170.0,Expense,Food,veg fried rice,,INR
+household_1,2016-12-31,56574.0,Income,Other,from workplace,,INR
+household_1,2016-12-31,2816.0,Expense,Entertainment,emi 1,,INR
+household_1,2016-12-31,160.0,Expense,Food,edible oil,,INR
+household_1,2016-12-30,100.0,Expense,Transport,permanent residence to bus stand,,INR
+household_1,2016-12-29,10.0,Expense,Food,2 chips packets,,INR
+household_1,2016-12-29,14.0,Expense,Food,1 sher bajri 1 kg dadar 1 kg makka,,INR
+household_1,2016-12-29,403.0,Expense,Transport,ltt to place 2 ( patna exp ) cancellation,,INR
+household_1,2016-12-29,3195.0,Expense,Other,nokia 215 mobile for aai,,INR
+household_1,2016-12-28,10.0,Expense,Food,monaco biscuits,,INR
+household_1,2016-12-28,1780.0,Expense,Other,specs,,INR
+household_1,2016-12-22,285.0,Expense,Other,farewell contribution,,INR
+household_1,2016-12-22,11.8,Expense,Transport,place 5 to place 1 sevagram,,INR
+household_1,2016-12-21,1874.0,Expense,Other,sweater,,INR
+household_1,2016-12-21,251.8,Expense,Transport,ltt to place 2 cancellation,,INR
+household_1,2016-12-21,1900.0,Expense,Transport,place 2 to place 1 - novelty tour and travels,,INR
+household_1,2016-12-19,30.0,Expense,Food,2 dabeli,,INR
+household_1,2016-12-19,49.0,Expense,Groceries,sensitive toothbrush,,INR
+household_1,2016-12-19,29.0,Expense,Food,chips 1 kurkure ( 19 ) 1 lays ( 10 ),,INR
+household_1,2016-12-19,170.0,Expense,Food,1 kg mosambi 1 kg apple,,INR
+household_1,2016-12-18,5.0,Income,Other,reward gpay,,INR
+household_1,2016-12-17,11.0,Income,Other,reward gpay,,INR
+household_1,2016-12-13,35.0,Expense,Other,kalnirnay calender,,INR
+household_1,2016-12-13,25.0,Expense,Groceries,oralb toothbrush with cap,,INR
+household_1,2016-12-13,350.0,Expense,Other,farewell contribution,,INR
+household_1,2016-12-11,45.0,Expense,Other,jeevan drop,,INR
+household_1,2016-12-11,200.0,Expense,Health,doctor fees,,INR
+household_1,2016-12-11,257.0,Expense,Health,eye drop maxmoist,,INR
+household_1,2016-12-10,30.0,Expense,Food,chocobar,,INR
+household_1,2016-12-08,30.0,Expense,Food,cheese cubes ( 2 ),,INR
+household_1,2016-12-08,199.0,Expense,Other,ott platform 1 subscription,,INR
+household_1,2016-12-05,155.0,Expense,Other,tonic,,INR
+household_1,2016-12-04,25.0,Expense,Food,gilke,,INR
+household_1,2016-12-04,10.0,Expense,Food,kadhipatta + 2 lemon,,INR
+household_1,2016-12-04,8.0,Expense,Food,kandyachi paat,,INR
+household_1,2016-12-04,30.0,Expense,Food,tomato,,INR
+household_1,2016-12-04,25.0,Expense,Food,onion 1 kg,,INR
+household_1,2016-12-04,50.0,Expense,Food,val + methi + lady finger,,INR
+household_1,2016-12-04,90.0,Expense,Food,carrets + brinjal + flower,,INR
+household_1,2016-12-04,15.0,Expense,Food,3 chips packets,,INR
+household_1,2016-12-04,45.0,Expense,Food,pav bhaji pav 3 packets ( 8pcs each ),,INR
+household_1,2016-12-04,20.0,Expense,Food,8 bananas,,INR
+household_1,2016-12-03,55.0,Expense,Food,colgate max fresh medium,,INR
+household_1,2016-12-03,20.0,Expense,Food,2 milkybar,,INR
+household_1,2016-11-30,500.0,Expense,Other,leggings,,INR
+household_1,2016-11-30,56586.0,Income,Other,from workplace,,INR
+household_1,2016-11-30,5.0,Income,Other,reward gpay,,INR
+household_1,2016-11-30,98.0,Expense,Entertainment,mobile recharge sim 2,,INR
+household_1,2016-11-29,60.0,Expense,Other,himalaya shampoo,,INR
+household_1,2016-11-28,20500.0,Expense,Groceries,metz 32 inch tv,,INR
+household_1,2016-11-28,20.0,Expense,Food,mava 1 large,,INR
+household_1,2016-11-25,5.0,Income,Other,reward gpay,,INR
+household_1,2016-11-21,50.0,Expense,Transport,within city,,INR
+household_1,2016-11-21,15.0,Expense,Health,strepsils,,INR
+household_1,2016-11-21,70.0,Expense,Transport,within city,,INR
+household_1,2016-11-20,50.0,Expense,Transport,locality v to permanent residence,,INR
+household_1,2016-11-19,2.0,Expense,Food,poppins,,INR
+household_1,2016-11-19,1087.0,Expense,Food,"3 parathe , 1 hara bhara kabab , 1 rabdi malai , 1 masala papad , 1 pepsi",,INR
+household_1,2016-11-19,50.0,Expense,Transport,within city,,INR
+household_1,2016-11-19,40.0,Expense,Food,two water bottles,,INR
+household_1,2016-11-19,100.0,Expense,Other,sayaji baug express ( 50 / adult ),,INR
+household_1,2016-11-19,40.0,Expense,Transport,ola auto - brc,,INR
+household_1,2016-11-19,94.0,Expense,Transport,place t to brc,,INR
+household_1,2016-11-19,100.0,Expense,Transport,share jeep - place t top to base ( 50 / person ),,INR
+household_1,2016-11-19,40.0,Expense,Food,lemon juice ( 20 / person ),,INR
+household_1,2016-11-19,740.0,Expense,Other,"puja saman ( 150 for 5 nariyal , 400 for 1kg sweets and 190 for rest )",,INR
+household_1,2016-11-19,338.0,Expense,Transport,ropeway place t to and fro ( 169 / person ),,INR
+household_1,2016-11-19,100.0,Expense,Transport,share jeep - place t base to top ( 50 / person ),,INR
+household_1,2016-11-19,40.0,Expense,Transport,share auto - place h to place t base ( 20 / person ),,INR
+household_1,2016-11-19,54.0,Expense,Transport,bus - brc to place h ( 27 / person ),,INR
+household_1,2016-11-19,80.0,Expense,Transport,within city,,INR
+household_1,2016-11-17,10.0,Expense,Food,single pav vada,,INR
+household_1,2016-11-15,20.0,Expense,Food,lemons,,INR
+household_1,2016-11-15,10.0,Expense,Other,flowers,,INR
+household_1,2016-11-15,180.0,Expense,Food,apple + mosambi 1kg each,,INR
+household_1,2016-11-14,1800.0,Expense,Transport,veer travels - brc to place 2 ( 2 adults ),,INR
+household_1,2016-11-14,4662.0,Expense,Transport,kabra travels - place 2 to brc ( 2 adults ),,INR
+household_1,2016-11-12,55.0,Expense,Health,mouth fresh,,INR
+household_1,2016-11-12,10.0,Expense,Food,bombay vada pav,,INR
+household_1,2016-11-10,40.0,Expense,Transport,permanent residence to bandhu prem,,INR
+household_1,2016-11-10,1000.0,Expense,Other,rd,,INR
+household_1,2016-11-10,11286.0,Expense,Other,life insurance,,INR
+household_1,2016-11-09,10.0,Expense,Other,gulal,,INR
+household_1,2016-11-08,199.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2016-11-07,45.0,Expense,Food,ice cream,,INR
+household_1,2016-11-05,30.0,Expense,Transport,permanent residence to hospital,,INR
+household_1,2016-11-05,1000.0,Expense,Other,rd,,INR
+household_1,2016-11-04,50.0,Expense,Other,firecracker,,INR
+household_1,2016-11-03,240.0,Expense,Food,butter + frozen vatana + 9 pan,,INR
+household_1,2016-11-03,470.0,Expense,Other,cake + happy birthday letters,,INR
+household_1,2016-11-03,700.0,Expense,Health,medicine,,INR
+household_1,2016-11-03,1500.0,Income,Other,diwali gift,,INR
+household_1,2016-11-02,80.0,Expense,Shopping,cutting + shaving,,INR
+household_1,2016-11-01,450.0,Expense,Other,firecracker,,INR
+household_1,2016-11-01,50.0,Expense,Food,mosambi 1kg,,INR
+household_1,2016-10-31,1999.0,Expense,Other,mi band 5 ( bhaiduj gift ),,INR
+household_1,2016-10-30,56647.0,Income,Other,from workplace,,INR
+household_1,2016-10-28,221.0,Expense,Health,syrup + tablet + mortein refill,,INR
+household_1,2016-10-28,40.0,Expense,Transport,permanent residence to pathology,,INR
+household_1,2016-10-27,1119.2,Expense,Other,undated planner - june shop,,INR
+household_1,2016-10-27,25.0,Expense,Food,mehndi,,INR
+household_1,2016-10-27,170.0,Expense,Food,apple + mosambi 1kg each,,INR
+household_1,2016-10-25,25.0,Expense,Food,egg roll,,INR
+household_1,2016-10-24,320.0,Expense,Food,popcorn + mehndi + mosambi + orange + all out refill,,INR
+household_1,2016-10-22,35.0,Expense,Food,khari,,INR
+household_1,2016-10-22,20.0,Expense,Food,pav vada,,INR
+household_1,2016-10-17,215.0,Expense,Food,butter + paneer + pav + batate + tamate,,INR
+household_1,2016-10-14,120.0,Expense,Food,sugar + biscuits,,INR
+household_1,2016-10-13,249.0,Expense,Other,scratch guard ipad,,INR
+household_1,2016-10-12,150.0,Expense,Food,coconut,,INR
+household_1,2016-10-10,100.0,Expense,Food,apple half kg + mixer repair + flowers,,INR
+household_1,2016-10-09,249.0,Expense,Other,scratch guard ipad,,INR
+household_1,2016-10-09,80.0,Expense,Transport,permanent residence to hospital to n fro,,INR
+household_1,2016-10-09,90.0,Expense,Food,mosambi 1kg + gavar pav kilo + lemon 3 + kothimbir,,INR
+household_1,2016-10-08,174.0,Expense,Shopping,razor,,INR
+household_1,2016-10-07,199.0,Expense,Entertainment,1 month subscription,,INR
+household_1,2016-10-01,200.0,Expense,Other,vargini,,INR
+household_1,2016-09-30,835.0,Income,Other,interest paid,,INR
+household_1,2016-09-30,58058.0,Income,Other,from workplace,,INR
+household_1,2016-09-15,95.0,Expense,Food,chocobar + milk + chips,,INR
+household_1,2016-09-14,437.0,Expense,Other,baggit purse,,INR
+household_1,2016-09-13,70.0,Expense,Food,brownie,,INR
+household_1,2016-09-13,845.0,Expense,Food,riverdine date,,INR
+household_1,2016-09-12,35.0,Expense,Food,bread,,INR
+household_1,2016-09-12,35.0,Expense,Food,half liter buffalo,,INR
+household_1,2016-09-12,20.0,Expense,Food,vanilla ice cream cups 2,,INR
+household_1,2016-09-11,70.0,Expense,Food,badishop,,INR
+household_1,2016-09-11,35.0,Expense,Food,half liter buffalo,,INR
+household_1,2016-09-11,20.0,Expense,Transport,meghdoot to plaza,,INR
+household_1,2016-09-09,70.0,Expense,Food,1lit buffalo milk,,INR
+household_1,2016-09-08,30.0,Expense,Food,cold coffee,,INR
+household_1,2016-09-08,20.0,Expense,Food,bread,,INR
+household_1,2016-09-07,72.0,Expense,Food,1 dozen,,INR
+household_1,2016-09-06,598.5,Expense,Transport,place 6 to place 2,,INR
+household_1,2016-09-01,750.0,Expense,Transport,place 2 to mum,,INR
+household_1,2016-08-31,63894.0,Income,Other,from workplace,,INR
+household_1,2016-08-29,361.0,Expense,Other,ganesh idol,,INR
+household_1,2016-08-29,40.0,Expense,Groceries,boric powder,,INR
+household_1,2016-08-29,98.0,Expense,Groceries,lizol,,INR
+household_1,2016-08-24,500.0,Expense,Other,rakshabandhan ovalni,,INR
+household_1,2016-08-22,500.0,Expense,Other,rakshabandhan ovalni,,INR
+household_1,2016-08-21,100.0,Expense,Other,earphones,,INR
+household_1,2016-08-14,5.0,Expense,Other,pens,,INR
+household_1,2016-08-14,100.0,Expense,Shopping,hair cut,,INR
+household_1,2016-08-11,11286.0,Expense,Other,life insurance,,INR
+household_1,2016-08-07,750.0,Expense,Other,pet psychology,,INR
+household_1,2016-08-04,260.0,Expense,Other,ipad cover,,INR
+household_1,2016-07-31,51556.0,Income,Other,from workplace,,INR
+household_1,2016-07-31,250.0,Expense,Other,frame for specs,,INR
+household_1,2016-07-13,10.0,Expense,Health,citrizen + crocine,,INR
+household_1,2016-07-12,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-07-07,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-07-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-06-30,740.0,Income,Other,interest paid,,INR
+household_1,2016-06-30,106.9,Expense,Other,pan card application,,INR
+household_1,2016-06-30,51544.0,Income,Other,from workplace,,INR
+household_1,2016-06-27,3200.0,Expense,Transport,chalisgaon to baroda return,,INR
+household_1,2016-06-23,995.0,Expense,Entertainment,amazon prime subscription,,INR
+household_1,2016-06-22,350.0,Expense,Entertainment,mobile service provider sim card porting,,INR
+household_1,2016-06-20,140.0,Expense,Food,icecream,,INR
+household_1,2016-06-19,600.0,Expense,Food,grocery,,INR
+household_1,2016-06-19,905.0,Expense,Other,family exam form,,INR
+household_1,2016-06-10,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-06-07,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-06-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-06-05,68.0,Expense,Food,biscuits + medicine,,INR
+household_1,2016-06-01,25.0,Expense,Food,1 jar,,INR
+household_1,2016-05-31,51556.0,Income,Other,from workplace,,INR
+household_1,2016-05-31,50.0,Expense,Transport,permanent residence to lb road,,INR
+household_1,2016-05-29,504.0,Expense,Food,sanitary napkins + chocolates + maggie + khajoor,,INR
+household_1,2016-05-22,120.0,Expense,Shopping,hair cut + shaving,,INR
+household_1,2016-05-22,40.0,Expense,Transport,permanent residence to nearby hospital,,INR
+household_1,2016-05-19,180.0,Expense,Food,agarbatti + icecream pack,,INR
+household_1,2016-05-17,11286.0,Expense,Other,life insurance,,INR
+household_1,2016-05-17,100.0,Expense,Other,aadhar mobile number and email id updated,,INR
+household_1,2016-05-10,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-05-07,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-05-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-04-30,51562.45,Income,Other,from workplace,,INR
+household_1,2016-04-28,299.0,Expense,Entertainment,subscription,,INR
+household_1,2016-04-26,259.0,Expense,Food,dettol handwash + khari + toast + goodday,,INR
+household_1,2016-04-16,50.0,Expense,Groceries,sensodyne toothbrush,,INR
+household_1,2016-04-12,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-04-07,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-04-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-04-03,300.0,Expense,Entertainment,subscription 1 yr,,INR
+household_1,2016-04-02,50.0,Expense,Transport,lb road to permanent residence,,INR
+household_1,2016-04-02,30.0,Expense,Other,jeevan drop,,INR
+household_1,2016-03-31,70806.0,Income,Other,from workplace,,INR
+household_1,2016-03-29,100.0,Expense,Other,owalni,,INR
+household_1,2016-03-28,159.0,Expense,Other,hit spray ( 99 )+ biscuits + mask,,INR
+household_1,2016-03-20,35.0,Expense,Food,sambhar masala,,INR
+household_1,2016-03-16,80.0,Expense,Other,ganesh murthi,,INR
+household_1,2016-03-11,60.0,Expense,Food,cheese cubes ( 2 )+ neutralite butter,,INR
+household_1,2016-03-11,250.0,Expense,Other,watch repair,,INR
+household_1,2016-03-11,20.0,Expense,Education,gel pens,,INR
+household_1,2016-03-10,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-03-08,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-03-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-02-28,70.0,Expense,Food,biscuits,,INR
+household_1,2016-02-28,100.0,Expense,Shopping,hair cut,,INR
+household_1,2016-02-28,100.0,Expense,Food,pedhe,,INR
+household_1,2016-02-27,50.0,Expense,Food,pedhe,,INR
+household_1,2016-02-26,49806.0,Income,Other,from workplace,,INR
+household_1,2016-02-22,40.0,Expense,Food,5star ( 2 )+ munch ( 2 ),,INR
+household_1,2016-02-20,85.0,Expense,Food,biscuits,,INR
+household_1,2016-02-14,165.0,Expense,Food,bread ( 10 )+ cadbury ( 10 )+ cheese + myvaneese + pav bhaji masala,,INR
+household_1,2016-02-13,40.0,Expense,Transport,within city,,INR
+household_1,2016-02-13,80.0,Expense,Health,hand gloves 4 pairs,,INR
+household_1,2016-02-10,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-02-08,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-02-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-01-31,49806.0,Income,Other,from workplace,,INR
+household_1,2016-01-13,45000.0,Income,Other,wedding gift,,INR
+household_1,2016-01-12,200.0,Expense,Shopping,slippers,,INR
+household_1,2016-01-11,1000.0,Expense,Other,mutual fund c,,INR
+household_1,2016-01-10,15.0,Expense,Groceries,chalk for ants,,INR
+household_1,2016-01-08,1994.0,Expense,Other,laptop table,,INR
+household_1,2016-01-07,1000.0,Expense,Other,mutual fund b,,INR
+household_1,2016-01-05,1000.0,Expense,Other,mutual fund a,,INR
+household_1,2016-01-05,350.0,Expense,Food,cake,,INR
+household_1,2016-01-05,30.0,Expense,Transport,grandparents to permanent residence,,INR
+household_1,2016-01-01,35.0,Expense,Food,everest pav bhaji masala,,INR
+household_1,2016-01-01,192.0,Expense,Food,amul butter 100gm ( 4 pcs ),,INR
+household_1,2015-12-31,540.0,Expense,Food,cake + balloon ( 150 )+ caps ( 50 + 40 ),,INR
+household_1,2015-12-31,77335.0,Income,Other,from workplace,,INR
+household_1,2015-12-30,100.0,Expense,Food,cake advance,,INR
+household_1,2015-12-30,2000.0,Expense,Shopping,hair cut + shaving + dye + facial,,INR
+household_1,2015-12-25,270.0,Expense,Shopping,sliper,,INR
+household_1,2015-12-25,50.0,Expense,Groceries,dustbin bags,,INR
+household_1,2015-12-20,465.0,Expense,Other,secret santa - diary,,INR
+household_1,2015-12-19,220.0,Expense,Health,hand sanitizer,,INR
+household_1,2015-12-19,235.0,Expense,Health,eye drop maxmoist,,INR
+household_1,2015-12-12,50.0,Expense,Transport,within city,,INR
+household_1,2015-12-11,100.0,Expense,Transport,station to permanent residence,,INR
+household_1,2015-12-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-12-05,90.0,Expense,Food,cadbury 2 + chips 2,,INR
+household_1,2015-12-05,200.0,Expense,Other,petrol,,INR
+household_1,2015-12-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-12-02,325.0,Expense,Shopping,kolhapuri chappal,,INR
+household_1,2015-12-01,773.0,Expense,Shopping,roadstar black fishermen sandals,,INR
+household_1,2015-12-01,1024.0,Expense,Other,to family,,INR
+household_1,2015-11-30,49806.0,Income,Other,from workplace,,INR
+household_1,2015-11-27,25.0,Expense,Food,egg roll,,INR
+household_1,2015-11-21,84.0,Expense,Food,1 dozen,,INR
+household_1,2015-11-15,1500.0,Income,Other,diwali gift,,INR
+household_1,2015-11-14,310.0,Expense,Other,flowers (. 5kg )+ sweets (. 25gm + 10 /-)+ vegetables ( 1 . 5kg ),,INR
+household_1,2015-11-12,25.0,Expense,Food,egg roll,,INR
+household_1,2015-11-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-11-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-11-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-11-05,84.0,Expense,Food,12 eggs,,INR
+household_1,2015-11-03,40.0,Expense,Transport,permanent residence to nearby hospital,,INR
+household_1,2015-11-01,70.0,Expense,Transport,locality v to permanent residence,,INR
+household_1,2015-10-31,70.0,Expense,Food,water bottle + khari sing,,INR
+household_1,2015-10-31,71.0,Expense,Transport,b45 to pandya bridge,,INR
+household_1,2015-10-31,49806.0,Income,Other,from workplace,,INR
+household_1,2015-10-31,250.0,Expense,Food,sweats,,INR
+household_1,2015-10-31,150.0,Expense,Health,face mask,,INR
+household_1,2015-10-31,180.0,Expense,Transport,golden circle to b45,,INR
+household_1,2015-10-30,50.0,Expense,Shopping,hair cut,,INR
+household_1,2015-10-30,30.0,Expense,Transport,permanent residence to kacheri,,INR
+household_1,2015-10-29,665.0,Expense,Transport,redbus - brc to place 2,,INR
+household_1,2015-10-28,1000.0,Expense,Other,to family,,INR
+household_1,2015-10-28,660.0,Expense,Transport,place 2 to brc travels,,INR
+household_1,2015-10-25,240.0,Expense,Groceries,sapat parivar tea half kg,,INR
+household_1,2015-10-24,100.0,Expense,Groceries,plumber,,INR
+household_1,2015-10-23,20.0,Expense,Transport,mandir to hospital,,INR
+household_1,2015-10-23,40.0,Expense,Other,hanger clips,,INR
+household_1,2015-10-21,500.0,Expense,Other,toll + petrol,,INR
+household_1,2015-10-18,1479.0,Expense,Shopping,belt + socs,,INR
+household_1,2015-10-18,803.0,Expense,Transport,ola - place 1 to place 5 to and fro,,INR
+household_1,2015-10-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-10-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-10-07,8029.0,Expense,Other,kindle + gift wrap,,INR
+household_1,2015-10-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-10-02,420.0,Expense,Food,cold coffee,,INR
+household_1,2015-09-30,49806.0,Income,Other,from workplace,,INR
+household_1,2015-09-30,100.0,Expense,Other,phone cover,,INR
+household_1,2015-09-28,350.0,Expense,Other,mobile service provider sim card,,INR
+household_1,2015-09-28,120.0,Expense,Health,6 pairs of use and throw gloves,,INR
+household_1,2015-09-28,300.0,Expense,Health,2 n95 masks,,INR
+household_1,2015-09-21,2099.0,Expense,Other,mobile service provider fi router,,INR
+household_1,2015-09-11,379.0,Expense,Food,chicken lollypop + biryani,,INR
+household_1,2015-09-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-09-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-09-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-09-04,4800.0,Income,Other,return deposit,,INR
+household_1,2015-08-31,49806.0,Income,Other,from workplace,,INR
+household_1,2015-08-31,287.0,Expense,Other,screw driver kit,,INR
+household_1,2015-08-14,3499.0,Expense,Groceries,mixer philips 7756,,INR
+household_1,2015-08-13,1450.0,Expense,Other,internet renewal ( 3 months pack ),,INR
+household_1,2015-08-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-08-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-08-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-07-31,47859.0,Income,Other,from workplace,,INR
+household_1,2015-07-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-07-09,459.0,Expense,Other,earphones,,INR
+household_1,2015-07-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-07-06,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-07-02,312.0,Expense,Other,splitwise settlement,,INR
+household_1,2015-06-30,47859.0,Income,Other,from workplace,,INR
+household_1,2015-06-29,199.0,Expense,Other,amazon prime,,INR
+household_1,2015-06-23,999.0,Expense,Other,amazon prime,,INR
+household_1,2015-06-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-06-10,50.0,Expense,Other,tambola,,INR
+household_1,2015-06-08,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-06-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-05-31,2671.0,Expense,Groceries,electricity bill,,INR
+household_1,2015-05-31,47859.0,Income,Other,from workplace,,INR
+household_1,2015-05-17,6000.0,Expense,Transport,br to mumbai,,INR
+household_1,2015-05-16,607.0,Expense,Other,splitwise settlement,,INR
+household_1,2015-05-16,20.0,Expense,Food,bananas 1 kg,,INR
+household_1,2015-05-16,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-15,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-14,1450.0,Expense,Other,internet renewal ( 3 months pack ),,INR
+household_1,2015-05-13,250.0,Expense,Health,n95 mask,,INR
+household_1,2015-05-13,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-12,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-11,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-05-11,20.0,Expense,Food,onions,,INR
+household_1,2015-05-11,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-10,160.0,Expense,Groceries,sensodyne rapid fire,,INR
+household_1,2015-05-09,290.0,Expense,Health,hand sanitizer + surgical gloves,,INR
+household_1,2015-05-09,52.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-09,20.0,Expense,Food,gobi,,INR
+household_1,2015-05-08,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-05-06,70.0,Expense,Health,limcee +,,INR
+household_1,2015-05-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-05-05,100.0,Expense,Food,methi + palak,,INR
+household_1,2015-05-05,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-03,20000.0,Expense,Other,april - may 10k contribution,,INR
+household_1,2015-05-02,28.0,Expense,Food,milk half shakti,,INR
+household_1,2015-05-01,20.0,Expense,Food,dahi,,INR
+household_1,2015-04-28,49306.0,Income,Other,from workplace,,INR
+household_1,2015-04-28,28.0,Expense,Food,milk half gold,,INR
+household_1,2015-04-26,59.0,Expense,Other,stationary ( drawing book + black sketch pen ),,INR
+household_1,2015-04-26,110.0,Expense,Food,eggs + bread,,INR
+household_1,2015-04-26,114.0,Expense,Food,srikhand,,INR
+household_1,2015-04-24,420.0,Expense,Food,snacks + veggie,,INR
+household_1,2015-04-23,56.0,Expense,Food,milk half gold,,INR
+household_1,2015-04-18,180.0,Expense,Other,hair oil,,INR
+household_1,2015-04-18,324.0,Expense,Food,snacks,,INR
+household_1,2015-04-14,500.0,Expense,Other,covid19 donation to pm fund,,INR
+household_1,2015-04-13,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-04-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-04-06,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-04-04,300.0,Expense,Other,cleaning drainage,,INR
+household_1,2015-04-01,50.0,Expense,Food,toothbrush + biscuits,,INR
+household_1,2015-03-31,70806.0,Income,Other,from workplace,,INR
+household_1,2015-03-29,269.0,Expense,Health,kala hit,,INR
+household_1,2015-03-23,20.0,Expense,Bills,refilling,,INR
+household_1,2015-03-20,100.0,Expense,Shopping,dry cleaning,,INR
+household_1,2015-03-20,3700.0,Expense,Health,dentist check - up,,INR
+household_1,2015-03-19,50.0,Expense,Groceries,cooker ring,,INR
+household_1,2015-03-18,53.0,Expense,Food,samosa + tea + veg cheese grill sandwich,,INR
+household_1,2015-03-18,25.0,Expense,Food,dal fry and chapati,,INR
+household_1,2015-03-18,20.0,Expense,Food,aloo paratha,,INR
+household_1,2015-03-16,1000.0,Expense,Health,dentist check - up,,INR
+household_1,2015-03-15,30.0,Expense,Shopping,altering,,INR
+household_1,2015-03-15,36.0,Expense,Food,shakti + bread,,INR
+household_1,2015-03-15,5.0,Expense,Other,cycle air pumping,,INR
+household_1,2015-03-14,40.0,Expense,Shopping,ironing,,INR
+household_1,2015-03-13,10.0,Expense,Transport,to office,,INR
+household_1,2015-03-12,1900.0,Expense,Health,root canal due,,INR
+household_1,2015-03-10,11.8,Expense,Transport,train - ddr to brc cancellation charges,,INR
+household_1,2015-03-10,1000.0,Expense,Other,mutual fund,,INR
+household_1,2015-03-10,11.8,Expense,Transport,train - brc to ddr cancellation charges,,INR
+household_1,2015-03-10,20.0,Expense,Transport,place 0 to bandra,,INR
+household_1,2015-03-10,10.0,Expense,Transport,current residence to place 0,,INR
+household_1,2015-03-10,20.0,Expense,Transport,bandra to bandra terminus,,INR
+household_1,2015-03-09,129.0,Expense,Other,amazon prime,,INR
+household_1,2015-03-07,1000.0,Expense,Other,reliance mutual fund,,INR
+household_1,2015-03-06,10.0,Expense,Transport,b45 to brc,,INR
+household_1,2015-03-06,25.0,Expense,Food,orange juice,,INR
+household_1,2015-03-06,10.0,Expense,Transport,to office,,INR
+household_1,2015-03-05,1000.0,Expense,Other,icici prudential,,INR
+household_1,2015-03-04,25.0,Expense,Food,mosambi juice,,INR
+household_1,2015-03-03,82.0,Expense,Health,painkillers,,INR
+household_1,2015-03-03,3000.0,Expense,Health,root canal advance,,INR
+household_1,2015-03-02,226.0,Expense,Health,painkillers,,INR
+household_1,2015-03-02,300.0,Expense,Health,dentist check - up,,INR
+household_1,2015-03-02,25.0,Expense,Food,canteen lunch,,INR
+household_1,2015-03-02,10.0,Expense,Transport,to office,,INR
+household_1,2015-03-02,40.0,Expense,Food,2 uttapam,,INR
+household_1,2015-03-01,20.0,Expense,Food,bananas,,INR
+household_1,2015-03-01,80.0,Expense,Food,at restaurant,,INR
+household_1,2015-03-01,88.0,Expense,Food,chicken manchow soup,,INR
+household_1,2015-02-28,49806.0,Income,Other,from workplace,,INR
+household_1,2015-02-28,55.0,Expense,Food,chicken thali,,INR
+household_1,2015-02-26,60.0,Expense,Transport,office to vasna road,,INR
+household_1,2015-02-26,30.0,Expense,Food,eggs,,INR
+household_1,2015-02-24,160.0,Expense,Food,vegetable,,INR
+household_1,2015-02-24,66.0,Expense,Transport,ola auto - brc to b45,,INR
+household_1,2015-02-23,20.0,Expense,Transport,bandra to bandra terminus,,INR
+household_1,2015-02-23,20.0,Expense,Transport,place 0 to bandra,,INR
+household_1,2015-02-23,526.0,Expense,Transport,to and fro mum to brc,,INR
+household_1,2015-02-23,4118.0,Expense,Other,splitwise settlement,,INR
+household_1,2015-02-19,45.0,Expense,Health,face mask,,INR
+household_1,2015-02-19,34.0,Expense,Health,koflet,,INR
+household_1,2015-02-19,60.0,Expense,Food,milk 1lit,,INR
+household_1,2015-02-17,227.0,Expense,Food,dinner,,INR
+household_1,2015-02-16,249.0,Expense,Food,kaju katli 250gm,,INR
+household_1,2015-02-16,30.0,Expense,Transport,local - place 0 to place 5 return,,INR
+household_1,2015-02-15,250.0,Expense,Groceries,mixer repair,,INR
+household_1,2015-02-15,500.0,Expense,Other,internet renewal,,INR
+household_1,2015-02-15,20.0,Expense,Food,pani puri,,INR
+household_1,2015-02-15,15.0,Expense,Transport,local - vadala road to place 0,,INR
+household_1,2015-02-15,34.0,Expense,Transport,taxi - dadar to vadala road,,INR
+household_1,2015-02-15,20.0,Expense,Food,tea,,INR
+household_1,2015-02-15,15.0,Expense,Food,bread,,INR
+household_1,2015-02-13,21.0,Expense,Food,chana chat + tea,,INR
+household_1,2015-02-13,27.0,Expense,Food,milk half shakti,,INR
+household_1,2015-02-12,10.0,Expense,Food,kurkure,,INR
+household_1,2015-02-12,12.0,Expense,Food,tea,,INR
+household_1,2015-02-12,10.0,Expense,Food,tea,,INR
+household_1,2015-02-11,54.0,Expense,Food,paneer 150 gm,,INR
+household_1,2015-02-11,26.0,Expense,Food,bread pakoda + tea,,INR
+household_1,2015-02-10,60.0,Expense,Food,grocery,,INR
+household_1,2015-02-10,18.0,Expense,Food,tea + kachuri,,INR
+household_1,2015-02-10,6.0,Expense,Food,tea,,INR
+household_1,2015-02-09,35.0,Expense,Food,paneer,,INR
+household_1,2015-02-09,150.0,Expense,Food,farsan + khari sing,,INR
+household_1,2015-02-09,176.0,Expense,Transport,train - brc to mmct,,INR
+household_1,2015-02-08,86.0,Expense,Food,egg fried rice,,INR
+household_1,2015-02-08,371.0,Expense,Other,deo and amul milk,,INR
+household_1,2015-02-08,3400.0,Expense,Other,internet renewal,,INR
+household_1,2015-02-08,30.0,Expense,Food,tea + biscuits,,INR
+household_1,2015-02-07,6.0,Expense,Food,tea,,INR
+household_1,2015-02-05,40.0,Expense,Food,bhel,,INR
+household_1,2015-02-05,21.0,Expense,Food,snacks,,INR
+household_1,2015-02-04,1178.0,Expense,Food,grocery,,INR
+household_1,2015-02-04,30.0,Expense,Food,tea,,INR
+household_1,2015-02-04,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-02-03,70.0,Expense,Food,12 eggs,,INR
+household_1,2015-02-03,10.0,Expense,Food,tea,,INR
+household_1,2015-02-03,107.0,Expense,Food,grocery,,INR
+household_1,2015-02-03,100.0,Expense,Other,shoe repair,,INR
+household_1,2015-02-03,27.0,Expense,Food,chana chat + kachori,,INR
+household_1,2015-02-03,50.0,Expense,Other,garbage collector,,INR
+household_1,2015-02-02,10000.0,Expense,Other,permanent residence money transfer,,INR
+household_1,2015-02-02,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-02-02,30.0,Expense,Food,5 eggs,,INR
+household_1,2015-02-01,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-02-01,784.0,Expense,Groceries,electricity bill,,INR
+household_1,2015-02-01,248.0,Expense,Shopping,undergarments,,INR
+household_1,2015-01-31,20.0,Expense,Food,bananas,,INR
+household_1,2015-01-31,40.0,Expense,Food,bhindi,,INR
+household_1,2015-01-30,100.0,Expense,Transport,auto - genda circle to b45,,INR
+household_1,2015-01-30,1004.0,Expense,Food,dinner treat,,INR
+household_1,2015-01-29,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-01-29,38.0,Expense,Food,good day biscuits,,INR
+household_1,2015-01-29,15.0,Expense,Food,samosa,,INR
+household_1,2015-01-27,15.0,Expense,Food,chana chat,,INR
+household_1,2015-01-27,30.0,Expense,Food,tea,,INR
+household_1,2015-01-26,26.0,Expense,Food,milk half shakti,,INR
+household_1,2015-01-26,30.0,Expense,Food,paav,,INR
+household_1,2015-01-26,311.0,Expense,Food,grocery,,INR
+household_1,2015-01-25,60.0,Expense,Shopping,hair cut,,INR
+household_1,2015-01-24,30.0,Expense,Food,tea,,INR
+household_1,2015-01-22,20.0,Expense,Food,tea,,INR
+household_1,2015-01-22,33.0,Expense,Food,snacks,,INR
+household_1,2015-01-21,120.0,Expense,Food,grocery,,INR
+household_1,2015-01-21,60.0,Expense,Groceries,broom,,INR
+household_1,2015-01-21,27.0,Expense,Food,samosa + 2 tea,,INR
+household_1,2015-01-21,264.0,Expense,Transport,train - bdts to brc,,INR
+household_1,2015-01-21,138.0,Expense,Transport,train - brc to mmct,,INR
+household_1,2015-01-21,28.0,Expense,Food,milk half gold,,INR
+household_1,2015-01-21,50.0,Expense,Food,shev,,INR
+household_1,2015-01-20,65.0,Expense,Food,srikhand,,INR
+household_1,2015-01-19,29.0,Expense,Food,milk half gold,,INR
+household_1,2015-01-18,60.0,Expense,Food,vegetable,,INR
+household_1,2015-01-18,8.0,Expense,Food,tea,,INR
+household_1,2015-01-18,29.0,Expense,Food,milk half gold,,INR
+household_1,2015-01-16,30.0,Expense,Transport,auto - gtr to hospital,,INR
+household_1,2015-01-16,50.0,Expense,Transport,auto - alk to gtr,,INR
+household_1,2015-01-16,10.0,Expense,Transport,auto - to race course,,INR
+household_1,2015-01-15,155.0,Expense,Food,ratri bazar,,INR
+household_1,2015-01-15,100.0,Expense,Transport,auto - amit nagar to b45,,INR
+household_1,2015-01-15,10.0,Expense,Food,tea,,INR
+household_1,2015-01-14,13.0,Expense,Food,3 bananas,,INR
+household_1,2015-01-14,120.0,Expense,Food,lunch - chicken fried rice + chicken soup,,INR
+household_1,2015-01-14,760.0,Expense,Transport,travels - mumbai to brc,,INR
+household_1,2015-01-13,500.0,Expense,Other,internet renewal,,INR
+household_1,2015-01-13,10.0,Expense,Food,tea,,INR
+household_1,2015-01-12,175.0,Expense,Transport,bus - chinchwad to kala,,INR
+household_1,2015-01-12,61.0,Expense,Transport,ola auto - to chinchwad transport bus stop,,INR
+household_1,2015-01-11,50.0,Expense,Shopping,shaving,,INR
+household_1,2015-01-11,170.0,Expense,Transport,ola auto - wakad to gg skies,,INR
+household_1,2015-01-10,50.0,Expense,Transport,auto - hospital to bridge,,INR
+household_1,2015-01-10,650.0,Expense,Transport,travels - brc to pune,,INR
+household_1,2015-01-10,50.0,Expense,Other,garbage collector,,INR
+household_1,2015-01-10,20.0,Expense,Food,tea,,INR
+household_1,2015-01-09,20.0,Expense,Food,sprout chat,,INR
+household_1,2015-01-09,650.0,Expense,Other,participation fee - corporate cricket league,,INR
+household_1,2015-01-08,20.0,Expense,Food,tea + bourbon,,INR
+household_1,2015-01-07,31.0,Expense,Food,sprout chat + tea + guava drink,,INR
+household_1,2015-01-06,15.0,Expense,Food,sprout chat,,INR
+household_1,2015-01-06,15.0,Expense,Food,tea,,INR
+household_1,2015-01-05,2833.0,Expense,Other,rent,,INR
+household_1,2015-01-05,333.0,Expense,Other,maid,,INR
+household_1,2015-01-05,135.0,Expense,Food,dinner,,INR
+household_1,2015-01-05,2250.0,Expense,Other,cook,,INR
+household_1,2015-01-04,35.0,Expense,Food,shev,,INR
+household_1,2015-01-04,20.0,Expense,Food,tea,,INR
+household_1,2015-01-04,175.0,Expense,Food,rice,,INR
+household_1,2015-01-04,10000.0,Expense,Other,public provident fund,,INR
+household_1,2015-01-03,223.0,Expense,Other,cricket expenses,,INR
+household_1,2015-01-03,49.0,Expense,Food,milk half gold + 2 packs bourbon biscuits,,INR
+household_1,2015-01-02,66.0,Expense,Food,grocery,,INR
+household_1,2015-01-02,10000.0,Expense,Other,permanent residence money transfer,,INR
+household_1,2015-01-02,28.0,Expense,Food,4 eggs,,INR
+household_1,2015-01-02,10.0,Expense,Food,tea,,INR
+household_1,2015-01-01,400.0,Expense,Food,bendys chicken biryani,,INR
+household_1,2015-01-01,20.0,Expense,Transport,share jeep - place t top to base,,INR
+household_1,2015-01-01,60.0,Expense,Transport,share jeep - place t to brc,,INR
+household_1,2015-01-01,40.0,Expense,Entertainment,monument,,INR
+household_1,2015-01-01,200.0,Expense,Food,temple prasad,,INR
+household_1,2015-01-01,142.0,Expense,Transport,ropeway place t to and fro,,INR
+household_1,2015-01-01,20.0,Expense,Transport,share jeep - place t base to top,,INR
+household_1,2015-01-01,20.0,Expense,Transport,share auto - place h to place t base,,INR
+household_1,2015-01-01,30.0,Expense,Transport,bus - brc to place h,,INR
+household_1,2015-01-01,10.0,Expense,Food,tea,,INR
+household_1,2015-01-01,10.0,Expense,Transport,share auto - hospital to brc station,,INR
+kaggle_personal_reference_1,2018-01-01,11.11,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-02,24.22,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-06,18.45,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-08,45.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-08,15.38,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-10,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-11,34.87,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-11,43.54,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-13,32.91,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-13,39.05,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-15,44.19,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-20,50.21,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-22,17.38,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-24,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-25,69.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,30.42,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,25.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-01-29,17.62,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-01,27.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-01,11.11,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-03,57.02,Expense,Food,japanese restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-07,65.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-09,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-10,10.66,Expense,Food,bojangles,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-11,106.8,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-12,36.47,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-12,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-16,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-20,35.95,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-20,23.51,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-21,2.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-22,4.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-02-26,32.21,Expense,Transport,gas station,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-01,32.07,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-03,23.74,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,10.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-04,42.24,Expense,Food,bbq restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-05,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-07,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-08,34.9,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-08,52.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,20.72,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,5.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-12,19.35,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-12,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-13,45.75,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-14,22.5,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-14,8.49,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-15,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-17,23.34,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-19,36.48,Expense,Food,mediterranean restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-20,14.97,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-22,30.55,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-23,11.76,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-28,16.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-28,24.98,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-29,17.64,Expense,Food,steakhouse,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-30,9.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,38.32,Expense,Food,belgian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,24.74,Expense,Food,chili ' s,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-03-31,41.16,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-01,80.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,82.36,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,13.89,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-03,6.41,Expense,Entertainment,amazon video,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-06,4.58,Expense,Transport,chevron,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-06,9.76,Expense,Food,tiny deli,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-08,22.0,Expense,Food,irish pub,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,6.48,Expense,Groceries,blue sky market,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-11,89.52,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-12,7.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-12,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-13,37.98,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-14,11.61,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-16,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-18,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-20,24.22,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-21,4.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-22,21.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-23,42.7,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-24,224.7,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-24,41.34,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-25,210.79,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-28,22.98,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,39.0,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,51.05,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-29,68.47,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-04-30,5.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-03,49.72,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-04,42.23,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-05,7.27,Expense,Food,bojangles,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-05,20.52,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-06,22.37,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-06,117.69,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-10,111.18,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-11,57.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-11,8000.0,Expense,Other,mike ' s construction co .,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,27.77,Expense,Entertainment,liquor store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,33.3,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-12,78.0,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-14,67.63,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-17,29.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-18,6.41,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-19,31.0,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-19,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-21,26.04,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-21,32.5,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-24,39.44,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-28,9.62,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-28,91.03,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-29,20.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-05-29,6.25,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,38.63,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,6.11,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-03,65.81,Expense,Food,italian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,24.12,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-06,4.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-08,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,16.18,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,9.56,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-10,46.01,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-12,12.55,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-12,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-14,7.02,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,22.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-16,13.9,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-18,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-19,38.52,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-19,2.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-20,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-23,8.5,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-23,74.97,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-26,9.62,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-27,3.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-27,22.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-06-28,7.57,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-02,25.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-04,34.48,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-05,44.25,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-05,212.32,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-06,6.41,Expense,Entertainment,amazon video,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-10,5.39,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-10,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-11,89.46,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-14,33.51,Expense,Transport,go mart,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-15,36.24,Expense,Transport,circle k,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,15.23,Expense,Food,wendy ' s,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-18,28.54,Expense,Entertainment,irish restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-21,28.93,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-21,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-23,9.58,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-26,33.67,Expense,Transport,conoco,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-07-28,7.61,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-02,40.44,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-02,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-03,6.27,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-06,76.47,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-10,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-11,13.67,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-11,33.66,Expense,Transport,valero,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,41.07,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-17,14.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-18,23.47,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-27,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-30,35.65,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-08-31,11.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-02,109.83,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-04,1247.44,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-07,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-11,38.86,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-11,7.87,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-12,47.16,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-12,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-13,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,10.17,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,8.8,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-18,4.32,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-18,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-19,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-20,47.38,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-22,69.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-22,6.83,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-25,48.64,Expense,Food,sushi restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-26,5.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-26,38.0,Expense,Transport,exxon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-27,40.71,Expense,Transport,valero,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-28,13.36,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-29,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-09-29,46.7,Expense,Food,german restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,15.66,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-02,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,38.06,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,80.65,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-08,31.2,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,19.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-10,53.68,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-11,89.4,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,33.55,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,45.24,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-18,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-22,34.66,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-23,7.57,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-25,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-25,29.98,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,14.75,Expense,Food,seafood restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,92.49,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-28,54.0,Expense,Food,italian restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-10-31,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-02,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-03,23.66,Expense,Food,pizza place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-05,36.51,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-06,53.95,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-06,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-08,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-10,14.19,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-10,24.4,Expense,Groceries,food truck,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-12,10.18,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,4.8,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,37.43,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,10.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-13,89.54,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-14,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,15.47,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,6.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-17,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-19,29.15,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-19,10.02,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-21,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-21,37.41,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-26,74.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-27,17.0,Expense,Entertainment,movie theater,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-11-30,6.27,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-01,13.13,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,30.03,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,148.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-03,1209.18,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,20.65,Expense,Food,latin restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,21.38,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,13.48,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-06,40.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-07,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-08,12.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-11,10.29,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-12,89.54,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-13,27.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,21.39,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,17.1,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-14,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-17,20.01,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,56.52,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,49.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,41.72,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-18,24.3,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-19,43.01,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-20,30.38,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-22,21.38,Expense,Food,new york deli,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-22,22.14,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-23,28.0,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-24,38.4,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,56.07,Expense,Food,chick - fil - a,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,32.47,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,7.48,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,75.99,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-26,44.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2018-12-29,55.04,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-03,42.1,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-08,45.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,58.79,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-14,28.92,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-15,6.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,21.06,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,11.7,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-24,4.21,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-01-31,31.32,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-01,9.47,Expense,Food,roadside diner,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-04,86.97,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-05,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-07,65.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-08,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-08,27.47,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-11,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-11,24.01,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-12,30.54,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-13,8.21,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-15,4.59,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-16,37.45,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-20,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-21,46.96,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-25,33.8,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-27,25.77,Expense,Food,roadside diner,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-02-28,32.07,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,92.04,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-05,7.0,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,34.08,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,27.17,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-08,49.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-12,3.02,Expense,Food,bakery place,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-14,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-18,320.99,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-18,16.23,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-19,13.84,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-19,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-22,37.51,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-23,5.2,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-26,16.04,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-27,4.46,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-03-30,12.84,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,35.9,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-04,11.76,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-06,27.54,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-08,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,10.7,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-12,44.93,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-12,41.34,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,38.94,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,16.87,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-13,20.64,Expense,Food,vietnamese restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-19,10.89,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-22,64.52,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-23,29.56,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-25,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-29,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-04-30,39.08,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-06,16.94,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-07,38.56,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,331.69,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,3.2,Expense,Shopping,target,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-10,21.39,Expense,Shopping,best buy,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,35.24,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,98.19,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-13,23.11,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-14,2.02,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-24,27.96,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-24,8.0,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-25,36.76,Expense,Transport,quiktrip,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-25,30.99,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-27,34.33,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-05-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-03,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-04,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-05,23.0,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-05,23.24,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-06,3.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-06,5.64,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-07,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-14,10.69,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-15,33.16,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-18,41.83,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-19,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-20,9200.0,Expense,Other,mike ' s construction co .,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-28,30.64,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-06-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,7.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,99.47,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,24.97,Expense,Food,hawaiian grill,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,24.0,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-02,229.9,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-06,92.98,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-06,23.26,Expense,Food,greek restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-07,103.14,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-10,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-10,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-15,87.14,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-16,89.99,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-16,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-17,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,36.42,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,29.83,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-18,8.82,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-19,28.0,Expense,Food,mexican restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-22,26.67,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-24,2.5,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-27,30.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-28,44.31,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-29,5.35,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-29,44.92,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-30,15.77,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-07-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-02,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-03,36.36,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-03,3.96,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-06,125.0,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-08,11.72,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-12,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-12,26.67,Expense,Food,thai restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-14,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-15,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-17,33.15,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-17,19.0,Expense,Shopping,barbershop,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-20,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-20,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-21,34.69,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-23,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-25,39.43,Expense,Food,brunch restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-26,66.75,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-29,3.0,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-30,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-31,68.04,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-08-31,41.78,Expense,Food,bbq restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-01,13.09,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-03,1100.0,Expense,Bills,mortgage payment,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-03,41.24,Expense,Food,fancy restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-04,13.9,Expense,Entertainment,netflix,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-05,3.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,28.77,Expense,Transport,shell,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,65.09,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,26.25,Expense,Other,hardware store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,10.69,Expense,Entertainment,spotify,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-09,30.0,Expense,Bills,gas company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-11,65.0,Expense,Bills,phone company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-13,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-14,46.44,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-15,47.66,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-16,35.0,Expense,Bills,city water charges,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-17,60.0,Expense,Bills,power company,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-18,75.0,Expense,Bills,state farm,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-19,2.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-22,131.1,Expense,Food,seafood restaurant,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-23,27.71,Expense,Groceries,grocery store,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-23,24.63,Expense,Shopping,amazon,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-28,33.46,Expense,Transport,bp,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-28,4.27,Expense,Transport,sheetz,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-30,1.75,Expense,Food,starbucks,,UNSPECIFIED_SOURCE_UNITS
+kaggle_personal_reference_1,2019-09-30,75.0,Expense,Bills,internet service provider,,UNSPECIFIED_SOURCE_UNITS

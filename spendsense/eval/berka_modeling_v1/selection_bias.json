@@ -1,0 +1,466 @@
+{
+  "scope": "Descriptive entire-source account summaries, computed after the configuration lock; not predictors, tuning objectives or causal comparisons.",
+  "summaries": [
+    {
+      "partition": "all",
+      "status": "scorable",
+      "accounts": 639,
+      "first_observation_median": "1993-11-23",
+      "ever_negative_accounts": 34,
+      "unscorable_reasons": {
+        "scorable": 639
+      },
+      "full_span_months": {
+        "median": 61.0,
+        "q25": 47.0,
+        "q75": 66.0,
+        "mean": 56.25978090766823
+      },
+      "full_month_debit_mean": {
+        "median": 4.875,
+        "q25": 4.465727699530516,
+        "q75": 5.641741071428571,
+        "mean": 5.10755116207535
+      },
+      "full_month_ledger_mean": {
+        "median": 7.378787878787879,
+        "q25": 6.708333333333333,
+        "q75": 8.11111111111111,
+        "mean": 7.434334483480529
+      },
+      "active_debit_fraction": {
+        "median": 0.9846153846153848,
+        "q25": 0.9764673311184939,
+        "q75": 1.0,
+        "mean": 0.9831256177999407
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.0016937956268189786
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.986504418106698,
+        "q25": 1.363394733509169,
+        "q75": 3.0219906179706055,
+        "mean": 2.5365109100124696
+      }
+    },
+    {
+      "partition": "all",
+      "status": "unscorable",
+      "accounts": 193,
+      "first_observation_median": "1996-05-10",
+      "ever_negative_accounts": 11,
+      "unscorable_reasons": {
+        "no_eligible_origin_in_assigned_period": 192,
+        "all_assigned_targets_unresolved": 1
+      },
+      "full_span_months": {
+        "median": 31.0,
+        "q25": 28.0,
+        "q75": 36.0,
+        "mean": 33.03626943005181
+      },
+      "full_month_debit_mean": {
+        "median": 4.705882352941177,
+        "q25": 4.310344827586207,
+        "q75": 5.382352941176471,
+        "mean": 4.910320935393205
+      },
+      "full_month_ledger_mean": {
+        "median": 7.285714285714286,
+        "q25": 6.639344262295082,
+        "q75": 7.857142857142857,
+        "mean": 7.391977357738048
+      },
+      "active_debit_fraction": {
+        "median": 0.975,
+        "q25": 0.9615384615384616,
+        "q75": 1.0,
+        "mean": 0.9736622407021427
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.0012621366479624529
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.5132669223286632,
+        "q25": 1.0567248658872963,
+        "q75": 2.219154826821809,
+        "mean": 2.032817178314433
+      }
+    },
+    {
+      "partition": "train",
+      "status": "scorable",
+      "accounts": 400,
+      "first_observation_median": "1993-10-10",
+      "ever_negative_accounts": 18,
+      "unscorable_reasons": {
+        "scorable": 400
+      },
+      "full_span_months": {
+        "median": 62.0,
+        "q25": 51.0,
+        "q75": 67.0,
+        "mean": 59.0525
+      },
+      "full_month_debit_mean": {
+        "median": 4.9373623684854415,
+        "q25": 4.4924188580905,
+        "q75": 5.609154929577464,
+        "mean": 5.125815377773254
+      },
+      "full_month_ledger_mean": {
+        "median": 7.35424091233072,
+        "q25": 6.732539682539683,
+        "q75": 8.141080196399345,
+        "mean": 7.437405206936498
+      },
+      "active_debit_fraction": {
+        "median": 0.9846153846153848,
+        "q25": 0.9777777777777776,
+        "q75": 1.0,
+        "mean": 0.9837174000769906
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.00174123755070906
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 2.098336578477255,
+        "q25": 1.4387337427651556,
+        "q75": 3.17127067315743,
+        "mean": 2.6648322708838514
+      }
+    },
+    {
+      "partition": "train",
+      "status": "unscorable",
+      "accounts": 177,
+      "first_observation_median": "1996-05-06",
+      "ever_negative_accounts": 9,
+      "unscorable_reasons": {
+        "no_eligible_origin_in_assigned_period": 177
+      },
+      "full_span_months": {
+        "median": 31.0,
+        "q25": 28.0,
+        "q75": 36.0,
+        "mean": 33.12429378531073
+      },
+      "full_month_debit_mean": {
+        "median": 4.725,
+        "q25": 4.326086956521739,
+        "q75": 5.413793103448276,
+        "mean": 4.943456364485025
+      },
+      "full_month_ledger_mean": {
+        "median": 7.3,
+        "q25": 6.681818181818182,
+        "q75": 7.857142857142857,
+        "mean": 7.410110122542631
+      },
+      "active_debit_fraction": {
+        "median": 0.975,
+        "q25": 0.9629629629629628,
+        "q75": 1.0,
+        "mean": 0.9754887939505159
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.0007382847503854809
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.5231427123629666,
+        "q25": 1.1129208062325782,
+        "q75": 2.219154826821809,
+        "mean": 1.943659898809775
+      }
+    },
+    {
+      "partition": "validation",
+      "status": "scorable",
+      "accounts": 97,
+      "first_observation_median": "1994-05-22",
+      "ever_negative_accounts": 7,
+      "unscorable_reasons": {
+        "scorable": 97
+      },
+      "full_span_months": {
+        "median": 55.0,
+        "q25": 41.0,
+        "q75": 65.0,
+        "mean": 52.422680412371136
+      },
+      "full_month_debit_mean": {
+        "median": 4.711538461538462,
+        "q25": 4.4,
+        "q75": 5.6,
+        "mean": 4.982408562688725
+      },
+      "full_month_ledger_mean": {
+        "median": 6.898550724637682,
+        "q25": 6.5625,
+        "q75": 7.777777777777778,
+        "mean": 7.288768672056056
+      },
+      "active_debit_fraction": {
+        "median": 0.984375,
+        "q25": 0.9714285714285714,
+        "q75": 1.0,
+        "mean": 0.9824690747557349
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.0023089341823403662
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.7151645098694963,
+        "q25": 1.353985922351951,
+        "q75": 2.453470158708842,
+        "mean": 2.317873882528405
+      }
+    },
+    {
+      "partition": "validation",
+      "status": "unscorable",
+      "accounts": 16,
+      "first_observation_median": "1996-09-28",
+      "ever_negative_accounts": 2,
+      "unscorable_reasons": {
+        "no_eligible_origin_in_assigned_period": 15,
+        "all_assigned_targets_unresolved": 1
+      },
+      "full_span_months": {
+        "median": 27.0,
+        "q25": 24.75,
+        "q75": 35.25,
+        "mean": 32.0625
+      },
+      "full_month_debit_mean": {
+        "median": 4.361607142857142,
+        "q25": 4.15777972027972,
+        "q75": 4.71076923076923,
+        "mean": 4.543760251064961
+      },
+      "full_month_ledger_mean": {
+        "median": 6.997252747252747,
+        "q25": 6.531440162271806,
+        "q75": 7.800416666666666,
+        "mean": 7.191383647087356
+      },
+      "active_debit_fraction": {
+        "median": 0.9724736048265461,
+        "q25": 0.9141379310344828,
+        "q75": 1.0,
+        "mean": 0.9534559953920141
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.007057248264907707
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.0437341594146061,
+        "q25": 0.7901486863466275,
+        "q75": 2.4549378302475198,
+        "mean": 3.0191195828347137
+      }
+    },
+    {
+      "partition": "test",
+      "status": "scorable",
+      "accounts": 142,
+      "first_observation_median": "1994-05-05",
+      "ever_negative_accounts": 9,
+      "unscorable_reasons": {
+        "scorable": 142
+      },
+      "full_span_months": {
+        "median": 55.0,
+        "q25": 35.25,
+        "q75": 65.75,
+        "mean": 51.014084507042256
+      },
+      "full_month_debit_mean": {
+        "median": 4.940848214285714,
+        "q25": 4.417572463768116,
+        "q75": 5.77112676056338,
+        "mean": 5.141587400535501
+      },
+      "full_month_ledger_mean": {
+        "median": 7.501709401709402,
+        "q25": 6.750961538461539,
+        "q75": 8.13095238095238,
+        "mean": 7.525120359014233
+      },
+      "active_debit_fraction": {
+        "median": 0.9848484848484848,
+        "q25": 0.9727564102564102,
+        "q75": 1.0,
+        "mean": 0.9819071090990114
+      },
+      "negative_snapshot_fraction": {
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "mean": 0.0011399561237090692
+      },
+      "median_month_end_ratio_all_source": {
+        "median": 1.7420115871437436,
+        "q25": 1.226039242756309,
+        "q75": 2.8551861367327347,
+        "mean": 2.324392933374453
+      }
+    },
+    {
+      "partition": "test",
+      "status": "unscorable",
+      "accounts": 0,
+      "first_observation_median": null,
+      "ever_negative_accounts": 0,
+      "unscorable_reasons": {},
+      "full_span_months": null,
+      "full_month_debit_mean": null,
+      "full_month_ledger_mean": null,
+      "active_debit_fraction": null,
+      "negative_snapshot_fraction": null,
+      "median_month_end_ratio_all_source": null
+    }
+  ],
+  "standardized_mean_differences": [
+    {
+      "partition": "all",
+      "metric": "full_span_months",
+      "standardized_mean_difference_scorable_minus_unscorable": 2.0555370717671892
+    },
+    {
+      "partition": "all",
+      "metric": "full_month_debit_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.24314177099195605
+    },
+    {
+      "partition": "all",
+      "metric": "full_month_ledger_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.04594448315313171
+    },
+    {
+      "partition": "all",
+      "metric": "active_debit_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.362614169031165
+    },
+    {
+      "partition": "all",
+      "metric": "negative_snapshot_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.04619426247296257
+    },
+    {
+      "partition": "all",
+      "metric": "median_month_end_ratio_all_source",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.2680191176312644
+    },
+    {
+      "partition": "train",
+      "metric": "full_span_months",
+      "standardized_mean_difference_scorable_minus_unscorable": 2.7011383019773576
+    },
+    {
+      "partition": "train",
+      "metric": "full_month_debit_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.22668572033036083
+    },
+    {
+      "partition": "train",
+      "metric": "full_month_ledger_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.029899710217867182
+    },
+    {
+      "partition": "train",
+      "metric": "active_debit_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.3457914874816954
+    },
+    {
+      "partition": "train",
+      "metric": "negative_snapshot_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.11131748496743725
+    },
+    {
+      "partition": "train",
+      "metric": "median_month_end_ratio_all_source",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.416581033172335
+    },
+    {
+      "partition": "validation",
+      "metric": "full_span_months",
+      "standardized_mean_difference_scorable_minus_unscorable": 1.4514920164423555
+    },
+    {
+      "partition": "validation",
+      "metric": "full_month_debit_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.6098435473204747
+    },
+    {
+      "partition": "validation",
+      "metric": "full_month_ledger_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.11300983914917219
+    },
+    {
+      "partition": "validation",
+      "metric": "active_debit_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": 0.7472547569275176
+    },
+    {
+      "partition": "validation",
+      "metric": "negative_snapshot_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": -0.2778335309763819
+    },
+    {
+      "partition": "validation",
+      "metric": "median_month_end_ratio_all_source",
+      "standardized_mean_difference_scorable_minus_unscorable": -0.21524495759825973
+    },
+    {
+      "partition": "test",
+      "metric": "full_span_months",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    },
+    {
+      "partition": "test",
+      "metric": "full_month_debit_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    },
+    {
+      "partition": "test",
+      "metric": "full_month_ledger_mean",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    },
+    {
+      "partition": "test",
+      "metric": "active_debit_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    },
+    {
+      "partition": "test",
+      "metric": "negative_snapshot_fraction",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    },
+    {
+      "partition": "test",
+      "metric": "median_month_end_ratio_all_source",
+      "standardized_mean_difference_scorable_minus_unscorable": null
+    }
+  ],
+  "interpretation": "Later first observations and shorter recorded histories can exclude accounts under the historical cutoffs. The 193 unscorable accounts cannot receive invented errors. Whole-source balance behavior includes observations outside the assigned modeling years and is descriptive only. Test has no unscorable comparator."
+}

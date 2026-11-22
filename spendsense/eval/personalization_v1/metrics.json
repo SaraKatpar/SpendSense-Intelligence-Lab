@@ -1,0 +1,162 @@
+{
+  "results": [
+    {
+      "source": "household",
+      "requested_corrections": 0,
+      "actual_corrections": 0,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 5,
+      "actual_corrections": 5,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 10,
+      "actual_corrections": 10,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 20,
+      "actual_corrections": 20,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 40,
+      "actual_corrections": 40,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 80,
+      "actual_corrections": 46,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "household",
+      "requested_corrections": 160,
+      "actual_corrections": 46,
+      "evaluation_rows": 86,
+      "global_accuracy": 0.6627906976744186,
+      "personalized_accuracy": 0.6627906976744186,
+      "overrides": 0,
+      "global_correct": 57,
+      "personalized_correct": 57
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 0,
+      "actual_corrections": 0,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.5,
+      "overrides": 0,
+      "global_correct": 4,
+      "personalized_correct": 4
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 5,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 10,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 20,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 40,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 80,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    },
+    {
+      "source": "personal",
+      "requested_corrections": 160,
+      "actual_corrections": 2,
+      "evaluation_rows": 8,
+      "global_accuracy": 0.5,
+      "personalized_accuracy": 0.875,
+      "overrides": 3,
+      "global_correct": 4,
+      "personalized_correct": 7
+    }
+  ],
+  "sealed_benchmark_read": false,
+  "global_training_rows": 894,
+  "similarity_threshold": 0.85,
+  "distinct_reference_histories": 2
+}

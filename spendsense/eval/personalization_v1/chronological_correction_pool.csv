@@ -1,0 +1,49 @@
+row_id,source,date,description,normalized,category,partition,global_prediction
+household:976,household,2017-08-09,dettol liquid handwash refill,dettol liquid handwash refill,Groceries,correction,Food
+household:972,household,2017-08-10,dahi ( 42 ) + vanilla essance ( 34 ),dahi 42 vanilla essance 34,Groceries,correction,Food
+household:963,household,2017-08-14,steam machine,steam machine,Groceries,correction,Food
+household:964,household,2017-08-14,biscuits + onions,biscuits onions,Groceries,correction,Food
+household:961,household,2017-08-15,wifi router tp link,wifi router tp link,Groceries,correction,Food
+household:959,household,2017-08-17,sugar 1kg rs . 55 + shengdana rs . 33,sugar 1kg rs 55 shengdana rs 33,Groceries,correction,Food
+household:954,household,2017-08-19,colgate max fresh small,colgate max fresh small,Groceries,correction,Food
+household:955,household,2017-08-19,dettol sanitizer,dettol sanitizer,Groceries,correction,Health
+household:952,household,2017-08-20,foldable wardrobe,foldable wardrobe,Groceries,correction,Food
+household:938,household,2017-08-21,selfie stick bluetooth tripod,selfie stick bluetooth tripod,Groceries,correction,Food
+household:941,household,2017-08-21,lens cleaner,lens cleaner,Shopping,correction,Food
+household:942,household,2017-08-21,15 fevistick + 12 xerox2 & print2,15 fevistick 12 xerox2 print2,Education,correction,Food
+household:932,household,2017-08-24,2 bedsheets ( 1500 each ),2 bedsheets 1500 each,Groceries,correction,Food
+household:933,household,2017-08-24,jaipuri handprinted maharani saree ( 1850 two pcs + 1500 1 pc ),jaipuri handprinted maharani saree 1850 two pcs 1500 1 pc,Shopping,correction,Food
+household:924,household,2017-08-27,misc expense,misc expense,Transport,correction,Food
+household:922,household,2017-08-28,misc expense,misc expense,Transport,correction,Food
+household:911,household,2017-08-31,sms charges + gst,sms charges gst,Other,correction,Food
+household:912,household,2017-08-31,odonil,odonil,Groceries,correction,Food
+household:913,household,2017-08-31,honey small bottle,honey small bottle,Groceries,correction,Food
+household:914,household,2017-08-31,janeyu,janeyu,Groceries,correction,Food
+household:915,household,2017-08-31,nariyal,nariyal,Groceries,correction,Food
+household:906,household,2017-09-03,clock cell,clock cell,Other,correction,Groceries
+household:901,household,2017-09-06,pant chain repair,pant chain repair,Other,correction,Groceries
+household:897,household,2017-09-09,v - wash,v wash,Health,correction,Food
+household:864,household,2017-09-20,csr,csr,Other,correction,Food
+household:857,household,2017-09-21,umbrella cover repair,umbrella cover repair,Other,correction,Groceries
+household:833,household,2017-09-30,candid dusting powder,candid dusting powder,Health,correction,Groceries
+household:827,household,2017-10-04,boroline + band aid,boroline band aid,Health,correction,Other
+household:822,household,2017-10-08,for friend,for friend,Other,correction,Shopping
+household:823,household,2017-10-08,fab india,fab india,Other,correction,Food
+household:811,household,2017-10-20,rangoli + stamp,rangoli stamp,Other,correction,Education
+household:799,household,2017-10-23,shampoo sachets,shampoo sachets,Groceries,correction,Other
+household:801,household,2017-10-23,aakash kandil,aakash kandil,Other,correction,Food
+household:802,household,2017-10-23,dettol liquid handwash refill,dettol liquid handwash refill,Groceries,correction,Food
+household:793,household,2017-10-26,offering,offering,Other,correction,Food
+household:794,household,2017-10-26,offering,offering,Other,correction,Food
+household:795,household,2017-10-26,offering,offering,Other,correction,Food
+household:784,household,2017-11-02,dambar goli 2 packets ( naphthalene balls ),dambar goli 2 packets naphthalene balls,Other,correction,Food
+household:770,household,2017-11-09,colgate max fresh small,colgate max fresh small,Groceries,correction,Food
+household:772,household,2017-11-09,acne star cream,acne star cream,Health,correction,Food
+household:762,household,2017-11-12,screwdriver 2,screwdriver 2,Groceries,correction,Food
+household:753,household,2017-11-13,pani puri packet + bundi + chivda,pani puri packet bundi chivda,Groceries,correction,Food
+household:746,household,2017-11-15,toast 55 + kisan jam 85 + all out 75,toast 55 kisan jam 85 all out 75,Groceries,correction,Food
+household:749,household,2017-11-15,amul butter 52 + good day biscuits 43,amul butter 52 good day biscuits 43,Groceries,correction,Food
+household:742,household,2017-11-17,agarbatti 55 + dahi 25,agarbatti 55 dahi 25,Groceries,correction,Food
+household:736,household,2017-11-18,khobra + shengdana + vim bar,khobra shengdana vim bar,Groceries,correction,Food
+personal:435,personal,2019-03-12,bakery place,bakery place,Food,correction,Transport
+personal:438,personal,2019-03-18,best buy,best buy,Shopping,correction,Food

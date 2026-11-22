@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101a1c">
+  <meta name="description" content="Your student money companion. Make your allowance last, log the little things, and leave room for life.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>SpendSense · A little more breathing room</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div id="offline" class="connection" hidden>You’re offline. Reconnect to see your balance or save changes.</div>
+  <div id="app"><main class="loading"><div class="brand-mark">s<span>✳</span></div><p>Making a little room for life…</p></main></div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="modal"><div id="modal-content"></div><button class="quiet modal-close" data-close>Close</button></dialog>
+</body>
+</html>

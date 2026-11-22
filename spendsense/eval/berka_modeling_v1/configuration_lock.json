@@ -1,0 +1,73 @@
+{
+  "locked_at": "2026-11-19T20:58:00+05:00",
+  "protocol_sha256": "7080ca1de0a1b42b7cb79d7dfac6970a66fe6ebcb78640a73311728817feb6a8",
+  "plan_sha256": "925fa669e381b6e1b44d81b58c618f593203762dfd561e446be81796123bc57d",
+  "development_sha256": "55ceb6d5220426a3189ee6cf73529d49c3458e8e0ecee3bdca5c1a642f771041",
+  "sealed_test_sha256": "5d2731736be64c59ffb9a006058152599e991dda3fed5923e19cca557a1a23d2",
+  "models": {
+    "linear": {
+      "file": "C:\\Users\\THINK\\Documents\\Codex\\2026-11-14\\https-pscs-iba-suk-edu-pk\\spendsense\\models\\berka_low_balance_v1\\linear.joblib",
+      "sha256": "33be05cb5a3082645933a96308333ec56c85c1124c922429c34a1b5c23fc4f69",
+      "role": "regression",
+      "spec": {
+        "name": "linear",
+        "kind": "linear",
+        "params": {}
+      }
+    },
+    "ridge": {
+      "file": "C:\\Users\\THINK\\Documents\\Codex\\2026-11-14\\https-pscs-iba-suk-edu-pk\\spendsense\\models\\berka_low_balance_v1\\ridge.joblib",
+      "sha256": "ddacce04c1b34d0b4fc58e3b3c6d7b4e24659c333f6ba02bf1835bf324562343",
+      "role": "regression",
+      "spec": {
+        "name": "ridge_1",
+        "kind": "ridge",
+        "params": {
+          "alpha": 1
+        }
+      }
+    },
+    "gradient_boosting": {
+      "file": "C:\\Users\\THINK\\Documents\\Codex\\2026-11-14\\https-pscs-iba-suk-edu-pk\\spendsense\\models\\berka_low_balance_v1\\gradient_boosting.joblib",
+      "sha256": "0de822762897bb3d200d2854a5abbd1f8ba9a3cc138f2fa5ac2d6ddda0415e0b",
+      "role": "regression",
+      "spec": {
+        "name": "gb_d2_lr0.05_leaf100",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 2,
+          "learning_rate": 0.05,
+          "min_samples_leaf": 100,
+          "random_state": 20261119
+        }
+      }
+    },
+    "logistic_regularized": {
+      "file": "C:\\Users\\THINK\\Documents\\Codex\\2026-11-14\\https-pscs-iba-suk-edu-pk\\spendsense\\models\\berka_low_balance_v1\\logistic_regularized.joblib",
+      "sha256": "a01c3f1a2b8f14fdbd49ef02b49828a9b2c784542711671aee36a7dfdb3df0c1",
+      "role": "exploratory_binary",
+      "spec": {
+        "name": "logistic_C0.1",
+        "kind": "logistic",
+        "params": {
+          "C": 0.1,
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "tol": 1e-07,
+          "random_state": 20261119
+        }
+      }
+    }
+  },
+  "regression_baselines": [
+    "persistence",
+    "pace"
+  ],
+  "development_preference": "ridge",
+  "binary_boost_retained": false,
+  "regression_cv_sha256": "61910897f5af651933f3d27368e87b3001fc3029c7ba6090217af9359e069bbe",
+  "binary_cv_sha256": "d2c8c9b716f1e9e21b41904479b7f34192dd07f8ca78f4346c076f7f466a23de",
+  "test_metrics_seen": false,
+  "fit_scope": "Pooled original train+validation periods, no test accounts; new user authorization recorded separately from frozen historical no-training snapshot."
+}

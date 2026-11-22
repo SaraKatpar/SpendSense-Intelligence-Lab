@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "frozen_protocol_unchanged": true,
+  "training_authorized_by_latest_user_request": true,
+  "development_scalers_verified_against_development_only": true,
+  "test_accounts_in_final_fit": false,
+  "test_metrics_seen": false,
+  "test_scoring_started": false,
+  "cv_forward_account_disjoint": true
+}

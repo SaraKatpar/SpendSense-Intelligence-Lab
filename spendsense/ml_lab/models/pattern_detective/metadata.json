@@ -1,0 +1,66 @@
+{
+  "model_name": "SpendSense Pattern Detective",
+  "algorithm": "Isolation Forest",
+  "learning_type": "Unsupervised anomaly detection",
+  "training_data": "Synthetic typical expenses",
+  "evaluation_data": "Synthetic holdout with injected large expenses",
+  "training_samples": 10000,
+  "test_samples": 2500,
+  "injected_anomalies": 250,
+  "contamination": 0.05,
+  "features": [
+    "log_amount",
+    "category",
+    "day_of_week",
+    "day_of_month"
+  ],
+  "precision": 0.488189,
+  "recall": 0.496,
+  "f1_score": 0.492063,
+  "roc_auc": 0.880389,
+  "average_precision": 0.53198,
+  "confusion_matrix": [
+    [
+      2120,
+      130
+    ],
+    [
+      126,
+      124
+    ]
+  ],
+  "classification_report": {
+    "Typical": {
+      "precision": 0.943900267141585,
+      "recall": 0.9422222222222222,
+      "f1-score": 0.9430604982206405,
+      "support": 2250.0
+    },
+    "Injected anomaly": {
+      "precision": 0.4881889763779528,
+      "recall": 0.496,
+      "f1-score": 0.49206349206349204,
+      "support": 250.0
+    },
+    "accuracy": 0.8976,
+    "macro avg": {
+      "precision": 0.7160446217597689,
+      "recall": 0.719111111111111,
+      "f1-score": 0.7175619951420663,
+      "support": 2500.0
+    },
+    "weighted avg": {
+      "precision": 0.8983291380652217,
+      "recall": 0.8976,
+      "f1-score": 0.8979607976049258,
+      "support": 2500.0
+    }
+  },
+  "limitations": [
+    "All training and test transactions are synthetic.",
+    "Injected anomalies are unusually large amounts.",
+    "Results do not establish real-world anomaly detection quality.",
+    "An anomaly is not evidence of fraud or irresponsible spending.",
+    "The model is not personalized to an individual student."
+  ]
+}

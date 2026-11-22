@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "Frozen contract/cohort/split hashes",
+    "Original source hashes",
+    "Fixed B=5%, relaxed policy",
+    "Independent real-source A/B counts for all three partitions",
+    "Only authorized aggregate test outcomes released",
+    "Development target export contains no test rows",
+    "20 exact terminal balances checked by compatible real-transaction orderings",
+    "832 accounts retained with explicit 639 assigned-period exact-target availability",
+    "Bootstrap plan fixed; no intervals computed without predictions"
+  ],
+  "event_classifier_status": "exploratory",
+  "model_fits": 0,
+  "test_tuning": false,
+  "protocol_sha256": "7080ca1de0a1b42b7cb79d7dfac6970a66fe6ebcb78640a73311728817feb6a8"
+}

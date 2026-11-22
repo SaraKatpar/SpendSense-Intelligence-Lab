@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "apk_sha256": "3e2738e26cb1016da7b39f9486b88b46c40ac3e7e0a41c7af2350531cef31240",
+  "apk_has_no_data_or_models": true,
+  "protected_berka_hashes_unchanged": true,
+  "frozen_berka_test_rescored": false,
+  "reports_present": 7,
+  "backend_version": "1.1.0",
+  "desktop_health": "ok",
+  "full_python_suite_passed": 86,
+  "native_url_checks_passed": 19,
+  "isolated_http_journey_passed": true,
+  "physical_android_verified": false,
+  "survival_exhaustion_date_validated": false
+}

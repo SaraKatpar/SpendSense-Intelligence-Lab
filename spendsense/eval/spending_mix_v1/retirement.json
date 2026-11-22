@@ -1,0 +1,112 @@
+{
+  "archive_outside_project": "E:\\extra curricular\\SpendSense-retired-fictional-20261119",
+  "retired_files": [
+    {
+      "path": "data\\student_profiles_synthetic.csv",
+      "sha256": "018e363e6fd77bec38e015191d6ddcfdb02053861fdfbc726edbce187e5b5673"
+    },
+    {
+      "path": "data\\student_student_spending (1).csv",
+      "sha256": "018e363e6fd77bec38e015191d6ddcfdb02053861fdfbc726edbce187e5b5673"
+    },
+    {
+      "path": "data\\student_transactions_synthetic.csv",
+      "sha256": "acb63e3b5969e5d7e9c48bb8ebad27e9a48fb114c8aa039e472a80f8a75fddf4"
+    },
+    {
+      "path": "data\\student_monthly_expenses.csv",
+      "sha256": "71e0524df045863bfb339517efd2601bdd6315a649ad7cc210b205093779e40e"
+    },
+    {
+      "path": "data\\campus_demo_training.csv",
+      "sha256": "5c73d4f06c6dd3894a9b10ff8a8889ab2f3a65a1fd2f7784da22f1694c5da314"
+    },
+    {
+      "path": "models\\campus\\anomaly.json",
+      "sha256": "5916474acee64817e041528d0dae243995121e35d5716445e11bd2306ae4e569"
+    },
+    {
+      "path": "models\\campus\\anomaly.pt",
+      "sha256": "3ec37dd43112452903d6ff1b340598e399c62d0e3553b258198936aa3dda0124"
+    },
+    {
+      "path": "models\\campus\\forecast.json",
+      "sha256": "277ea5fe6abb321c2b0c99644682904a2704d5452553c1bb0d9c9ac838b7a78c"
+    },
+    {
+      "path": "models\\campus\\forecast.pt",
+      "sha256": "2fe3a284aaf8cdd7e1ce3622ba302c0a1925e699c72045280bbe2e0073f15089"
+    },
+    {
+      "path": "models\\campus\\student_styles.joblib",
+      "sha256": "e4ca27fadfeb4738e8805c41ef6ad50382a9aa5c652742d6de891bbf0f6c7cf7"
+    },
+    {
+      "path": "models\\campus\\student_styles.json",
+      "sha256": "3cf24e0bf51ef7d6a56e703ac36faa0ff8b4fa3ae416140267f6b59d7c870702"
+    },
+    {
+      "path": "models\\demo\\anomaly.json",
+      "sha256": "941c7435118041e300411afc9b234c9deed6414dee420b81386e32a3ce221600"
+    },
+    {
+      "path": "models\\demo\\anomaly.pt",
+      "sha256": "5926cdbdef32c3693b943777a4674cba0faeb6c3e93e88e0621f8187a68e3e82"
+    },
+    {
+      "path": "models\\demo\\forecast.json",
+      "sha256": "b97e63c0236f340d9544f5703f2d9cd7be0b4be0853cfaef8d5614f4fc8e9cbe"
+    },
+    {
+      "path": "models\\demo\\forecast.pt",
+      "sha256": "b046d77518c596a5e448777b1fc6fafb7276f8ed5d99b8f130a1daf970a320a3"
+    },
+    {
+      "path": "models\\demo\\personas.joblib",
+      "sha256": "f3dee57a8858b87aca205da0e679c37e0e7404e6e1fa31cefbab430a5e1c7299"
+    },
+    {
+      "path": "models\\demo\\personas.json",
+      "sha256": "066846d95e2b000dc5f190a105fa16635210918b08de7a9840d2359f77bcfe56"
+    },
+    {
+      "path": "models\\research\\personas.joblib",
+      "sha256": "1fc0561e8e780ce82463f2003242593f0062d1fe729ba0d52a4e96c14c0134aa"
+    },
+    {
+      "path": "models\\research\\personas.json",
+      "sha256": "f73ffe7d66d9bd0ca869928988bddf4a820f3cbc48b305cae06546c0eb705555"
+    },
+    {
+      "path": "models\\kaggle_reference\\personas.joblib",
+      "sha256": "a5a09b56f31f22330df3e08e1f9042dd7126fc55f3813201b76e3baf286e4458"
+    },
+    {
+      "path": "models\\kaggle_reference\\personas.json",
+      "sha256": "c9c6a2f0d698a869a08ab7522a2ab39d7cfd0b49e44dbe626809cd00beb2fd02"
+    },
+    {
+      "path": "models\\evaluation_report.json",
+      "sha256": "42167c57a76d31750578cd1c39904cd995ee895dcfb3ee6823b444393e163353"
+    },
+    {
+      "path": "demo.py",
+      "sha256": "1baf398345c62725afbf939d2f54d3387a7ffe1eba1d4f404a58d98bbe2c9b4e"
+    }
+  ],
+  "removed_known_generated_transaction_groups": [
+    [
+      "Campus demo",
+      "fictional campus scenario",
+      361
+    ],
+    [
+      "Demo",
+      "synthetic",
+      362
+    ]
+  ],
+  "all_other_transaction_rows_unchanged": true,
+  "wallets_and_user_entered_records": "Not changed; demo workspaces removed from UI, so their retired setup cannot seed or appear as a sample.",
+  "unverified_student_survey": "Also removed; never approved as real transaction training data."
+}

@@ -1,0 +1,522 @@
+row_id,source,date,description,normalized,category,tfidf_lr,distilbert_head,distilbert_last2
+household:488,household,2018-02-12,6 eggs,6 eggs,Food,Food,Food,Food
+household:489,household,2018-02-12,3 packets,3 packets,Food,Food,Groceries,Food
+household:490,household,2018-02-12,m d sure 3kg atta,m d sure 3kg atta,Food,Food,Groceries,Food
+household:484,household,2018-02-13,potato 1kg,potato 1kg,Food,Food,Food,Food
+household:485,household,2018-02-13,bread,bread,Food,Food,Food,Food
+household:486,household,2018-02-13,amul cheese,amul cheese,Food,Food,Food,Food
+household:487,household,2018-02-13,1 lit,1 lit,Food,Food,Health,Food
+household:483,household,2018-02-14,1 chicken shawarma,1 chicken shawarma,Food,Food,Food,Food
+household:480,household,2018-02-15,chocobar,chocobar,Food,Food,Food,Food
+household:481,household,2018-02-15,half kg tomato + methi 1 judi,half kg tomato methi 1 judi,Food,Food,Food,Food
+household:482,household,2018-02-15,supermart,supermart,Groceries,Groceries,Other,Food
+household:477,household,2018-02-16,banana chips,banana chips,Food,Food,Food,Food
+household:478,household,2018-02-16,khari packet,khari packet,Food,Food,Food,Food
+household:479,household,2018-02-16,1 lit,1 lit,Food,Food,Health,Food
+household:473,household,2018-02-17,bbq,bbq,Food,Food,Other,Food
+household:475,household,2018-02-17,mall parking,mall parking,Transport,Groceries,Transport,Transport
+household:476,household,2018-02-17,5 chapati,5 chapati,Food,Food,Food,Food
+household:470,household,2018-02-19,hair cut + shaving,hair cut shaving,Shopping,Shopping,Shopping,Shopping
+household:471,household,2018-02-19,1 lit,1 lit,Food,Food,Health,Food
+household:472,household,2018-02-19,2 kachori,2 kachori,Food,Food,Food,Food
+household:468,household,2018-02-20,kitchen fan + installation + repair,kitchen fan installation repair,Groceries,Groceries,Groceries,Groceries
+household:464,household,2018-02-22,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:465,household,2018-02-22,limca,limca,Food,Food,Other,Food
+household:466,household,2018-02-22,onion 1 kg,onion 1 kg,Food,Food,Food,Food
+household:467,household,2018-02-22,catering service,catering service,Food,Food,Other,Food
+household:461,household,2018-02-23,refresh tears drop,refresh tears drop,Health,Health,Other,Health
+household:462,household,2018-02-23,1 packet,1 packet,Food,Groceries,Groceries,Food
+household:463,household,2018-02-23,1 lit,1 lit,Food,Food,Health,Food
+household:460,household,2018-02-24,flatbread 12 pcs,flatbread 12 pcs,Food,Food,Food,Food
+household:456,household,2018-02-26,1 lit,1 lit,Food,Food,Health,Food
+household:457,household,2018-02-26,mirror repair,mirror repair,Groceries,Groceries,Other,Groceries
+household:458,household,2018-02-26,first servicing,first servicing,Transport,Groceries,Transport,Transport
+household:459,household,2018-02-26,chaas,chaas,Food,Food,Food,Food
+household:454,household,2018-02-27,idli pith 1kg,idli pith 1kg,Groceries,Groceries,Groceries,Food
+household:455,household,2018-02-27,5 chapati,5 chapati,Food,Food,Food,Food
+household:449,household,2018-02-28,khari packet,khari packet,Food,Food,Food,Food
+household:450,household,2018-02-28,half lit varna milk,half lit varna milk,Food,Food,Food,Food
+household:451,household,2018-02-28,onion 1 kg,onion 1 kg,Food,Food,Food,Food
+household:452,household,2018-02-28,potato 1kg,potato 1kg,Food,Food,Food,Food
+household:446,household,2018-03-01,domino ' s pizza,domino s pizza,Food,Food,Food,Food
+household:447,household,2018-03-01,6 eggs,6 eggs,Food,Food,Food,Food
+household:445,household,2018-03-02,chocobar,chocobar,Food,Food,Food,Food
+household:444,household,2018-03-03,half lit milk,half lit milk,Food,Food,Food,Food
+household:442,household,2018-03-04,catering service,catering service,Food,Food,Other,Food
+household:436,household,2018-03-05,chocobar,chocobar,Food,Food,Food,Food
+household:437,household,2018-03-05,m d sure 3kg atta,m d sure 3kg atta,Food,Food,Groceries,Food
+household:438,household,2018-03-05,supermart,supermart,Groceries,Groceries,Other,Food
+household:439,household,2018-03-05,smart point,smart point,Groceries,Groceries,Other,Other
+household:440,household,2018-03-05,blanket sewing,blanket sewing,Other,Groceries,Groceries,Shopping
+household:429,household,2018-03-06,thyroid tablets,thyroid tablets,Health,Health,Health,Health
+household:430,household,2018-03-06,5 meftal spas,5 meftal spas,Health,Health,Health,Food
+household:431,household,2018-03-06,xerox,xerox,Education,Education,Other,Entertainment
+household:433,household,2018-03-06,half lit milk,half lit milk,Food,Food,Food,Food
+household:434,household,2018-03-06,aadhar puc card delivery,aadhar puc card delivery,Education,Other,Other,Other
+household:427,household,2018-03-07,holi tip to cleaner,holi tip to cleaner,Other,Transport,Groceries,Groceries
+household:428,household,2018-03-07,2 vadapav,2 vadapav,Food,Food,Food,Food
+household:421,household,2018-03-08,clothes ironing,clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:422,household,2018-03-08,flatbread 12 pcs,flatbread 12 pcs,Food,Food,Food,Food
+household:425,household,2018-03-08,6 eggs,6 eggs,Food,Food,Food,Food
+household:426,household,2018-03-08,half lit milk,half lit milk,Food,Food,Food,Food
+household:417,household,2018-03-10,mosquito racket,mosquito racket,Groceries,Groceries,Groceries,Groceries
+household:418,household,2018-03-10,all out refill,all out refill,Health,Groceries,Groceries,Food
+household:419,household,2018-03-10,1 lit,1 lit,Food,Food,Health,Food
+household:420,household,2018-03-10,half lit milk,half lit milk,Food,Food,Food,Food
+household:416,household,2018-03-12,2 place 3 to place 2 : sevagram express 3ac,2 place 3 to place 2 sevagram express 3ac,Transport,Transport,Transport,Transport
+household:415,household,2018-03-13,half lit milk,half lit milk,Food,Food,Food,Food
+household:411,household,2018-03-14,mayonnaise + cheese cubes,mayonnaise cheese cubes,Groceries,Food,Food,Food
+household:412,household,2018-03-14,onion 2 kg,onion 2 kg,Food,Food,Food,Food
+household:413,household,2018-03-14,domino ' s pizza,domino s pizza,Food,Food,Food,Food
+household:409,household,2018-03-15,catering service,catering service,Food,Food,Other,Food
+household:410,household,2018-03-15,half lit milk,half lit milk,Food,Food,Food,Food
+household:407,household,2018-03-17,catering service,catering service,Food,Food,Other,Food
+household:408,household,2018-03-17,half lit milk,half lit milk,Food,Food,Food,Food
+household:399,household,2018-03-18,station parking,station parking,Transport,Transport,Transport,Transport
+household:400,household,2018-03-18,dabeli,dabeli,Food,Food,Other,Food
+household:401,household,2018-03-18,trouser,trouser,Other,Groceries,Other,Shopping
+household:402,household,2018-03-18,belt + bow,belt bow,Other,Shopping,Groceries,Groceries
+household:403,household,2018-03-18,papad packet,papad packet,Food,Groceries,Food,Food
+household:404,household,2018-03-18,1 panipuri,1 panipuri,Food,Food,Food,Food
+household:405,household,2018-03-18,cutting chai,cutting chai,Food,Shopping,Food,Food
+household:406,household,2018-03-18,place 0 to place 4 return,place 0 to place 4 return,Transport,Transport,Transport,Transport
+household:393,household,2018-03-20,2 fried rice,2 fried rice,Food,Food,Food,Food
+household:395,household,2018-03-20,chicken lollypop 8 pcs,chicken lollypop 8 pcs,Food,Food,Food,Food
+household:396,household,2018-03-20,bread,bread,Food,Food,Food,Food
+household:397,household,2018-03-20,6 eggs,6 eggs,Food,Food,Food,Food
+household:398,household,2018-03-20,half lit milk,half lit milk,Food,Food,Food,Food
+household:390,household,2018-03-21,2 kachori,2 kachori,Food,Food,Food,Food
+household:391,household,2018-03-21,idli pith 1kg,idli pith 1kg,Groceries,Groceries,Groceries,Food
+household:383,household,2018-03-22,1 kg bajari,1 kg bajari,Food,Food,Food,Food
+household:384,household,2018-03-22,half kg tomato,half kg tomato,Food,Food,Food,Food
+household:385,household,2018-03-22,supermart,supermart,Groceries,Groceries,Other,Food
+household:386,household,2018-03-22,pickle,pickle,Food,Food,Food,Food
+household:387,household,2018-03-22,potato chips,potato chips,Food,Food,Food,Food
+household:388,household,2018-03-22,1 packet,1 packet,Food,Groceries,Groceries,Food
+household:389,household,2018-03-22,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:382,household,2018-03-23,finding next job,finding next job,Entertainment,Food,Transport,Transport
+household:376,household,2018-03-25,station parking,station parking,Transport,Transport,Transport,Transport
+household:377,household,2018-03-25,popcorn family pack,popcorn family pack,Food,Shopping,Food,Food
+household:378,household,2018-03-25,2 tea,2 tea,Food,Food,Food,Food
+household:379,household,2018-03-25,2 frankie,2 frankie,Food,Food,Food,Food
+household:380,household,2018-03-25,french crossiant,french crossiant,Food,Food,Other,Health
+household:381,household,2018-03-25,ikea tea 3,ikea tea 3,Food,Food,Food,Food
+household:373,household,2018-03-26,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:374,household,2018-03-26,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:372,household,2018-03-27,bread,bread,Food,Food,Food,Food
+household:371,household,2018-03-29,at restaurant,at restaurant,Food,Food,Transport,Food
+household:368,household,2018-03-30,1 panipuri,1 panipuri,Food,Food,Food,Food
+household:369,household,2018-03-30,ginger + green chilli,ginger green chilli,Food,Food,Food,Food
+household:370,household,2018-03-30,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:361,household,2018-03-31,2 chocobar,2 chocobar,Food,Food,Food,Food
+household:362,household,2018-03-31,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:364,household,2018-03-31,domino ' s pizza,domino s pizza,Food,Food,Food,Food
+household:365,household,2018-03-31,station parking,station parking,Transport,Transport,Transport,Transport
+household:367,household,2018-03-31,place 0 to sion returns,place 0 to sion returns,Transport,Transport,Transport,Transport
+household:356,household,2018-04-01,atm charge,atm charge,Other,Food,Other,Entertainment
+household:357,household,2018-04-01,atm charge,atm charge,Other,Food,Other,Entertainment
+household:359,household,2018-04-01,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:349,household,2018-04-02,mall parking,mall parking,Transport,Groceries,Transport,Transport
+household:350,household,2018-04-02,window cleaner,window cleaner,Groceries,Shopping,Groceries,Groceries
+household:351,household,2018-04-02,pav kg lahsoon,pav kg lahsoon,Food,Food,Food,Food
+household:352,household,2018-04-02,dahi 2 packets,dahi 2 packets,Food,Food,Groceries,Food
+household:353,household,2018-04-02,onion 2 kg,onion 2 kg,Food,Food,Food,Food
+household:345,household,2018-04-05,idli pith 1kg,idli pith 1kg,Groceries,Groceries,Groceries,Food
+household:346,household,2018-04-05,6 eggs,6 eggs,Food,Food,Food,Food
+household:347,household,2018-04-05,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:348,household,2018-04-05,catering service,catering service,Food,Food,Other,Food
+household:341,household,2018-04-07,supermart,supermart,Groceries,Groceries,Other,Food
+household:342,household,2018-04-07,pav kg chana dal,pav kg chana dal,Groceries,Food,Food,Food
+household:343,household,2018-04-07,half lit milk,half lit milk,Food,Food,Food,Food
+household:339,household,2018-04-09,ginger,ginger,Food,Food,Food,Food
+household:340,household,2018-04-09,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:336,household,2018-04-10,bread,bread,Food,Food,Food,Food
+household:337,household,2018-04-10,catering service,catering service,Food,Food,Other,Food
+household:338,household,2018-04-10,farewell contribution,farewell contribution,Other,Other,Other,Other
+household:334,household,2018-04-12,pattice,pattice,Food,Food,Other,Food
+household:335,household,2018-04-12,catering service,catering service,Food,Food,Other,Food
+household:331,household,2018-04-13,family thyroid test + cbc,family thyroid test cbc,Health,Health,Health,Health
+household:327,household,2018-04-14,supermart,supermart,Groceries,Groceries,Other,Food
+household:328,household,2018-04-14,pizza base packet 2,pizza base packet 2,Food,Food,Food,Food
+household:329,household,2018-04-14,khari packet,khari packet,Food,Food,Food,Food
+household:330,household,2018-04-14,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:320,household,2018-04-15,pav bhaji,pav bhaji,Food,Food,Food,Food
+household:321,household,2018-04-15,2 cutting chai,2 cutting chai,Food,Shopping,Food,Food
+household:322,household,2018-04-15,"vessels for sugar , coffee and tea",vessels for sugar coffee and tea,Groceries,Food,Other,Food
+household:323,household,2018-04-15,body mist,body mist,Other,Shopping,Other,Health
+household:324,household,2018-04-15,station parking,station parking,Transport,Transport,Transport,Transport
+household:325,household,2018-04-15,place 0 to place 4 return,place 0 to place 4 return,Transport,Transport,Transport,Transport
+household:326,household,2018-04-15,catering service,catering service,Food,Food,Other,Food
+household:315,household,2018-04-16,3 pens,3 pens,Education,Education,Health,Food
+household:316,household,2018-04-16,clothes ironing,clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:317,household,2018-04-16,cockroach injection,cockroach injection,Groceries,Groceries,Health,Health
+household:318,household,2018-04-16,supermart,supermart,Groceries,Groceries,Other,Food
+household:319,household,2018-04-16,smart point,smart point,Groceries,Groceries,Other,Other
+household:314,household,2018-04-17,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:311,household,2018-04-19,flour mill,flour mill,Groceries,Food,Groceries,Groceries
+household:312,household,2018-04-19,6 eggs,6 eggs,Food,Food,Food,Food
+household:313,household,2018-04-19,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:310,household,2018-04-20,sugaran kitchen,sugaran kitchen,Food,Food,Food,Food
+household:308,household,2018-04-21,naturals,naturals,Food,Food,Other,Other
+household:309,household,2018-04-21,dahi 2 packets,dahi 2 packets,Food,Food,Groceries,Food
+household:306,household,2018-04-22,supermart,supermart,Groceries,Groceries,Other,Food
+household:307,household,2018-04-22,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:303,household,2018-04-23,idli pith 1kg,idli pith 1kg,Groceries,Groceries,Groceries,Food
+household:302,household,2018-04-24,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:301,household,2018-04-25,catering service,catering service,Food,Food,Other,Food
+household:298,household,2018-04-26,noodles packet,noodles packet,Food,Groceries,Food,Food
+household:299,household,2018-04-26,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:297,household,2018-04-27,supermart,supermart,Groceries,Groceries,Other,Food
+household:295,household,2018-04-28,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:293,household,2018-04-29,2 sugarcane juice,2 sugarcane juice,Food,Food,Food,Food
+household:287,household,2018-04-30,6 kachori,6 kachori,Food,Food,Food,Food
+household:288,household,2018-04-30,supermart,supermart,Groceries,Groceries,Other,Food
+household:289,household,2018-04-30,current residence - tata play recharge,current residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:290,household,2018-04-30,toast packet,toast packet,Food,Groceries,Groceries,Food
+household:291,household,2018-04-30,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:292,household,2018-04-30,to family,to family,Other,Transport,Transport,Transport
+household:282,household,2018-05-01,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:283,household,2018-05-01,itone eye drops,itone eye drops,Health,Health,Health,Health
+household:284,household,2018-05-01,refresh tears drop,refresh tears drop,Health,Health,Other,Health
+household:281,household,2018-05-02,mango 1 . 5 kg,mango 1 5 kg,Food,Food,Food,Food
+household:280,household,2018-05-03,bhaji + vadapav,bhaji vadapav,Food,Food,Food,Food
+household:278,household,2018-05-04,supermart,supermart,Groceries,Groceries,Other,Food
+household:279,household,2018-05-04,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:271,household,2018-05-07,handwash container2 + window cleaner,handwash container2 window cleaner,Groceries,Shopping,Groceries,Groceries
+household:272,household,2018-05-07,mall parking,mall parking,Transport,Groceries,Transport,Transport
+household:274,household,2018-05-07,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:275,household,2018-05-07,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:268,household,2018-05-08,kaju katli half kg,kaju katli half kg,Food,Food,Food,Food
+household:269,household,2018-05-08,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:270,household,2018-05-08,shaving,shaving,Shopping,Shopping,Shopping,Shopping
+household:264,household,2018-05-09,mata + toi + et,mata toi et,Entertainment,Entertainment,Food,Food
+household:265,household,2018-05-09,toast packet,toast packet,Food,Groceries,Groceries,Food
+household:266,household,2018-05-09,half lit milk,half lit milk,Food,Food,Food,Food
+household:262,household,2018-05-10,2 faluda,2 faluda,Food,Food,Health,Food
+household:261,household,2018-05-11,1 packet,1 packet,Food,Groceries,Groceries,Food
+household:257,household,2018-05-12,domino ' s pizza,domino s pizza,Food,Food,Food,Food
+household:258,household,2018-05-12,catering service,catering service,Food,Food,Other,Food
+household:259,household,2018-05-12,4 kachori,4 kachori,Food,Food,Food,Food
+household:260,household,2018-05-12,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:254,household,2018-05-13,clothes ironing,clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:255,household,2018-05-13,gel pen refills,gel pen refills,Education,Education,Groceries,Health
+household:247,household,2018-05-14,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:248,household,2018-05-14,digilock room charges,digilock room charges,Other,Other,Other,Groceries
+household:249,household,2018-05-14,place 2 station to permanent residence,place 2 station to permanent residence,Transport,Transport,Transport,Transport
+household:250,household,2018-05-14,potato chips,potato chips,Food,Food,Food,Food
+household:251,household,2018-05-14,2 dozens mango + 1kg litchi,2 dozens mango 1kg litchi,Food,Food,Food,Food
+household:252,household,2018-05-14,2 place 0 to place 3,2 place 0 to place 3,Transport,Transport,Transport,Transport
+household:253,household,2018-05-14,2 current residence to place 0,2 current residence to place 0,Transport,Transport,Transport,Transport
+household:242,household,2018-05-15,cookies & cream family pack,cookies cream family pack,Food,Shopping,Food,Food
+household:243,household,2018-05-15,within city,within city,Transport,Groceries,Transport,Transport
+household:244,household,2018-05-15,lg washing machine,lg washing machine,Groceries,Groceries,Groceries,Groceries
+household:245,household,2018-05-15,permanent residence to gh road,permanent residence to gh road,Transport,Transport,Transport,Transport
+household:241,household,2018-05-18,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:239,household,2018-05-19,flour mill,flour mill,Groceries,Food,Groceries,Groceries
+household:240,household,2018-05-19,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:238,household,2018-05-20,"soap , shampoo , razor",soap shampoo razor,Other,Shopping,Groceries,Health
+household:236,household,2018-05-22,2 all out refill,2 all out refill,Health,Groceries,Food,Food
+household:235,household,2018-05-23,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:234,household,2018-05-24,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:233,household,2018-05-26,permanent residence to motor driving school,permanent residence to motor driving school,Transport,Transport,Transport,Transport
+household:232,household,2018-05-27,soap + dahya pav kg,soap dahya pav kg,Groceries,Food,Food,Food
+household:229,household,2018-05-28,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:230,household,2018-05-28,hair cut,hair cut,Shopping,Shopping,Shopping,Shopping
+household:226,household,2018-06-09,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:225,household,2018-06-10,sofa covers,sofa covers,Groceries,Food,Other,Shopping
+household:223,household,2018-06-11,12 eggs,12 eggs,Food,Food,Food,Food
+household:224,household,2018-06-11,marathon,marathon,Other,Groceries,Transport,Food
+household:221,household,2018-06-15,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:222,household,2018-06-15,2cc place 2 to ddr spl train,2cc place 2 to ddr spl train,Transport,Transport,Transport,Transport
+household:220,household,2018-06-18,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:219,household,2018-06-19,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:217,household,2018-06-22,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:215,household,2018-06-23,annual recharge,annual recharge,Entertainment,Entertainment,Other,Entertainment
+household:208,household,2018-06-24,2 place 0 to current residence,2 place 0 to current residence,Transport,Transport,Transport,Transport
+household:209,household,2018-06-24,bread,bread,Food,Food,Food,Food
+household:210,household,2018-06-24,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:211,household,2018-06-24,suppliemnts,suppliemnts,Health,Food,Health,Health
+household:212,household,2018-06-24,2 place 5 to place 0,2 place 5 to place 0,Transport,Transport,Transport,Transport
+household:213,household,2018-06-24,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:214,household,2018-06-24,2 vadapav 2 samosa pav,2 vadapav 2 samosa pav,Food,Food,Food,Food
+household:206,household,2018-06-25,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:207,household,2018-06-25,smart point,smart point,Groceries,Groceries,Other,Other
+household:199,household,2018-06-26,2 place 0 to current residence,2 place 0 to current residence,Transport,Transport,Transport,Transport
+household:200,household,2018-06-26,supermart,supermart,Groceries,Groceries,Other,Food
+household:201,household,2018-06-26,aqugurad water purifier,aqugurad water purifier,Groceries,Bills,Groceries,Groceries
+household:202,household,2018-06-26,umbrella handle repair,umbrella handle repair,Groceries,Groceries,Groceries,Groceries
+household:203,household,2018-06-26,place 0 to place 4 return,place 0 to place 4 return,Transport,Transport,Transport,Transport
+household:204,household,2018-06-26,2 cutting chai,2 cutting chai,Food,Shopping,Food,Food
+household:205,household,2018-06-26,bhaji + vadapav,bhaji vadapav,Food,Food,Food,Food
+household:188,household,2018-06-27,planetarium,planetarium,Transport,Food,Transport,Entertainment
+household:190,household,2018-06-27,2 cups,2 cups,Food,Food,Other,Food
+household:191,household,2018-06-27,mobile cover real mi note pro,mobile cover real mi note pro,Groceries,Other,Other,Other
+household:192,household,2018-06-27,shopping at alfa,shopping at alfa,Other,Food,Other,Food
+household:193,household,2018-06-27,mouse pad,mouse pad,Groceries,Groceries,Groceries,Groceries
+household:194,household,2018-06-27,purse,purse,Shopping,Other,Other,Other
+household:195,household,2018-06-27,rainy season chappal,rainy season chappal,Shopping,Shopping,Other,Food
+household:196,household,2018-06-27,place p station to alfa market,place p station to alfa market,Transport,Transport,Transport,Transport
+household:197,household,2018-06-27,2 place 0 to place p return,2 place 0 to place p return,Transport,Transport,Transport,Transport
+household:198,household,2018-06-27,2 current residence to place 0,2 current residence to place 0,Transport,Transport,Transport,Transport
+household:184,household,2018-06-28,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:185,household,2018-06-28,bhaji + vadapav + kachori + tea,bhaji vadapav kachori tea,Food,Food,Food,Food
+household:186,household,2018-06-28,vadala road to nehru planetarium,vadala road to nehru planetarium,Transport,Transport,Transport,Transport
+household:187,household,2018-06-28,mast & harbour slides,mast harbour slides,Shopping,Food,Transport,Groceries
+household:181,household,2018-06-29,tulsi plant + pot,tulsi plant pot,Groceries,Food,Groceries,Food
+household:182,household,2018-06-29,math tap repair,math tap repair,Groceries,Groceries,Other,Groceries
+household:183,household,2018-06-29,3 bulbs 3 pencil cells,3 bulbs 3 pencil cells,Groceries,Food,Groceries,Food
+household:176,household,2018-06-30,aqugurad prv,aqugurad prv,Groceries,Food,Transport,Transport
+household:169,household,2018-07-01,2 pvr,2 pvr,Entertainment,Entertainment,Groceries,Food
+household:170,household,2018-07-01,2 place 2 to place 1 - shree sharma travels,2 place 2 to place 1 shree sharma travels,Transport,Transport,Transport,Transport
+household:171,household,2018-07-01,vadapav,vadapav,Food,Food,Groceries,Food
+household:172,household,2018-07-01,undergarments pair of jockey,undergarments pair of jockey,Shopping,Shopping,Shopping,Shopping
+household:173,household,2018-07-01,clothes ironing,clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:174,household,2018-07-01,milk 1lit,milk 1lit,Food,Food,Food,Food
+household:163,household,2018-07-02,supermart,supermart,Groceries,Groceries,Other,Food
+household:164,household,2018-07-02,place 1 bridge to current residence 2 seats,place 1 bridge to current residence 2 seats,Transport,Transport,Transport,Transport
+household:165,household,2018-07-02,2 place 6 stand to ms,2 place 6 stand to ms,Transport,Transport,Transport,Transport
+household:166,household,2018-07-02,face towels + shampoo,face towels shampoo,Groceries,Health,Health,Health
+household:167,household,2018-07-02,2 place 1 to mall,2 place 1 to mall,Transport,Transport,Transport,Transport
+household:168,household,2018-07-02,current residence to place 1 bus stop highway,current residence to place 1 bus stop highway,Transport,Transport,Transport,Transport
+household:160,household,2018-07-03,half lit milk,half lit milk,Food,Food,Food,Food
+household:161,household,2018-07-03,current residence - tata play recharge,current residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:155,household,2018-07-04,doctor fees,doctor fees,Health,Food,Other,Other
+household:156,household,2018-07-04,shaving,shaving,Shopping,Shopping,Shopping,Shopping
+household:158,household,2018-07-04,2 thyroid ( 1000 ) + cholesterol ( 220 ) + uric acid ( 220 ),2 thyroid 1000 cholesterol 220 uric acid 220,Health,Food,Groceries,Health
+household:151,household,2018-07-05,terminal 1 to terminal 2,terminal 1 to terminal 2,Transport,Transport,Transport,Transport
+household:152,household,2018-07-05,cutting chai,cutting chai,Food,Shopping,Food,Food
+household:153,household,2018-07-05,current residence to place 0,current residence to place 0,Transport,Transport,Transport,Transport
+household:154,household,2018-07-05,place 0 to place p,place 0 to place p,Transport,Transport,Transport,Transport
+household:149,household,2018-07-06,at restaurant,at restaurant,Food,Food,Transport,Food
+household:150,household,2018-07-06,park inn goa,park inn goa,Transport,Food,Transport,Food
+household:146,household,2018-07-07,place 4 to place 0,place 4 to place 0,Transport,Transport,Transport,Transport
+household:147,household,2018-07-07,at restaurant,at restaurant,Food,Food,Transport,Food
+household:140,household,2018-07-08,ola cab - eye institute to current residence chs,ola cab eye institute to current residence chs,Transport,Transport,Transport,Transport
+household:141,household,2018-07-08,3 cutting chai,3 cutting chai,Food,Shopping,Food,Food
+household:142,household,2018-07-08,eye drop,eye drop,Health,Health,Health,Health
+household:143,household,2018-07-08,hospital consultation,hospital consultation,Health,Transport,Health,Health
+household:144,household,2018-07-08,ola cab - current residence chs to eye institute,ola cab current residence chs to eye institute,Transport,Transport,Transport,Transport
+household:145,household,2018-07-08,to and fro cab fare contribution,to and fro cab fare contribution,Transport,Transport,Transport,Transport
+household:137,household,2018-07-09,3 . 4 lit petrol,3 4 lit petrol,Transport,Other,Groceries,Food
+household:138,household,2018-07-09,toast packet,toast packet,Food,Groceries,Groceries,Food
+household:139,household,2018-07-09,shev bhaji sev pav kg,shev bhaji sev pav kg,Food,Food,Food,Food
+household:135,household,2018-07-11,2 bread packets,2 bread packets,Food,Food,Food,Food
+household:134,household,2018-07-12,6 eggs,6 eggs,Food,Food,Food,Food
+household:132,household,2018-07-13,ola cab - eye institute to current residence chs,ola cab eye institute to current residence chs,Transport,Transport,Transport,Transport
+household:133,household,2018-07-13,cataract medicine,cataract medicine,Health,Health,Health,Health
+household:131,household,2018-07-14,ca - income tax filing,ca income tax filing,Other,Groceries,Other,Other
+household:130,household,2018-07-15,4 kachori,4 kachori,Food,Food,Food,Food
+household:125,household,2018-07-16,12 clothes ironing,12 clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:126,household,2018-07-16,sony wi - c100 earphones wireless,sony wi c100 earphones wireless,Groceries,Other,Groceries,Groceries
+household:127,household,2018-07-16,7 kachori,7 kachori,Food,Food,Food,Food
+household:124,household,2018-07-18,m d sure 4kg atta,m d sure 4kg atta,Food,Food,Groceries,Food
+household:123,household,2018-07-19,dahi 4 packets,dahi 4 packets,Food,Food,Food,Food
+household:117,household,2018-07-20,chocobar,chocobar,Food,Food,Food,Food
+household:118,household,2018-07-20,potato 1kg,potato 1kg,Food,Food,Food,Food
+household:119,household,2018-07-20,onion 1 kg,onion 1 kg,Food,Food,Food,Food
+household:120,household,2018-07-20,ola cab - eye institute to current residence chs,ola cab eye institute to current residence chs,Transport,Transport,Transport,Transport
+household:121,household,2018-07-20,cataract medicine,cataract medicine,Health,Health,Health,Health
+household:122,household,2018-07-20,cataract medicine,cataract medicine,Health,Health,Health,Health
+household:113,household,2018-07-21,supermart,supermart,Groceries,Groceries,Other,Food
+household:114,household,2018-07-21,khajur pav kg,khajur pav kg,Food,Food,Food,Food
+household:115,household,2018-07-21,2 bhajipav + 2 vadapav,2 bhajipav 2 vadapav,Food,Food,Food,Food
+household:116,household,2018-07-21,toast packet,toast packet,Food,Groceries,Groceries,Food
+household:111,household,2018-07-23,current residence - tata play recharge,current residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:112,household,2018-07-23,4 plates poha,4 plates poha,Food,Food,Food,Food
+household:109,household,2018-07-26,toast packet,toast packet,Food,Groceries,Groceries,Food
+household:108,household,2018-07-27,demat account charges,demat account charges,Other,Other,Other,Other
+household:105,household,2018-07-28,2 inox,2 inox,Entertainment,Food,Health,Health
+household:107,household,2018-07-28,supermart,supermart,Groceries,Groceries,Other,Food
+household:100,household,2018-07-29,decathlon place a to place a station,decathlon place a to place a station,Transport,Transport,Transport,Transport
+household:101,household,2018-07-29,current residence to place 0,current residence to place 0,Transport,Transport,Transport,Transport
+household:102,household,2018-07-29,2 place 0 to place a returns,2 place 0 to place a returns,Transport,Transport,Transport,Transport
+household:103,household,2018-07-29,medu vada 3 plate,medu vada 3 plate,Food,Food,Groceries,Food
+household:99,household,2018-07-29,paneer pizza,paneer pizza,Food,Food,Food,Food
+household:95,household,2018-07-30,glucose d ( 50 ) + flora bc ( 40 )+ cyra 20 ( 10 ),glucose d 50 flora bc 40 cyra 20 10,Health,Food,Health,Food
+household:97,household,2018-07-30,catering service,catering service,Food,Food,Other,Food
+household:98,household,2018-07-30,1 plates poha,1 plates poha,Food,Food,Food,Food
+household:90,household,2018-07-31,13 clothes ironing,13 clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:92,household,2018-07-31,july salary,july salary,Bills,Food,Other,Other
+household:93,household,2018-07-31,10 melody,10 melody,Food,Food,Other,Food
+household:86,household,2018-08-02,supermart,supermart,Groceries,Groceries,Other,Food
+household:87,household,2018-08-02,m d sure 4kg atta,m d sure 4kg atta,Food,Food,Groceries,Food
+household:88,household,2018-08-02,eyewear glasses advance,eyewear glasses advance,Health,Health,Other,Shopping
+household:77,household,2018-08-05,cutting chai,cutting chai,Food,Shopping,Food,Food
+household:78,household,2018-08-05,eyewear glasses payment remaining,eyewear glasses payment remaining,Health,Health,Other,Other
+household:79,household,2018-08-05,for family,for family,Shopping,Shopping,Other,Other
+household:80,household,2018-08-05,place 0 to place 4 return,place 0 to place 4 return,Transport,Transport,Transport,Transport
+household:81,household,2018-08-05,current residence to place 0,current residence to place 0,Transport,Transport,Transport,Transport
+household:82,household,2018-08-05,bows,bows,Other,Food,Other,Groceries
+household:75,household,2018-08-06,hair cut,hair cut,Shopping,Shopping,Shopping,Shopping
+household:73,household,2018-08-11,8 kachori,8 kachori,Food,Food,Food,Food
+household:67,household,2018-08-13,5 litres can distilled water,5 litres can distilled water,Groceries,Food,Groceries,Food
+household:68,household,2018-08-13,brass puja plate and diva,brass puja plate and diva,Groceries,Food,Other,Groceries
+household:69,household,2018-08-13,half kg lahsoon,half kg lahsoon,Food,Food,Food,Food
+household:70,household,2018-08-13,supermart,supermart,Groceries,Groceries,Other,Food
+household:71,household,2018-08-13,vanila cup,vanila cup,Food,Food,Other,Other
+household:72,household,2018-08-13,chocobar,chocobar,Food,Food,Food,Food
+household:63,household,2018-08-14,dahi,dahi,Food,Groceries,Other,Food
+household:64,household,2018-08-14,toothpaste patanjali,toothpaste patanjali,Groceries,Groceries,Other,Health
+household:65,household,2018-08-14,8 clothes ironing,8 clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:66,household,2018-08-14,vanila family pack,vanila family pack,Food,Shopping,Other,Food
+household:59,household,2018-08-15,warna srikhand half kg,warna srikhand half kg,Food,Food,Food,Food
+household:60,household,2018-08-15,m d sure 4kg atta,m d sure 4kg atta,Food,Food,Groceries,Food
+household:58,household,2018-08-16,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:55,household,2018-08-17,dahi 2 packets,dahi 2 packets,Food,Food,Groceries,Food
+household:56,household,2018-08-17,half lit milk,half lit milk,Food,Food,Food,Food
+household:54,household,2018-08-19,1 month subscription,1 month subscription,Entertainment,Entertainment,Other,Entertainment
+household:52,household,2018-08-21,cutting chai,cutting chai,Food,Shopping,Food,Food
+household:53,household,2018-08-21,half lit milk,half lit milk,Food,Food,Food,Food
+household:51,household,2018-08-22,half lit milk,half lit milk,Food,Food,Food,Food
+household:48,household,2018-08-23,2 place 2 to place 3 : sevagram express 3ac,2 place 2 to place 3 sevagram express 3ac,Transport,Transport,Transport,Transport
+household:49,household,2018-08-23,2 place 3 to place 2 : amritsar express 3ac,2 place 3 to place 2 amritsar express 3ac,Transport,Transport,Transport,Transport
+household:50,household,2018-08-23,catering service,catering service,Food,Food,Other,Food
+household:43,household,2018-08-24,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:46,household,2018-08-24,half lit milk,half lit milk,Food,Food,Food,Food
+household:47,household,2018-08-24,ganpati + navratri vargani,ganpati navratri vargani,Other,Food,Other,Food
+household:42,household,2018-08-25,13 clothes ironing,13 clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:37,household,2018-08-27,dahi 2 packets,dahi 2 packets,Food,Food,Groceries,Food
+household:38,household,2018-08-27,2 plates poha,2 plates poha,Food,Food,Food,Food
+household:39,household,2018-08-27,khari packet,khari packet,Food,Food,Food,Food
+household:40,household,2018-08-27,half lit milk,half lit milk,Food,Food,Food,Food
+household:32,household,2018-08-29,baking soda,baking soda,Food,Food,Food,Food
+household:33,household,2018-08-29,chocobar,chocobar,Food,Food,Food,Food
+household:34,household,2018-08-29,half lit milk,half lit milk,Food,Food,Food,Food
+household:30,household,2018-08-30,warna srikhand pav kg,warna srikhand pav kg,Food,Food,Food,Food
+household:31,household,2018-08-30,supermart,supermart,Groceries,Groceries,Other,Food
+household:26,household,2018-08-31,farewell contribution,farewell contribution,Other,Other,Other,Other
+household:27,household,2018-08-31,domino ' s pizza,domino s pizza,Food,Food,Food,Food
+household:29,household,2018-08-31,half lit milk,half lit milk,Food,Food,Food,Food
+household:18,household,2018-09-05,11 clothes ironing,11 clothes ironing,Shopping,Shopping,Shopping,Shopping
+household:19,household,2018-09-05,chinese bhel,chinese bhel,Food,Food,Food,Food
+household:20,household,2018-09-05,shev puri,shev puri,Food,Food,Food,Food
+household:21,household,2018-09-05,2 kachori,2 kachori,Food,Food,Food,Food
+household:22,household,2018-09-05,half lit milk,half lit milk,Food,Food,Food,Food
+household:23,household,2018-09-05,bread,bread,Food,Food,Food,Food
+household:17,household,2018-09-06,amul butter,amul butter,Food,Food,Food,Food
+household:16,household,2018-09-07,half lit milk,half lit milk,Food,Food,Food,Food
+household:14,household,2018-09-10,half lit milk,half lit milk,Food,Food,Food,Food
+household:11,household,2018-09-11,home food delivery,home food delivery,Food,Groceries,Other,Food
+household:13,household,2018-09-11,half lit milk,half lit milk,Food,Food,Food,Food
+household:10,household,2018-09-12,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:7,household,2018-09-13,2 place 0 to place 3,2 place 0 to place 3,Transport,Transport,Transport,Transport
+household:8,household,2018-09-13,hbr 2 months subscription,hbr 2 months subscription,Other,Entertainment,Other,Entertainment
+household:9,household,2018-09-13,1kg atta,1kg atta,Food,Food,Food,Food
+household:6,household,2018-09-14,place 2 station to permanent residence,place 2 station to permanent residence,Transport,Transport,Transport,Transport
+household:5,household,2018-09-15,permanent residence - tata play recharge,permanent residence tata play recharge,Entertainment,Transport,Transport,Entertainment
+household:4,household,2018-09-16,ganesh idol,ganesh idol,Other,Other,Other,Food
+household:3,household,2018-09-17,data booster pack,data booster pack,Entertainment,Health,Groceries,Groceries
+household:2,household,2018-09-19,1 month subscription,1 month subscription,Entertainment,Entertainment,Other,Entertainment
+household:0,household,2018-09-20,2 place 5 to place 0,2 place 5 to place 0,Transport,Transport,Transport,Transport
+household:1,household,2018-09-20,idli medu vada mix 2 plates,idli medu vada mix 2 plates,Food,Food,Food,Food
+personal:501,personal,2019-05-27,mexican restaurant,mexican restaurant,Food,Food,Food,Food
+personal:502,personal,2019-05-30,internet service provider,internet service provider,Bills,Entertainment,Other,Entertainment
+personal:503,personal,2019-05-30,american tavern,american tavern,Food,Food,Other,Food
+personal:504,personal,2019-06-01,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:505,personal,2019-06-03,starbucks,starbucks,Food,Food,Food,Food
+personal:506,personal,2019-06-03,mortgage payment,mortgage payment,Bills,Food,Other,Other
+personal:507,personal,2019-06-04,barbershop,barbershop,Shopping,Food,Other,Food
+personal:508,personal,2019-06-04,netflix,netflix,Entertainment,Food,Other,Entertainment
+personal:509,personal,2019-06-05,grocery store,grocery store,Groceries,Food,Other,Food
+personal:510,personal,2019-06-05,mexican restaurant,mexican restaurant,Food,Food,Food,Food
+personal:511,personal,2019-06-06,starbucks,starbucks,Food,Food,Food,Food
+personal:512,personal,2019-06-06,grocery store,grocery store,Groceries,Food,Other,Food
+personal:513,personal,2019-06-07,gas company,gas company,Bills,Groceries,Other,Other
+personal:514,personal,2019-06-09,spotify,spotify,Entertainment,Food,Other,Entertainment
+personal:515,personal,2019-06-12,phone company,phone company,Bills,Other,Other,Other
+personal:516,personal,2019-06-14,grocery store,grocery store,Groceries,Food,Other,Food
+personal:518,personal,2019-06-17,city water charges,city water charges,Bills,Food,Other,Entertainment
+personal:519,personal,2019-06-17,power company,power company,Bills,Food,Other,Groceries
+personal:520,personal,2019-06-18,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:521,personal,2019-06-18,shell,shell,Transport,Groceries,Other,Groceries
+personal:522,personal,2019-06-19,state farm,state farm,Bills,Food,Other,Food
+personal:523,personal,2019-06-20,mike ' s construction co .,mike s construction co,Other,Groceries,Groceries,Groceries
+personal:524,personal,2019-06-24,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:526,personal,2019-06-30,internet service provider,internet service provider,Bills,Entertainment,Other,Entertainment
+personal:527,personal,2019-07-01,starbucks,starbucks,Food,Food,Food,Food
+personal:528,personal,2019-07-01,grocery store,grocery store,Groceries,Food,Other,Food
+personal:529,personal,2019-07-01,hawaiian grill,hawaiian grill,Food,Food,Food,Food
+personal:530,personal,2019-07-01,thai restaurant,thai restaurant,Food,Food,Food,Food
+personal:531,personal,2019-07-01,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:532,personal,2019-07-02,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:533,personal,2019-07-02,mortgage payment,mortgage payment,Bills,Food,Other,Other
+personal:534,personal,2019-07-04,netflix,netflix,Entertainment,Food,Other,Entertainment
+personal:535,personal,2019-07-05,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:536,personal,2019-07-06,grocery store,grocery store,Groceries,Food,Other,Food
+personal:537,personal,2019-07-06,greek restaurant,greek restaurant,Food,Food,Food,Food
+personal:538,personal,2019-07-07,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:539,personal,2019-07-09,spotify,spotify,Entertainment,Food,Other,Entertainment
+personal:540,personal,2019-07-10,phone company,phone company,Bills,Other,Other,Other
+personal:541,personal,2019-07-10,gas company,gas company,Bills,Groceries,Other,Other
+personal:542,personal,2019-07-15,grocery store,grocery store,Groceries,Food,Other,Food
+personal:543,personal,2019-07-16,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:544,personal,2019-07-16,power company,power company,Bills,Food,Other,Groceries
+personal:545,personal,2019-07-17,city water charges,city water charges,Bills,Food,Other,Entertainment
+personal:546,personal,2019-07-18,state farm,state farm,Bills,Food,Other,Food
+personal:548,personal,2019-07-18,grocery store,grocery store,Groceries,Food,Other,Food
+personal:549,personal,2019-07-18,brunch restaurant,brunch restaurant,Food,Food,Food,Food
+personal:550,personal,2019-07-19,mexican restaurant,mexican restaurant,Food,Food,Food,Food
+personal:551,personal,2019-07-22,thai restaurant,thai restaurant,Food,Food,Food,Food
+personal:552,personal,2019-07-24,starbucks,starbucks,Food,Food,Food,Food
+personal:553,personal,2019-07-27,barbershop,barbershop,Shopping,Food,Other,Food
+personal:554,personal,2019-07-28,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:555,personal,2019-07-29,grocery store,grocery store,Groceries,Food,Other,Food
+personal:556,personal,2019-07-29,fancy restaurant,fancy restaurant,Food,Food,Food,Food
+personal:557,personal,2019-07-30,grocery store,grocery store,Groceries,Food,Other,Food
+personal:558,personal,2019-07-30,internet service provider,internet service provider,Bills,Entertainment,Other,Entertainment
+personal:559,personal,2019-08-01,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:560,personal,2019-08-02,mortgage payment,mortgage payment,Bills,Food,Other,Other
+personal:562,personal,2019-08-03,grocery store,grocery store,Groceries,Food,Other,Food
+personal:563,personal,2019-08-03,american tavern,american tavern,Food,Food,Other,Food
+personal:564,personal,2019-08-04,netflix,netflix,Entertainment,Food,Other,Entertainment
+personal:565,personal,2019-08-05,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:566,personal,2019-08-06,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:567,personal,2019-08-08,grocery store,grocery store,Groceries,Food,Other,Food
+personal:568,personal,2019-08-09,spotify,spotify,Entertainment,Food,Other,Entertainment
+personal:569,personal,2019-08-09,gas company,gas company,Bills,Groceries,Other,Other
+personal:570,personal,2019-08-12,phone company,phone company,Bills,Other,Other,Other
+personal:571,personal,2019-08-12,thai restaurant,thai restaurant,Food,Food,Food,Food
+personal:572,personal,2019-08-14,starbucks,starbucks,Food,Food,Food,Food
+personal:573,personal,2019-08-15,power company,power company,Bills,Food,Other,Groceries
+personal:574,personal,2019-08-16,city water charges,city water charges,Bills,Food,Other,Entertainment
+personal:575,personal,2019-08-17,grocery store,grocery store,Groceries,Food,Other,Food
+personal:576,personal,2019-08-17,barbershop,barbershop,Shopping,Food,Other,Food
+personal:577,personal,2019-08-17,american tavern,american tavern,Food,Food,Other,Food
+personal:578,personal,2019-08-20,state farm,state farm,Bills,Food,Other,Food
+personal:579,personal,2019-08-20,starbucks,starbucks,Food,Food,Food,Food
+personal:580,personal,2019-08-21,shell,shell,Transport,Groceries,Other,Groceries
+personal:581,personal,2019-08-23,starbucks,starbucks,Food,Food,Food,Food
+personal:582,personal,2019-08-25,brunch restaurant,brunch restaurant,Food,Food,Food,Food
+personal:583,personal,2019-08-26,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:584,personal,2019-08-29,starbucks,starbucks,Food,Food,Food,Food
+personal:585,personal,2019-08-30,starbucks,starbucks,Food,Food,Food,Food
+personal:586,personal,2019-08-30,internet service provider,internet service provider,Bills,Entertainment,Other,Entertainment
+personal:587,personal,2019-08-31,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:588,personal,2019-08-31,bbq restaurant,bbq restaurant,Food,Food,Food,Food
+personal:589,personal,2019-09-01,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:590,personal,2019-09-03,mortgage payment,mortgage payment,Bills,Food,Other,Other
+personal:591,personal,2019-09-03,fancy restaurant,fancy restaurant,Food,Food,Food,Food
+personal:592,personal,2019-09-04,netflix,netflix,Entertainment,Food,Other,Entertainment
+personal:593,personal,2019-09-05,starbucks,starbucks,Food,Food,Food,Food
+personal:594,personal,2019-09-07,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:595,personal,2019-09-08,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:596,personal,2019-09-09,shell,shell,Transport,Groceries,Other,Groceries
+personal:597,personal,2019-09-09,grocery store,grocery store,Groceries,Food,Other,Food
+personal:598,personal,2019-09-09,hardware store,hardware store,Other,Entertainment,Other,Other
+personal:599,personal,2019-09-09,spotify,spotify,Entertainment,Food,Other,Entertainment
+personal:600,personal,2019-09-09,gas company,gas company,Bills,Groceries,Other,Other
+personal:601,personal,2019-09-11,phone company,phone company,Bills,Other,Other,Other
+personal:602,personal,2019-09-13,starbucks,starbucks,Food,Food,Food,Food
+personal:603,personal,2019-09-14,grocery store,grocery store,Groceries,Food,Other,Food
+personal:604,personal,2019-09-15,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:605,personal,2019-09-16,city water charges,city water charges,Bills,Food,Other,Entertainment
+personal:606,personal,2019-09-17,power company,power company,Bills,Food,Other,Groceries
+personal:607,personal,2019-09-18,state farm,state farm,Bills,Food,Other,Food
+personal:608,personal,2019-09-19,brewing company,brewing company,Entertainment,Food,Groceries,Food
+personal:609,personal,2019-09-19,starbucks,starbucks,Food,Food,Food,Food
+personal:610,personal,2019-09-22,seafood restaurant,seafood restaurant,Food,Food,Food,Food
+personal:611,personal,2019-09-23,grocery store,grocery store,Groceries,Food,Other,Food
+personal:612,personal,2019-09-23,amazon,amazon,Shopping,Entertainment,Other,Entertainment
+personal:614,personal,2019-09-28,sheetz,sheetz,Transport,Groceries,Other,Groceries
+personal:615,personal,2019-09-30,starbucks,starbucks,Food,Food,Food,Food
+personal:616,personal,2019-09-30,internet service provider,internet service provider,Bills,Entertainment,Other,Entertainment

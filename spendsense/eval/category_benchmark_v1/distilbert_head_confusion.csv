@@ -1,0 +1,10 @@
+,Food,Groceries,Transport,Shopping,Bills,Health,Education,Entertainment,Other
+Food,180,20,3,0,0,7,0,0,33
+Groceries,3,18,1,0,0,2,0,0,42
+Transport,0,1,53,0,0,0,0,0,4
+Shopping,0,0,1,15,0,0,0,0,13
+Bills,0,0,0,0,0,0,0,0,30
+Health,1,2,0,0,0,11,0,0,5
+Education,0,1,0,0,0,1,0,0,2
+Entertainment,1,20,11,0,0,1,0,0,11
+Other,0,5,2,0,0,0,0,0,21

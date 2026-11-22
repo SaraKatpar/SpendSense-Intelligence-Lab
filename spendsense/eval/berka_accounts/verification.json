@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source": "Original real Berka rows only; no generated records",
+  "independent_candidate_month_checks": 45,
+  "independent_negative_run_checks": 11,
+  "checks": [
+    "Source hashes unchanged",
+    "Actual per-account negative snapshots conserve source totals",
+    "Candidate counts reconcile",
+    "Exported candidates development-only",
+    "Past-only baseline reconstructed directly from source",
+    "Observed candidate A/B/C outcomes independently checked",
+    "No selected label",
+    "No reported test candidate positives",
+    "No client crossing splits",
+    "No fitted model"
+  ],
+  "selected_definition": null,
+  "model_fits": 0
+}

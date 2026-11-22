@@ -1,0 +1,8 @@
+<network-security-config>
+  <!-- LAN pilot supports a changing private IPv4 server address. Java separately
+       restricts HTTP to private LAN addresses and blocks foreign HTTP requests.
+       Normal system CA verification is always enforced for HTTPS. -->
+  <base-config cleartextTrafficPermitted="true">
+    <trust-anchors><certificates src="system"/></trust-anchors>
+  </base-config>
+</network-security-config>

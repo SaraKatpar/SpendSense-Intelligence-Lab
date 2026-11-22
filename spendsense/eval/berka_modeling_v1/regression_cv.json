@@ -1,0 +1,1569 @@
+{
+  "candidates": [
+    {
+      "spec": {
+        "name": "linear",
+        "kind": "linear",
+        "params": {}
+      },
+      "score": {
+        "mae": 0.3926963138141176,
+        "rmse": 0.7621844535377519
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "ridge_0.1",
+        "kind": "ridge",
+        "params": {
+          "alpha": 0.1
+        }
+      },
+      "score": {
+        "mae": 0.3926554449927589,
+        "rmse": 0.7620367506223612
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "ridge_1",
+        "kind": "ridge",
+        "params": {
+          "alpha": 1
+        }
+      },
+      "score": {
+        "mae": 0.39260794918333286,
+        "rmse": 0.7610877452507443
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "ridge_10",
+        "kind": "ridge",
+        "params": {
+          "alpha": 10
+        }
+      },
+      "score": {
+        "mae": 0.39400567833495076,
+        "rmse": 0.758911369067432
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "ridge_100",
+        "kind": "ridge",
+        "params": {
+          "alpha": 100
+        }
+      },
+      "score": {
+        "mae": 0.4097878584073478,
+        "rmse": 0.7674316647318715
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "ridge_1000",
+        "kind": "ridge",
+        "params": {
+          "alpha": 1000
+        }
+      },
+      "score": {
+        "mae": 0.5803680070505823,
+        "rmse": 0.9954777261979596
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "gb_d1_lr0.03_leaf50",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 1,
+          "learning_rate": 0.03,
+          "min_samples_leaf": 50,
+          "random_state": 20261119
+        }
+      },
+      "score": {
+        "mae": 0.6081263316110046,
+        "rmse": 1.126456322069629
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "gb_d1_lr0.05_leaf100",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 1,
+          "learning_rate": 0.05,
+          "min_samples_leaf": 100,
+          "random_state": 20261119
+        }
+      },
+      "score": {
+        "mae": 0.5634547674679262,
+        "rmse": 1.1558442764641554
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "gb_d2_lr0.03_leaf100",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 2,
+          "learning_rate": 0.03,
+          "min_samples_leaf": 100,
+          "random_state": 20261119
+        }
+      },
+      "score": {
+        "mae": 0.5534474358105116,
+        "rmse": 1.1501477835316776
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "spec": {
+        "name": "gb_d2_lr0.05_leaf100",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 2,
+          "learning_rate": 0.05,
+          "min_samples_leaf": 100,
+          "random_state": 20261119
+        }
+      },
+      "score": {
+        "mae": 0.5371962594533505,
+        "rmse": 1.1309846455664323
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "selected_within_family": {
+    "linear": {
+      "spec": {
+        "name": "linear",
+        "kind": "linear",
+        "params": {}
+      },
+      "score": {
+        "mae": 0.3926963138141176,
+        "rmse": 0.7621844535377519
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    "ridge": {
+      "spec": {
+        "name": "ridge_1",
+        "kind": "ridge",
+        "params": {
+          "alpha": 1
+        }
+      },
+      "score": {
+        "mae": 0.39260794918333286,
+        "rmse": 0.7610877452507443
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    },
+    "gbr": {
+      "spec": {
+        "name": "gb_d2_lr0.05_leaf100",
+        "kind": "gbr",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 2,
+          "learning_rate": 0.05,
+          "min_samples_leaf": 100,
+          "random_state": 20261119
+        }
+      },
+      "score": {
+        "mae": 0.5371962594533505,
+        "rmse": 1.1309846455664323
+      },
+      "accounts": 497,
+      "months": 7606,
+      "folds": [
+        {
+          "fold": "group0_year1995",
+          "train_accounts": 84,
+          "validation_accounts": 97,
+          "train_months": 446,
+          "validation_months": 918,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 2,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group0_year1996",
+          "train_accounts": 178,
+          "validation_accounts": 140,
+          "train_months": 2150,
+          "validation_months": 1442,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 3
+        },
+        {
+          "fold": "group0_year1997",
+          "train_accounts": 259,
+          "validation_accounts": 25,
+          "train_months": 4736,
+          "validation_months": 252,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 18,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1995",
+          "train_accounts": 92,
+          "validation_accounts": 94,
+          "train_months": 507,
+          "validation_months": 902,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 8,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group1_year1996",
+          "train_accounts": 181,
+          "validation_accounts": 136,
+          "train_months": 2227,
+          "validation_months": 1391,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group1_year1997",
+          "train_accounts": 264,
+          "validation_accounts": 30,
+          "train_months": 4864,
+          "validation_months": 298,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 27,
+          "validation_binary_positives": 0
+        },
+        {
+          "fold": "group2_year1995",
+          "train_accounts": 90,
+          "validation_accounts": 82,
+          "train_months": 545,
+          "validation_months": 802,
+          "train_target_end": "1994-12-31",
+          "validation_target_start": "1995-01-01",
+          "train_binary_positives": 6,
+          "validation_binary_positives": 6
+        },
+        {
+          "fold": "group2_year1996",
+          "train_accounts": 191,
+          "validation_accounts": 122,
+          "train_months": 2365,
+          "validation_months": 1195,
+          "train_target_end": "1995-12-31",
+          "validation_target_start": "1996-01-01",
+          "train_binary_positives": 11,
+          "validation_binary_positives": 5
+        },
+        {
+          "fold": "group2_year1997",
+          "train_accounts": 277,
+          "validation_accounts": 42,
+          "train_months": 5198,
+          "validation_months": 406,
+          "train_target_end": "1996-12-31",
+          "validation_target_start": "1997-01-01",
+          "train_binary_positives": 19,
+          "validation_binary_positives": 1
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "common_case_comparison": {
+    "persistence": {
+      "mae": 0.39321687591677895,
+      "rmse": 0.7486574222729261
+    },
+    "pace": {
+      "mae": 0.4679576608272077,
+      "rmse": 0.8341389887289924
+    },
+    "linear": {
+      "mae": 0.392297114730056,
+      "rmse": 0.7731763459733779
+    },
+    "ridge": {
+      "mae": 0.3920396406269341,
+      "rmse": 0.7716168713527599
+    },
+    "gradient_boosting": {
+      "mae": 0.5357518021854807,
+      "rmse": 1.1372390236183467
+    }
+  },
+  "development_preference": "ridge",
+  "common_accounts": 495,
+  "common_months": 7491,
+  "selection_used_test": false
+}

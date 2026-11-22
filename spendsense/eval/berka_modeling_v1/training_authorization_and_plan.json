@@ -1,0 +1,169 @@
+{
+  "authorized_at": "2026-11-19T20:54:45+05:00",
+  "authorization": "User explicitly permitted training under frozen protocol; this supersedes the old no-training status without editing the frozen contract.",
+  "protocol_sha256": "7080ca1de0a1b42b7cb79d7dfac6970a66fe6ebcb78640a73311728817feb6a8",
+  "seed": 20261119,
+  "regression_features": [
+    "previous_close_lower_ratio",
+    "previous_close_upper_ratio",
+    "netflow_median_3m_ratio",
+    "outflow_lag1_ratio",
+    "credit_median_3m_ratio",
+    "netflow_lag1_ratio",
+    "outflow_lag2_ratio",
+    "outflow_lag3_ratio"
+  ],
+  "binary_features": [
+    "previous_close_lower_ratio",
+    "previous_close_upper_ratio",
+    "netflow_median_3m_ratio",
+    "outflow_lag1_ratio",
+    "credit_median_3m_ratio"
+  ],
+  "development_scope": "Original train target periods <=1996 and original validation target periods in 1997, pooled only for grouped CV and final development refit. No test rows used.",
+  "cv": "3 deterministic GroupKFold account groups x validation years 1995/1996/1997. Train only outside held-out accounts and with outcomes strictly earlier than the validation year. Nine possible grouped forward folds.",
+  "regression_selection": "Within family minimize pooled OOF account-macro MAE. Overall development preference uses common-case OOF MAE across baselines/selected families. No test-based selection.",
+  "binary_selection": "Heavily regularized logistic grid, choose minimum pooled OOF account-macro Brier; numerical ties <=1e-6 prefer smaller C. Fixed probability threshold .5. Never optimize the fixed 3-positive validation subset alone.",
+  "binary_boost_gate": "Only retain fixed depth-1 candidate if grouped OOF account-macro Brier improves >=5% relative to selected logistic, paired 2000-account-bootstrap 95% Brier-difference interval is entirely <0, and account-weighted average precision does not decrease.",
+  "fit_weights": "Each account equal total weight; row weights inverse account-month count, normalized to mean 1. StandardScaler fitted within each training fold with the same weights; no target/feature imputation or clipping.",
+  "regression_candidates": [
+    {
+      "name": "linear",
+      "kind": "linear",
+      "params": {}
+    },
+    {
+      "name": "ridge_0.1",
+      "kind": "ridge",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "name": "ridge_1",
+      "kind": "ridge",
+      "params": {
+        "alpha": 1
+      }
+    },
+    {
+      "name": "ridge_10",
+      "kind": "ridge",
+      "params": {
+        "alpha": 10
+      }
+    },
+    {
+      "name": "ridge_100",
+      "kind": "ridge",
+      "params": {
+        "alpha": 100
+      }
+    },
+    {
+      "name": "ridge_1000",
+      "kind": "ridge",
+      "params": {
+        "alpha": 1000
+      }
+    },
+    {
+      "name": "gb_d1_lr0.03_leaf50",
+      "kind": "gbr",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.03,
+        "min_samples_leaf": 50,
+        "random_state": 20261119
+      }
+    },
+    {
+      "name": "gb_d1_lr0.05_leaf100",
+      "kind": "gbr",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 1,
+        "learning_rate": 0.05,
+        "min_samples_leaf": 100,
+        "random_state": 20261119
+      }
+    },
+    {
+      "name": "gb_d2_lr0.03_leaf100",
+      "kind": "gbr",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.03,
+        "min_samples_leaf": 100,
+        "random_state": 20261119
+      }
+    },
+    {
+      "name": "gb_d2_lr0.05_leaf100",
+      "kind": "gbr",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "min_samples_leaf": 100,
+        "random_state": 20261119
+      }
+    }
+  ],
+  "logistic_candidates": [
+    {
+      "name": "logistic_C0.001",
+      "kind": "logistic",
+      "params": {
+        "C": 0.001,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "tol": 1e-07,
+        "random_state": 20261119
+      }
+    },
+    {
+      "name": "logistic_C0.01",
+      "kind": "logistic",
+      "params": {
+        "C": 0.01,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "tol": 1e-07,
+        "random_state": 20261119
+      }
+    },
+    {
+      "name": "logistic_C0.1",
+      "kind": "logistic",
+      "params": {
+        "C": 0.1,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "tol": 1e-07,
+        "random_state": 20261119
+      }
+    }
+  ],
+  "binary_boost_candidate": {
+    "name": "binary_gb_stump",
+    "kind": "gbc",
+    "params": {
+      "n_estimators": 50,
+      "max_depth": 1,
+      "learning_rate": 0.03,
+      "min_samples_leaf": 100,
+      "random_state": 20261119
+    }
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20261119,
+    "unit": "account cluster within partition",
+    "confidence": 0.95,
+    "paired": true
+  },
+  "test": "One locked evaluation pass after configurations, features, model files and development-selected preference are hashed. Plot/metric regeneration reads saved predictions only; no repeat scoring."
+}

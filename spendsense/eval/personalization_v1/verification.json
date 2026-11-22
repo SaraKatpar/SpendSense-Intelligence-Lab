@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "full_suite_passed_tests": 84,
+  "personalization_tests": 6,
+  "chronological_real_label_curve": true,
+  "sealed_step5_test_read_by_curve": false,
+  "household_improvement_observed": false,
+  "personal_result_rows": 8,
+  "student_generalization_validated": false
+}

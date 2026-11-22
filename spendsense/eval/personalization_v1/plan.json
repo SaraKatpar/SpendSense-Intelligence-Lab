@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-20T00:32:32.016021+05:00",
+  "similarity_threshold": 0.85,
+  "budgets_per_history": [
+    0,
+    5,
+    10,
+    20,
+    40,
+    80,
+    160
+  ],
+  "protocol": "Global TF-IDF+LR fits earliest train partition only. First N global errors from chronological correction partition are supplied as publisher-label corrections. Evaluate identical later development rows at every N; no later evaluation labels enter memory. Budgets cap at available feedback. Sealed benchmark is never read.",
+  "selection": "Fixed baseline and personal similarity gate before measuring curves; no selection by curve accuracy.",
+  "label_limit": "Publisher categories and existing mapping are reference labels, not independently verified user corrections. Two histories, no claim of a student cohort."
+}

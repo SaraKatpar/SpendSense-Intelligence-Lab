@@ -1,0 +1,49 @@
+{
+  "selected_clean_expenses": 617,
+  "excluded_rows": 189,
+  "classifier_conflicting_descriptions_removed": 20,
+  "classifier_rows_after_conflict_removal": 2422,
+  "currency": "Personal source units unspecified, never converted to PKR; classifier consumes text only",
+  "sources": [
+    {
+      "ref": "entrepreneurlife/personal-finance",
+      "license_as_reported": "MIT"
+    },
+    {
+      "ref": "soumojit11/daily-household-transactions",
+      "license_as_reported": "CC0: Public Domain"
+    }
+  ],
+  "files": [
+    {
+      "file": "data\\kaggle\\categorizer_training.csv",
+      "bytes": 184555,
+      "sha256": "8aa52f6a6056cb57ee4e7ec41c9ea6c71b13272d322735cded9cd7482e848e4f"
+    },
+    {
+      "file": "data\\kaggle\\personal_reference_clean.csv",
+      "bytes": 62152,
+      "sha256": "6b0ee344b147d0df67b8057cf7b7cc2c481ac8735132c48c1d62caffe865fffc"
+    },
+    {
+      "file": "data\\kaggle\\daily-household-transactions\\Daily Household Transactions (1).csv",
+      "bytes": 189954,
+      "sha256": "809f267062e4333d3e05532d9d1b2568fced670a1c2bcba141bdb80344e6cfc1"
+    },
+    {
+      "file": "data\\kaggle\\daily-household-transactions\\metadata.json",
+      "bytes": 2311,
+      "sha256": "69d81a695f7c14f757e951d7cbfb660d56904437292006da325a4aef5e593401"
+    },
+    {
+      "file": "data\\kaggle\\personal-finance\\metadata.json",
+      "bytes": 7787,
+      "sha256": "e63b9063aa40fd40d6c724e01f6f2e6278f94d4e004e7b7c7076897de6a7a83a"
+    },
+    {
+      "file": "data\\kaggle\\personal-finance\\personal_transactions_dashboard_ready (2).xlsx",
+      "bytes": 31958,
+      "sha256": "a4c5ad85078aef4b8ce5badbf75e10e8f43c10a259dd3f44d3c19f537efd6985"
+    }
+  ]
+}

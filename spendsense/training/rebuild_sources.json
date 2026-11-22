@@ -1,0 +1,66 @@
+{
+  "specification": "docs/REVISED_PROJECT_SPEC.md",
+  "stage": "User-authorized monthly Berka benchmark completed: account-grouped forward CV, locked configurations, one test prediction pass; no frozen definition/threshold/split changes",
+  "sources": {
+    "household": {
+      "path": "data\\household_original.csv",
+      "sha256": "809f267062e4333d3e05532d9d1b2568fced670a1c2bcba141bdb80344e6cfc1",
+      "unit": "Single household; INR",
+      "status": "Inspected; audit in eval/household_audit.json"
+    },
+    "berka": {
+      "source": "https://web.archive.org/web/20070214120527id_/http://lisp.vse.cz/pkdd99/DATA/data_berka.zip",
+      "path": "data/berka_original",
+      "status": "Complete original archive, CRC/SHA-256 verified and inspected; selected after precision comparison",
+      "archive_sha256": "affa4477572e9d8f2de6beff8a525d37c056d5d8e4a9670dd8c7636208c002ce",
+      "tables": {
+        "account.asc": {
+          "bytes": 155356,
+          "sha256": "58d7f50abd72e9b1a5568346f74bb54cd71224ee1db9f09a27d7cac563f38cc6"
+        },
+        "order.asc": {
+          "bytes": 273800,
+          "sha256": "035930fa6acd2ca42a935e654b21e1bb260248f49b6dc6e7de6351b7c4d56d02"
+        },
+        "trans.asc": {
+          "bytes": 69406578,
+          "sha256": "75ab2f39df9d79d79c5c900de90ddd28248b689f214598ac9fa2ff0f574a70d2"
+        }
+      },
+      "unit": "CZK; historical accounts, not student identities",
+      "allowed_model_features": "Scale-free ratios, shares or training-fitted z-scores only; no PKR wallet imports",
+      "unknown_operation_policy": {
+        "label": "bank_generated/unknown_operation",
+        "rows": 183114,
+        "spending_anomaly_persona": "excluded",
+        "balance_cash_flow": "retained"
+      },
+      "comparison": "eval/berka_precision_comparison.json",
+      "audit": "eval/berka_original_audit.json"
+    }
+  },
+  "exclude": [
+    "All synthetic/fictional/generated/simulated datasets",
+    "Student Spending Habits dataset",
+    "Unverified 105-row student survey",
+    "Unverified optional Personal Budget Transactions",
+    "Partial CSV or ZIP downloads",
+    "All earlier pretrained or synthetic-derived model artifacts"
+  ],
+  "extra_dataset_policy": "Inspect source description and report synthetic/fictional/generated/simulated status before any extra dataset is used.",
+  "pretrained_exception": "Advice/logging chatbot LLM through an API only; no pretrained classifier, embedding or OCR engine.",
+  "feasibility_report": "eval/berka_low_balance/REPORT.md",
+  "account_policy_report": "docs/DATA_AUDIT.md",
+  "low_balance_protocol": "app/data/low_balance_protocol_v1.json",
+  "berka_frequency": "Monthly features only; no daily LSTM or GRU",
+  "modeling_report": "eval/berka_modeling_v1/REPORT.md",
+  "modeling_verification": "eval/berka_modeling_v1/verification.json",
+  "berka_model_artifacts": "models/berka_low_balance_v1",
+  "student_generalization": "Not validated; binary low-balance event classifier exploratory only",
+  "spending_mix": {
+    "status": "Research rebuild completed; not deployed",
+    "report": "eval/spending_mix_v1/REPORT.md",
+    "artifact": "models/spending_mix_research_v1/clusters.joblib",
+    "source_policy": "Known generated data/artifacts retired; approved existing personal reference included by latest request."
+  }
+}

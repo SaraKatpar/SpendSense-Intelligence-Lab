@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "full_suite_passed_tests": 76,
+  "focused_adversarial_suite_passed_tests": 7,
+  "focused_suite_includes_additional_followup_regression": true,
+  "failed_check_uses_model_prose": false,
+  "mobile_return_and_persistence_checked": true,
+  "live_llama_quality_validated": false
+}

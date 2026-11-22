@@ -1,0 +1,28 @@
+{
+  "source": "Original real Berka trans.asc; no generated test rows",
+  "passed": true,
+  "raw_files_unchanged": true,
+  "checks": {
+    "cash_flow": {
+      "rows": 1056320,
+      "unknown_operation_rows": 183114
+    },
+    "balance": {
+      "rows": 1056320,
+      "unknown_operation_rows": 183114
+    },
+    "spending": {
+      "rows": 873206,
+      "unknown_operation_rows": 0
+    },
+    "anomaly": {
+      "rows": 873206,
+      "unknown_operation_rows": 0
+    },
+    "persona": {
+      "rows": 873206,
+      "unknown_operation_rows": 0
+    }
+  },
+  "training_run": false
+}

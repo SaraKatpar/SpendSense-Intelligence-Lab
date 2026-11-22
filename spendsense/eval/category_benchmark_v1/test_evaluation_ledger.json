@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "timestamp": "2026-11-20T00:46:55.505627+05:00",
+  "passes": 1,
+  "configuration_lock_sha256": "e6b7fbf9b930111ffd6a2a7c30e554f881c4ae24105eed6f0e369e11c97400da",
+  "predictions_sha256": "0bed71b811c2869fbe85fd9da1a6794a7340cbd212d993f468ee777a2bc08c7f",
+  "test_rows": 521,
+  "dataset_prediction_passes": {
+    "tfidf_lr": 1,
+    "distilbert_head": 1,
+    "distilbert_last2": 1
+  },
+  "rule": "Do not refit/retune from test outcomes. Metrics read cached predictions."
+}

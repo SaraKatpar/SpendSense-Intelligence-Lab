@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-18",
+  "dollar_order": {
+    "merchant": "Test shop",
+    "amount": 120.0,
+    "date": null,
+    "text": "Store: Test shop\nOrder total: $120.00",
+    "currency": null,
+    "category": "Shopping"
+  },
+  "mixed_relative_dates": [
+    {
+      "date": "2026-11-17",
+      "description": "lunch",
+      "amount": 350.0
+    },
+    {
+      "date": "2026-11-17",
+      "description": "rickshaw",
+      "amount": 150.0
+    }
+  ],
+  "rounding": {
+    "stored_amount": 0.01,
+    "wallet_cash": 99.995,
+    "cash_if_stored_amount_used": 99.99
+  },
+  "foreign_currency_csv_accepted": true,
+  "source_snapshot": {
+    "app.py": "c1fbe7910d4c34a668d28c6b979e01f03c04585b8be25d51359fa184734cfd5d",
+    "ai_chat.py": "d2b06ae1d3af21b18b1ee51f17bd2ad8c9b17eb66796e1c52723ff3fa4ded635",
+    "storage.py": "cf420b63e15a62ff8d89410f5e6e89debdc878ec9c917c8207ec4c2e5ad37c66",
+    "capture.py": "0a802860859481890ced37b07a6d55569e448e2eb8fc6ca659be990c7239f937",
+    "shopping.py": "74ad7fe82bce1432712eba47a3552aa7f37bcb9e1aa912c1788806fb48ce421a",
+    "survival.py": "3d16473099d970146ad1f6fb07d489c6d5c937f451dcb94da605e248003c5c6f",
+    "ml.py": "59affeffc282b3f79210d5910890f65091889d2df0d89ebab2d687e8bb25d84f",
+    "student_styles.py": "42ca2b4d2481bbb36cb03f8e70f18913712a32f90e1c91508920de2bf4870b4f",
+    "coach.py": "e666d5e8dcf29de1ae020aed14d9853073679c5e44e1eba4cfe41d63b9bdc84f",
+    "paper_theme.py": "026307c22d90b284ccc4a8848f31c6deb0c83af669ca68879b320dc2ee33d736"
+  }
+}

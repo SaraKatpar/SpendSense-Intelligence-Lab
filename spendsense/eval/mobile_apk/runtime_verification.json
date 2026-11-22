@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "backend_version": "1.1.0",
+  "real_http_server": true,
+  "isolated_temporary_database": true,
+  "personal_database_changed": false,
+  "checks": [
+    "register/session",
+    "wallet setup",
+    "half-cent rounding",
+    "replayed save once",
+    "foreign intake rejection",
+    "reviewed chat correction",
+    "next suggestion uses personal correction",
+    "Python affordability veto",
+    "unchanged cash after advice/category/cart",
+    "private export",
+    "anonymous access denied",
+    "current public shell"
+  ],
+  "physical_android_ui": false,
+  "native_image_picker_and_export": false,
+  "global_categorizer_loaded_for_integration_only": true,
+  "no_benchmark_model_scoring": true
+}

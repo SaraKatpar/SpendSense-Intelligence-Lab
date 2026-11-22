@@ -1,0 +1,27 @@
+{
+  "seed": 20261120,
+  "candidates": {
+    "distilbert_head": {
+      "last_blocks": 0,
+      "epochs": 8,
+      "batch": 32,
+      "lr": 0.001
+    },
+    "distilbert_last2": {
+      "last_blocks": 2,
+      "epochs": 3,
+      "batch": 8,
+      "lr": 2e-05
+    }
+  },
+  "baseline": "Fixed training/category_baseline.py TF-IDF word1\u20132 + char3\u20135 + balanced LR C=1; all development rows.",
+  "input": "Same normalized description and source rows for every model; labels fixed nine categories.",
+  "selection": "No tuning or early stopping. Predetermined configs; train every candidate on all development rows.",
+  "weighting": "DistilBERT square-root inverse train class frequency; LR balanced class weights.",
+  "max_tokens": 48,
+  "base_weights_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+  "split_lock_sha256": "964fad40cabee79483338002f5955031fdd45757bc5428831d1b065b779ef5f4",
+  "development_sha256": "26ef460fe2cb7909e1657e12267262be266defab160a3e5a2c3d8b9f225028a4",
+  "untouched_claim": "Only newly rebuilt models are test-untouched. Public sources and old models were previously inspected; old weights cannot be used as independent candidates.",
+  "deployment": false
+}

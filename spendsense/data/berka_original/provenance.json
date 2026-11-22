@@ -1,0 +1,23 @@
+{
+  "source": "https://web.archive.org/web/20070214120527id_/http://lisp.vse.cz/pkdd99/DATA/data_berka.zip",
+  "archive_bytes": 18074591,
+  "archive_sha256": "affa4477572e9d8f2de6beff8a525d37c056d5d8e4a9670dd8c7636208c002ce",
+  "archive_crc_verified": true,
+  "transformations": "Selected original ASC bytes extracted unchanged",
+  "currency": "CZK (user confirmed)",
+  "training_source": "Original archive selected after precision comparison with MariaDB",
+  "files": {
+    "account.asc": {
+      "bytes": 155356,
+      "sha256": "58d7f50abd72e9b1a5568346f74bb54cd71224ee1db9f09a27d7cac563f38cc6"
+    },
+    "order.asc": {
+      "bytes": 273800,
+      "sha256": "035930fa6acd2ca42a935e654b21e1bb260248f49b6dc6e7de6351b7c4d56d02"
+    },
+    "trans.asc": {
+      "bytes": 69406578,
+      "sha256": "75ab2f39df9d79d79c5c900de90ddd28248b689f214598ac9fa2ff0f574a70d2"
+    }
+  }
+}

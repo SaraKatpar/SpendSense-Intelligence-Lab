@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-19",
+  "edition": "mobile-pwa",
+  "automated_tests": 52,
+  "mobile_api_tests": 12,
+  "javascript_syntax": "app.js and sw.js checked with node --check",
+  "database": "Temporary SQLite for tests; separate QA database for browser tests; no existing personal records changed",
+  "browser": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontal_overflow": false,
+    "console_errors": [],
+    "verified": [
+      "Sign in to isolated preview account",
+      "Empty-wallet onboarding",
+      "Rs 6000 wallet setup",
+      "Rs 150 manual chai entry -> Rs 5850",
+      "Rs 4000 purchase scenario flagged essential shortfall",
+      "Actual local Llama extracts Rs 100 chai action",
+      "Preview shows Rs 5850 -> Rs 5750 before any write",
+      "Apply updates dashboard and activity",
+      "Reload restores signed-in account and persisted balance",
+      "Actual app signup screen opened for user"
+    ]
+  },
+  "live_ml": {
+    "distilbert": {
+      "input": "Spent 350 on lunch today",
+      "category": "Food",
+      "confidence": 0.8574846982955933
+    },
+    "ocr": {
+      "http_status": 200,
+      "sample": "SROIE 000.jpg",
+      "merchant_read": true,
+      "date_read": true,
+      "total_read": false,
+      "review_required": true
+    }
+  },
+  "limitations": [
+    "Not an APK or iOS binary",
+    "Not installed on a physical phone",
+    "Not published to internet",
+    "Trusted HTTPS required for phone installation and real network use",
+    "Server and Ollama must remain running",
+    "Personal LSTM/autoencoder not silently replaced with reference models",
+    "No offline write sync, push notifications, email verification or password recovery"
+  ],
+  "screenshot": "output/mobile/student-wallet-preview.jpg (fictional QA wallet)"
+}

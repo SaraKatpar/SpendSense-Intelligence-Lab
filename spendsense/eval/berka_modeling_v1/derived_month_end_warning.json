@@ -1,0 +1,47 @@
+{
+  "persistence": {
+    "definition": "Month-end ratio warning only; NOT binary event B",
+    "months": 1558,
+    "true_month_end_low_months": 3,
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "tn": 1555
+  },
+  "pace": {
+    "definition": "Month-end ratio warning only; NOT binary event B",
+    "months": 1558,
+    "true_month_end_low_months": 3,
+    "tp": 3,
+    "fp": 25,
+    "fn": 0,
+    "tn": 1530
+  },
+  "linear": {
+    "definition": "Month-end ratio warning only; NOT binary event B",
+    "months": 1575,
+    "true_month_end_low_months": 3,
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "tn": 1572
+  },
+  "ridge": {
+    "definition": "Month-end ratio warning only; NOT binary event B",
+    "months": 1575,
+    "true_month_end_low_months": 3,
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "tn": 1572
+  },
+  "gradient_boosting": {
+    "definition": "Month-end ratio warning only; NOT binary event B",
+    "months": 1575,
+    "true_month_end_low_months": 3,
+    "tp": 0,
+    "fp": 0,
+    "fn": 3,
+    "tn": 1572
+  }
+}
